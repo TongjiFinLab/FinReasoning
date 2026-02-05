@@ -105,8 +105,7 @@ Evaluates the model's ability to identify entity errors (e.g., organization name
           "correct_entity": "中国人民银行（央行）",
           "error_type": "实体错误",
           "reason": "中国证券监督管理委员会（证监会）主要负责..."
-        },
-        ...
+        }
       ],
       "error_explanation": "文本包含3处实体错误...[Explanation Omitted]...",
       "corrected_text": "...[Corrected Text Omitted]..."
