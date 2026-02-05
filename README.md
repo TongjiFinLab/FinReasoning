@@ -15,7 +15,7 @@
 FinReasoning is a benchmark focused on evaluating the reasoning capabilities of Large Language Models (LLMs) in the Chinese financial domain. It aims to comprehensively assess the logical consistency, factual alignment, and depth of analysis of LLMs in financial scenarios:
 * **Semantic Consistency Evaluation**: Evaluates potential hallucination risks, focusing on detecting logical errors, context contradictions, and reversed causality in financial texts.
 * **Alignment and Fact Checking (Data Alignment)**: Focuses not only on text generation but also on evaluating numerical calculation and fact verification capabilities in specific financial scenarios, such as complex financial report analysis and multi-indicator comparison.
-* **Deep Analysis**: Examines the model's ability to understand complex financial problems, provide rigorous argumentation, and perform self-consistent logical analysis.
+* **Deep Insight**: Examines the model's ability to understand complex financial problems, provide rigorous argumentation, and perform self-consistent logical analysis.
 
 In the future, FinReasoning will continue to deepen the financial reasoning evaluation system, incorporating more real-world business scenarios to provide more precise measurements of the capability boundaries of financial LLMs.
 
@@ -57,7 +57,7 @@ FinReasoning contains 4800 high-quality financial evaluation data items, coverin
 |                                       |                      | Multi-Date Multi-Indicator  | Cross-date comparison and calculation for multiple indicators | 200    |
 |                                       |                      | Cross-Company/Industry Comparison | Ranking, Max/Min, Group comparison, etc.                     | 200    |
 |                                       | L3: Rule-Driven Consistency Verification | /               | Comprehensive understanding of the quantitative relationship between rule logic and structured indicators | 400    |
-| **Deep Analysis** | Justification & Causal Depth | /               | Whether the reasoning conforms to business logic, and whether the causal chain (A->B->C) is clear and complete | 300    |
+| **Deep Insight** | Justification & Causal Depth | /               | Whether the reasoning conforms to business logic, and whether the causal chain (A->B->C) is clear and complete | 300    |
 |                                       | Factuality & Contextualization | /               | Whether the model accurately cites key facts (such as approved varieties, financial forecasts) from evidence to support arguments | 300    |
 |                                       | Completeness & Comparative Analysis     | /               | Core assessment of critical thinking. Whether the model identifies potential risks, execution limitations, or counterbalancing factors, rather than being one-sidedly optimistic/pessimistic. | 300    |
 |                                       | Architectural Richness & Strictness | /               | Whether the output logical framework is professional and the concept depth meets standards | 300    |
