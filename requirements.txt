@@ -1,0 +1,6 @@
+openai>=1.0.0
+pandas
+tqdm
+scikit-learn
+bert-score
+sentence-transformers
