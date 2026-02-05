@@ -1,8 +1,3 @@
-"""
-使用LLM测试生成的QA对
-从table_qa_results目录读取QA数据，通过data_ids查询数据库，构建prompt并调用OpenAI API
-"""
-
 import json
 import os
 import sys

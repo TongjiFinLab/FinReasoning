@@ -1,8 +1,3 @@
-"""
-通用评估脚本：调用LLM测试dataset文件夹下的jsonl文件
-通过修改文件名来测试不同的样本
-"""
-
 import json
 import re
 import os
@@ -61,10 +56,32 @@ class ErrorDetectionEvaluator:
     def load_qa_dataset(self, qa_file: str) -> List[Dict[str, Any]]:
         """加载QA数据集"""
         qa_dataset = []
-        with open(qa_file, "r", encoding="utf-8") as f:
-            for line in f:
-                if line.strip():
-                    qa_dataset.append(json.loads(line.strip()))
+        try:
+            with open(qa_file, "r", encoding="utf-8") as f:
+                content = f.read().strip()
+                # 尝试作为JSON列表加载
+                if content.startswith('[') and content.endswith(']'):
+                    qa_dataset = json.loads(content)
+                else:
+                    # 尝试作为JSONL加载
+                    for line in content.splitlines():
+                        if line.strip():
+                            qa_dataset.append(json.loads(line.strip()))
+        except Exception as e:
+            logger.error(f"加载文件 {qa_file} 失败: {e}")
+            # 备用：如果一次性读取失败，尝试逐行读取
+            qa_dataset = []
+            try:
+                with open(qa_file, "r", encoding="utf-8") as f:
+                    for line in f:
+                        if line.strip():
+                            try:
+                                qa_dataset.append(json.loads(line.strip()))
+                            except:
+                                continue
+            except Exception as e2:
+                logger.error(f"逐行重试加载失败: {e2}")
+        
         return qa_dataset
     
     def call_model(self, prompt: str, max_retries: int = 3) -> Optional[Dict[str, Any]]:
@@ -524,7 +541,7 @@ def run(config):
     files_to_process = []
     if os.path.isdir(input_path):
         for f in os.listdir(input_path):
-            if f.endswith('.jsonl'):
+            if f.endswith('.json') or f.endswith('.jsonl'):
                 files_to_process.append(os.path.join(input_path, f))
     elif os.path.isfile(input_path):
         files_to_process.append(input_path)
@@ -532,14 +549,14 @@ def run(config):
         # 尝试默认路径
         if os.path.exists("Consistency"):
              for f in os.listdir("Consistency"):
-                if f.endswith('.jsonl'):
+                if f.endswith('.json') or f.endswith('.jsonl'):
                     files_to_process.append(os.path.join("Consistency", f))
         else:
-            logger.error(f"Input path not found: {input_path}")
+            logger.error(f"未找到输入路径: {input_path}")
             return
 
     if not files_to_process:
-        logger.warning(f"No jsonl files found to process in {input_path}")
+        logger.warning(f"在 {input_path} 中未找到可处理的 json/jsonl 文件")
         return
 
     # Ensure output dir
@@ -549,8 +566,9 @@ def run(config):
     evaluator = ErrorDetectionEvaluator(api_key=api_key, base_url=base_url, model=model)
     
     for input_file in files_to_process:
-        logger.info(f"Processing file: {input_file}")
+        logger.info(f"正在处理文件: {input_file}")
         dataset_name = Path(input_file).stem
+        # 结果文件统一使用 jsonl 以便追加写入
         output_file = os.path.join(output_dir, f"{dataset_name}_results.jsonl")
         evaluator.evaluate_dataset(qa_file=input_file, output_file=output_file)
 

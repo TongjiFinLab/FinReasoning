@@ -33,6 +33,8 @@ In the future, FinReasoning will continue to deepen the financial reasoning eval
 
 # FinReasoning Benchmark Details
 
+## Benchmark Construction
+
 FinReasoning contains 4800 high-quality financial evaluation data items, covering three main aspects: consistency, alignment, and deep analysis.
 
 | Track                                 | Category             | Dimension       | Explantion                                                   | Number |
@@ -60,6 +62,115 @@ FinReasoning contains 4800 high-quality financial evaluation data items, coverin
 |                                       | Completeness & Comparative Analysis     | /               | Core assessment of critical thinking. Whether the model identifies potential risks, execution limitations, or counterbalancing factors, rather than being one-sidedly optimistic/pessimistic. | 300    |
 |                                       | Architectural Richness & Strictness | /               | Whether the output logical framework is professional and the concept depth meets standards | 300    |
 
+## Evaluation Metrics
+
+We present a comprehensive  evaluation mechanism to score diverse dimensions of the results, and compute a composite score for each track by applying simple average weighting to the normalized values of the constituent metrics listed below.
+
+| **Track**                    | **Evaluation Metrics**  | Method            | Obj./Subj. |
+| ---------------------------- | ----------------------- | ----------------- | ---------- |
+| **Semantic** **Consistency** | Error Location Accuracy | Sentence-F1       | Objective  |
+|                              | Error Explanation       | BERTScore/SimCSE  | Objective  |
+|                              |                         | LLM-as-a Judge    | Subjective |
+|                              | Correct Content         | BERTScore/SimCSE  | Objective  |
+|                              |                         | LLM-as-a Judge    | Subjective |
+| **Data Alignment**           | Answer Accuracy         | Accuracy          | Objective  |
+|                              | Retrieval Accuracy      | F1-Score(Data ID) | Objective  |
+|                              |                         | F1-Score(Field）  | Objective  |
+| **Deep Insight**             | JCD                     | LLM-as-a Judge    | Subjective |
+|                              | F&C                     | LLM-as-a Judge    | Subjective |
+|                              | C&A                     | LLM-as-a Judge    | Subjective |
+|                              | ARS                     | LLM-as-a Judge    | Subjective |
+
+# Data Examples
+
+The data for each task is in JSON format, containing questions, answers, and relevant metadata. To save space, long text fields have been truncated, but the complete data structure is preserved.
+
+### 1. Semantic Consistency
+
+Evaluates the model's ability to identify entity errors (e.g., organization names, positions) in financial texts.
+
+```json
+{
+  "qa_id": "fact_entity_error_qa_001",
+  "source": "long_text_0001",
+  "category": "Fact_Evaluation",
+  "dimension": "Factual_Entity_Error",
+  "question": "你是一名专业的金融事实核查专家...[Long Text Omitted]...",
+  "answer": {
+      "factual_error_exists": "是",
+      "factual_errors": [
+        {
+          "error_location": "中国证券监督管理委员会维持了宽松的货币政策基调...",
+          "wrong_entity": "中国证券监督管理委员会",
+          "correct_entity": "中国人民银行（央行）",
+          "error_type": "实体错误",
+          "reason": "中国证券监督管理委员会（证监会）主要负责..."
+        },
+        ...
+      ],
+      "error_explanation": "文本包含3处实体错误...[Explanation Omitted]...",
+      "corrected_text": "...[Corrected Text Omitted]..."
+  },
+  "benchmark_type": "Consistency",
+  "metadata": {
+      "error_type": "factual_entity_error",
+      "modified_text": "...[Modified Text Omitted]...",
+      "num_errors": 3,
+      "original_metadata": {
+          "original_text_type": "analysis",
+          "num_source_chunks": 6
+      }
+  }
+}
+```
+
+### 2. Data Alignment
+
+Evaluates the model's capability to perform precise numerical queries and verification based on specific stock codes, dates, and indicators.
+
+```json
+{
+  "qa_id": "qa_1_000001",
+  "source": "",
+  "category": "L1_Simple",
+  "dimension": "Simple_Fact_Checking",
+  "question": "XXX股份有限公司的2025年10月31日的daily_tafactor是否低于6.930547？",
+  "answer": "否",
+  "benchmark_type": "Alignment",
+  "metadata": {
+    "question_type": "comparison",
+    "modification_type": null,
+    "data_ids": [
+      3472463
+    ],
+    "date": "2025-10-31",
+    "indicator": "daily_tafactor",
+    "stcode": "xxx",
+    "calculation_results": [],
+    "domain": ""
+  }
+}
+```
+
+### 3. Deep Analysis
+
+Evaluates the model's ability to deduce and argue complex financial logic.
+
+```json
+{
+  "qa_id": "334",
+  "source": "790284965309",
+  "category": "JCD_Justification_Causal_Depth",
+  "dimension": "",
+  "question": "请深入分析童装业务增速“环比提升”...[Long Text Omitted]...",
+  "answer": "对361度童装业务的分析如下...[Long Text Omitted]...",
+  "benchmark_type": "Depth",
+  "metadata": {
+      "evidence": "研报显示...[Evidence Omitted]..."
+  }
+}
+```
+
 # Quick Start
 
 ## Installation
@@ -68,7 +179,7 @@ We recommend using a Python 3.8+ environment.
 
 ```bash
 # Clone repository
-git clone https://github.com/TongjiFinLab/FinReasoning.git
+git clone https://github.com/YourOrg/FinReasoning.git
 cd FinReasoning
 
 # Install dependencies
