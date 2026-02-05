@@ -56,10 +56,10 @@ def main():
     # ================= LLM 配置 =================
     # 请在此处直接修改 LLM 相关配置
     LLM_SETTINGS = {
-        'model': 'Qwen/Qwen3-235B-A22B-Instruct-2507',
-        'api_key': 'ms-4521910f-cfee-4dde-907d-82a8e82ce48c', # 建议填写您的 API Key
-        'base_url': 'https://api-inference.modelscope.cn/v1', # 建议填写您的 Base URL
-        'judge_model': 'deepseek-ai/DeepSeek-V3.2'
+        'model': '', #评测模型
+        'api_key': '', # 建议填写您的 API Key
+        'base_url': '', # 建议填写您的 Base URL
+        'judge_model': '' # 裁判模型
     }
     # ===============================================
     
