@@ -178,7 +178,7 @@ We recommend using a Python 3.8+ environment.
 
 ```bash
 # Clone repository
-git clone https://github.com/YourOrg/FinReasoning.git
+git clone https://github.com/TongjiFinLab/FinReasoning.git
 cd FinReasoning
 
 # Install dependencies
