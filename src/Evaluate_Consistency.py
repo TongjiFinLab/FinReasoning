@@ -32,21 +32,24 @@ except ImportError:
 class ErrorDetectionEvaluator:
     """错误识别能力评估器"""
     
-    def __init__(self, api_key: str, base_url: str, model: str = "deepseek-chat"):
+    def __init__(self, api_key: str, base_url: str, model: str = "deepseek-chat", judge_model: str = None):
         """初始化评估器
         
         Args:
             api_key: API密钥
             base_url: API基础URL
             model: 模型名称
+            judge_model: 裁判模型名称
         """
         self.client = get_openai_client(api_key, base_url)
         self.model = model
+        self.judge_model = judge_model
         
         # SimCSE模型
         if SIMCSE_AVAILABLE:
             try:
                 self.simcse_model = SentenceTransformer("BAAI/bge-base-zh-v1.5")
+                # self.simcse_model = "BAAI/bge-base-zh-v1.5"
             except Exception as e:
                 logger.warning(f"加载SimCSE模型失败: {e}")
                 self.simcse_model = None
@@ -132,6 +135,129 @@ class ErrorDetectionEvaluator:
         
         return None
     
+    def call_judge_model(self, prompt: str, max_retries: int = 3) -> Optional[Dict[str, Any]]:
+        """调用评判模型"""
+        if not self.judge_model:
+            return None
+            
+        for retry in range(max_retries):
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.judge_model,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "你是一名专业的评估专家，擅长从多个维度评估文本质量。请仔细分析给定的内容，并按照要求给出详细的评估结果。"
+                        },
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.3,
+                    max_tokens=4000
+                )
+                text = (response.choices[0].message.content or "").strip()
+                # 提取 JSON
+                start = text.find('{')
+                if start == -1:
+                    continue
+                depth = 0
+                end = start
+                for i in range(start, len(text)):
+                    if text[i] == '{':
+                        depth += 1
+                    elif text[i] == '}':
+                        depth -= 1
+                        if depth == 0:
+                            end = i + 1
+                            break
+                if depth == 0:
+                    try:
+                        return json.loads(text[start:end])
+                    except json.JSONDecodeError:
+                        pass
+                # 尝试去除 markdown
+                clean = text.replace('```json', '').replace('```', '').strip()
+                start = clean.find('{')
+                if start != -1:
+                    depth = 0
+                    end = start
+                    for i in range(start, len(clean)):
+                        if clean[i] == '{':
+                            depth += 1
+                        elif clean[i] == '}':
+                            depth -= 1
+                            if depth == 0:
+                                end = i + 1
+                                break
+                    if depth == 0:
+                        try:
+                            return json.loads(clean[start:end])
+                        except json.JSONDecodeError:
+                            pass
+            except Exception as e:
+                if retry < max_retries - 1:
+                    logger.warning(f"    ⚠️ 裁判模型API调用失败，重试 ({retry + 2}/{max_retries}): {e}")
+                else:
+                    logger.error(f"    ✗ 裁判模型API调用失败: {e}")
+        return None
+
+    def build_judge_prompt(
+        self,
+        model_full_output: Dict[str, Any],
+        reference_answer: Dict[str, Any]
+    ) -> str:
+        """构建评估 prompt：输入模型全部输出与参考答案"""
+        model_json = json.dumps(model_full_output, ensure_ascii=False, indent=2)
+        ref_json = json.dumps(reference_answer, ensure_ascii=False, indent=2)
+
+        return f"""请根据以下模型输出的全部内容与参考答案，对模型进行综合评估。
+
+        ## 模型的完整输出（包含错误判定、错误列表、错误理由、修正文本）
+
+        ```json
+        {model_json}
+        ```
+
+        ## 参考答案（包含错误列表、错误解释、修正文本）
+
+        ```json
+        {ref_json}
+        ```
+
+        ## 评估维度说明
+
+        请从以下四个维度分别对 **错误理由** 和 **修正内容** 进行打分（每项 0–10 分，保留 1 位小数），并为每个维度给出详细的评估说明：
+
+        1. **正确性**：评估模型是否准确理解了错误、是否给出了正确的错误原因或修正。考察内容与参考答案的吻合程度。
+        2. **推理严密性**：检查推理过程是否清晰、逻辑是否连贯、论证是否充分，修正是否基于合理的逻辑依据。
+        3. **相关性**：评估是否针对具体的错误进行解释或修正，是否与错误内容直接相关，是否存在无关或偏离主题的内容。
+        4. **完整性**：检查是否覆盖了所有重要的错误点或修正点，是否遗漏了影响结论的关键信息。
+
+        ## 评估对象
+
+        1. **模型输出的错误理由（explanation）**：结合模型识别的错误列表与理由进行四维评估。
+        2. **模型输出的修正内容（corrected_text）**：对修正后的完整文本进行四维评估。
+
+        ## 输出格式要求
+
+        请严格按照以下 JSON 格式返回，不得添加额外说明：
+
+        {{
+        "error_reasoning": {{
+            "correctness": {{ "score": 分数, "explanation": "正确性评估说明" }},
+            "reasoning_rigor": {{ "score": 分数, "explanation": "推理严密性评估说明" }},
+            "relevance": {{ "score": 分数, "explanation": "相关性评估说明" }},
+            "completeness": {{ "score": 分数, "explanation": "完整性评估说明" }}
+        }},
+        "corrected_text": {{
+            "correctness": {{ "score": 分数, "explanation": "正确性评估说明" }},
+            "reasoning_rigor": {{ "score": 分数, "explanation": "推理严密性评估说明" }},
+            "relevance": {{ "score": 分数, "explanation": "相关性评估说明" }},
+            "completeness": {{ "score": 分数, "explanation": "完整性评估说明" }}
+        }}
+        }}
+
+        请开始评估："""
+
     def evaluate_error_list(self, ground_truth_errors: List[Dict], predicted_errors: List[Dict]) -> Dict[str, float]:
         """评估错误列举（仅保留句子级指标，删除字符级指标）"""
         def normalize_text(text: str) -> str:
@@ -382,7 +508,7 @@ class ErrorDetectionEvaluator:
             print(f"  所有样本均无错误，跳过错误列举、错误解释、修正文本的评估")
         print(f"{'='*80}\n")
 
-    def evaluate_dataset(self, qa_file: str, output_file: Optional[str] = None) -> List[Dict[str, Any]]:
+    def evaluate_dataset(self, qa_file: str, output_file: Optional[str] = None, max_qa: int = None) -> List[Dict[str, Any]]:
         """评估数据集"""
         print("=" * 80)
         print("开始评估数据集")
@@ -390,6 +516,10 @@ class ErrorDetectionEvaluator:
         print(f"\nQA 文件: {qa_file}")
 
         qa_dataset = self.load_qa_dataset(qa_file)
+        if max_qa:
+            qa_dataset = qa_dataset[:max_qa]
+            print(f"✓ 限制评估数量: {max_qa} 条")
+        
         print(f"✓ 加载 QA 数据集: {len(qa_dataset)} 条")
 
         # 读取已处理过的样本ID（用于断点续传）
@@ -413,22 +543,17 @@ class ErrorDetectionEvaluator:
         elif output_file:
             os.makedirs(os.path.dirname(output_file) if os.path.dirname(output_file) else ".", exist_ok=True)
         
-        if output_file:
-            print(f"结果将保存到: {output_file}")
+        print(f"\n最终结果将保存到: {output_file}")
 
         evaluation_results: List[Dict[str, Any]] = []
+        full_results_to_save: List[Dict[str, Any]] = [] #用于保存最终JSON数组
         skipped_count = 0
 
         for idx, qa_item in enumerate(qa_dataset, 1):
             qa_id = qa_item.get("qa_id", f"unknown_{idx}")
             question = qa_item.get("question", "")
             answer = qa_item.get("answer", {})
-            
-            # 检查是否已处理过
-            if qa_id in processed_qa_ids:
-                skipped_count += 1
-                print(f"\n[{idx}/{len(qa_dataset)}] 跳过已处理样本: {qa_id}")
-                continue
+    
             
             print(f"\n[{idx}/{len(qa_dataset)}] 处理样本: {qa_id}")
             
@@ -439,12 +564,12 @@ class ErrorDetectionEvaluator:
                 continue
             
             # 提取ground truth和prediction
-            gt_error_exists = answer.get("factual_error_exists", "") or answer.get(
+            gt_error_exists = answer.get("logic_error_exists", "") or answer.get("factual_error_exists", "") or answer.get(
                 "semantic_inconsistency_exists", "否"
             )
             if not gt_error_exists:
                 gt_error_exists = "否"
-            gt_errors = answer.get("factual_errors", []) or answer.get("semantic_inconsistencies", [])
+            gt_errors =answer.get("logic_errors", []) or answer.get("factual_errors", []) or answer.get("semantic_inconsistencies", [])
             gt_explanation = answer.get("error_explanation", "") or answer.get(
                 "inconsistency_explanation", ""
             )
@@ -455,7 +580,7 @@ class ErrorDetectionEvaluator:
 
             has_errors = gt_error_exists in ['是', 'yes', 'Yes', 'YES', '1', 'true', 'True'] or len(gt_errors) > 0
 
-            # 计算评估指标
+            # 计算评估指标 - 传统指标
             if has_errors:
                 error_list_metrics = self.evaluate_error_list(gt_errors, pred_errors)
                 explanation_metrics = self.evaluate_explanation(gt_explanation, pred_explanation)
@@ -481,6 +606,41 @@ class ErrorDetectionEvaluator:
                     'simcse': 0.0,
                     'num_evaluated_errors': 0,
                 }
+                
+            # LLM-as-a-Judge 评估
+            judge_evaluation = None
+            if self.judge_model:
+                # 只有当Ground Truth存在或有足够信息时才进行裁判
+                if gt_errors or gt_explanation or answer.get("corrected_text", ""):
+                    try:
+                        print(f"  🤖 调用裁判模型 ({self.judge_model}) 评估...")
+                        
+                        # 构建模型输出全集
+                        model_full = {
+                            "error_exists": pred_error_exists,
+                            "errors": pred_errors,
+                            "explanation": pred_explanation,
+                            "corrected_text": model_result.get("corrected_text", "")
+                        }
+                        
+                        # 构建参考答案全集
+                        ref_full = {
+                            "factual_errors": gt_errors,
+                            "semantic_inconsistencies": [], # 保持结构一致性
+                            "error_explanation": gt_explanation,
+                            "inconsistency_explanation": "",
+                            "corrected_text": answer.get("corrected_text", "")
+                        }
+                        
+                        prompt = self.build_judge_prompt(model_full, ref_full)
+                        judge_evaluation = self.call_judge_model(prompt)
+                        if judge_evaluation:
+                            print(f"  ✓ 裁判模型评估完成")
+                        else:
+                            print(f"  ⚠️ 裁判模型评估返回为空")
+                            
+                    except Exception as e:
+                        print(f"  ⚠️ 裁判模型评估过程中出错: {e}")
 
             evaluation_result = {
                 "qa_id": qa_id,
@@ -492,22 +652,26 @@ class ErrorDetectionEvaluator:
                 },
                 "explanation": {"metrics": explanation_metrics},
                 "corrected_text": {"metrics": corrected_text_metrics},
+                "llm_judge_eval": judge_evaluation
             }
             
             evaluation_results.append(evaluation_result)
-            
-            # 每处理完一个样本，立即保存到文件
-            if output_file:
-                result_item = {
-                    "qa_id": qa_id,
-                    "model_result": model_result,
-                    "evaluation": evaluation_result
-                }
-                # 以追加模式写入文件，每处理完一条就保存
-                with open(output_file, "a", encoding="utf-8") as f:
-                    f.write(json.dumps(result_item, ensure_ascii=False) + "\n")
-                print(f"  ✓ 完成评估并已保存")
-            else:
+            result_item = {
+                "qa_id": qa_id,
+                "model_result": model_result,
+                "evaluation": evaluation_result
+            }
+            full_results_to_save.append(result_item)
+            print(f"  ✓ 完成评估")
+
+        # 结束后统一保存为JSON
+        if output_file:
+            try:
+                with open(output_file, "w", encoding="utf-8") as f:
+                    json.dump(full_results_to_save, f, ensure_ascii=False, indent=2)
+                print(f"  ✓ 所有结果已保存至JSON文件: {output_file}")
+            except Exception as e:
+                print(f"  ✗ 保存结果文件失败: {e}")
                 print(f"  ✓ 完成评估")
 
         # 打印处理摘要
@@ -532,6 +696,7 @@ def run(config):
     api_key = config.get('api_key')
     base_url = config.get('base_url')
     model = config.get('model', 'deepseek-chat')
+    judge_model = config.get('judge_model')
     
     input_path = config.get('input_path')
     if not input_path:
@@ -563,12 +728,10 @@ def run(config):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
-    evaluator = ErrorDetectionEvaluator(api_key=api_key, base_url=base_url, model=model)
-    
+    evaluator = ErrorDetectionEvaluator(api_key=api_key, base_url=base_url, model=model, judge_model=judge_model)
+
     for input_file in files_to_process:
-        logger.info(f"正在处理文件: {input_file}")
         dataset_name = Path(input_file).stem
-        # 结果文件统一使用 jsonl 以便追加写入
-        output_file = os.path.join(output_dir, f"{dataset_name}_results.jsonl")
-        evaluator.evaluate_dataset(qa_file=input_file, output_file=output_file)
+        output_file = os.path.join(output_dir, f"{dataset_name}_results.json")
+        evaluator.evaluate_dataset(qa_file=input_file, output_file=output_file, max_qa=config.get('max_qa'))
 

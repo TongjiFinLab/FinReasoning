@@ -187,6 +187,35 @@ pip install -r requirements.txt
 
 > **注意**：Alignment 任务依赖 `data/Alignment/datebase` 目录下的 CSV 数据文件 (`stock_data.csv`, `database_sample.csv`)。用户也可以根据自己的使用需求进行数据扩充与配置。
 
+## 项目文件结构
+
+```text
+FinReasoning/
+├── data/                   # 评测数据集
+│   ├── Alignment/          # 对齐任务数据 (JSON) 及 数据库文件 (CSV)
+│   ├── Consistency/        # 一致性任务数据 (JSON/JSONL)
+│   └── Depth/              # 深度分析任务数据 (JSON)
+├── src/                    # 评测器源码
+│   ├── Evaluate_Alignment.py
+│   ├── Evaluate_Consistency.py
+│   └── Evaluate_Depth.py
+├── eval_results/           # 评测结果输出目录 (自动生成)
+├── main.py                 # 统一启动入口
+├── requirements.txt        # 项目依赖
+└── README.md               # 说明文档
+```
+
+## 输入与输出说明
+
+- **输入 (Input)**:
+  - 框架默认会自动在 `data/Alignment`, `data/Consistency`, `data/Depth` 目录下寻找对应任务的数据文件。
+  - 您也可以通过 `--input-path` 参数指定自定义的文件或文件夹路径。
+
+- **输出 (Output)**:
+  - 所有评测结果默认保存在 `eval_results/` 目录下。
+  - **目录结构**: `eval_results/<时间戳>/<任务名>/<模型名>/`
+  - **文件内容**: 生成的 JSON 文件包含模型的完整输入输出、裁判模型的打分理由以及最终的评测指标得分。
+
 ## 评测
 
 我们在根目录下为您准备了统一的评测入口 `main.py`。

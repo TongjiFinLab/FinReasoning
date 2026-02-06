@@ -187,6 +187,36 @@ pip install -r requirements.txt
 
 > **Note**: The Alignment task relies on CSV data files (`stock_data.csv`, `database_sample.csv`) in the `data/Alignment/datebase` directory. Users can also expand and configure data according to their own needs.
 
+## Project Structure
+
+```text
+FinReasoning/
+├── data/                   # Evaluation datasets
+│   ├── Alignment/          # Alignment task data (JSON & Database CSVs)
+│   ├── Consistency/        # Consistency task data (JSON/JSONL)
+│   └── Depth/              # Depth task data (JSON)
+├── src/                    # Source code for evaluators
+│   ├── Evaluate_Alignment.py
+│   ├── Evaluate_Consistency.py
+│   └── Evaluate_Depth.py
+├── eval_results/           # Output directory (Auto-generated)
+├── main.py                 # Unified entry point
+├── requirements.txt        # Python dependencies
+└── README.md               # Documentation
+```
+
+## Input & Output
+
+- **Input**:
+  - The framework automatically searches for datasets in `data/Alignment`, `data/Consistency`, and `data/Depth` by default.
+  - You can also specify a custom file or directory using the `--input-path` argument.
+
+- **Output**:
+  - All evaluation results are saved in the `eval_results/` directory by default.
+  - **Directory Structure**: `eval_results/<Timestamp>/<Task>/<Model_Name>/`
+    - Meanings: Execution time / Task type / Model name (sanitized).
+  - **File Content**: JSON files containing detailed model inputs, outputs, judge reasoning, and final scores.
+
 ## Evaluation
 
 We have prepared a unified evaluation entry point `main.py` in the root directory.

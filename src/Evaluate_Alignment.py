@@ -1548,6 +1548,19 @@ def run(config):
     for qa_file_path in files_to_process:
         # 测试QA文件
         logger.info(f"\n[2/2] 处理QA文件: {qa_file_path}")
+
+        logger.info(f"\n  测试流程说明（两阶段测试）：")
+        logger.info(f"    阶段1：让LLM决定需要查询的数据")
+        logger.info(f"      - 输入：公司信息（stcode、公司名称）、问题、数据库所有字段含义")
+        logger.info(f"      - 输出：LLM生成的SQL查询语句和查询参数")
+        logger.info(f"      - 执行：使用LLM生成的SQL查询数据库，获取数据")
+        logger.info(f"    阶段2：让LLM基于查询到的数据回答问题")
+        logger.info(f"      - 输入：查询到的数据表格、问题、字段含义说明")
+        logger.info(f"      - 输出：LLM的答案（是/否）及使用的数据和计算过程")
+        logger.info(f"\n  评估指标：")
+        logger.info(f"    - 答案准确性：LLM答案与ground truth的匹配度")
+        logger.info(f"    - 数据选择准确性：LLM选择的数据ID与ground truth的匹配度")
+        logger.info(f"    - 字段选择准确性：LLM选择的字段与ground truth的匹配度")
         
         results = tester.test_qa_file(
             qa_file_path,
@@ -1567,13 +1580,13 @@ def run(config):
         
         # 构建LLM输入描述
         llm_input_description = """两阶段测试流程：
-    阶段1：让LLM决定需要查询的数据
-      - 输入：公司信息（stcode、公司名称）、问题、数据库所有字段含义
-      - 输出：LLM生成的SQL查询语句和查询参数
-      - 执行：使用LLM生成的SQL查询数据库，获取数据
-    阶段2：让LLM基于查询到的数据回答问题
-      - 输入：查询到的数据表格、问题、字段含义说明
-      - 输出：LLM的答案（是/否）及使用的数据和计算过程"""
+阶段1：让LLM决定需要查询的数据
+  - 输入：公司信息（stcode、公司名称）、问题、数据库所有字段含义
+  - 输出：LLM生成的SQL查询语句和查询参数
+  - 执行：使用LLM生成的SQL查询数据库，获取数据
+阶段2：让LLM基于查询到的数据回答问题
+  - 输入：查询到的数据表格、问题、字段含义说明
+  - 输出：LLM的答案（是/否）及使用的数据和计算过程"""
         
         # 计算统计摘要
         success_results = [r for r in results if r.get('success', False)]
@@ -1601,6 +1614,10 @@ def run(config):
             'test_config': {
                 'qa_file': qa_file_path,
                 'model': model,
+                'adjacent_days': config.get('adjacent_days', 10),
+                'extra_fields_ratio': config.get('extra_fields_ratio', 0.5),
+                'max_qa': config.get('max_qa'),
+                'start_idx': config.get('start_idx', 0),
                 'llm_input_description': llm_input_description
             },
             'results': results,
@@ -1611,8 +1628,19 @@ def run(config):
             json.dump(output_data, f, ensure_ascii=False, indent=2)
         
         logger.info(f"✓ 结果已保存到: {output_path}")
-        logger.info(f"  总计: {summary['total']}, 成功: {summary['success']}, 失败: {summary['failed']}")
-        logger.info(f"  答案匹配率: {summary['answer_match_rate']*100:.2f}%")
+        logger.info(f"\n测试摘要:")
+        logger.info(f"  总计: {summary['total']}")
+        logger.info(f"  成功: {summary['success']}")
+        logger.info(f"  失败: {summary['failed']}")
+        logger.info(f"\n比对结果:")
+        logger.info(f"  答案匹配: {summary['answer_match']}/{summary['success']} ({summary['answer_match_rate']*100:.2f}%)")
+        logger.info(f"  数据ID匹配: {summary['data_ids_match']}/{summary['success']} ({summary['data_ids_match_rate']*100:.2f}%)")
+        logger.info(f"  字段匹配: {summary['fields_match']}/{summary['success']} ({summary['fields_match_rate']*100:.2f}%)")
+        logger.info(f"\n精确率和召回率:")
+        logger.info(f"  数据ID精确率: {summary['avg_data_ids_precision']*100:.2f}%")
+        logger.info(f"  数据ID召回率: {summary['avg_data_ids_recall']*100:.2f}%")
+        logger.info(f"  字段精确率: {summary['avg_fields_precision']*100:.2f}%")
+        logger.info(f"  字段召回率: {summary['avg_fields_recall']*100:.2f}%")
     
     # 关闭连接
     tester.close()

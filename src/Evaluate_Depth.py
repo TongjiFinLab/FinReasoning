@@ -73,7 +73,7 @@ class DepthEvaluator:
             logger.error(f"Error calling judge model: {e}")
             return {"score": 0, "reason": "评分调用失败"}
 
-    def run_evaluation(self, input_dir, output_dir):
+    def run_evaluation(self, input_dir, output_dir, max_qa=None):
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
@@ -103,6 +103,11 @@ class DepthEvaluator:
                 logger.error(f"无法读取文件 {input_path}: {e}")
                 continue
 
+            # 应用数据量限制
+            if max_qa:
+                data = data[:max_qa]
+                logger.info(f"限制评测数量: {max_qa} 条")
+
             results = []
             category_total_score = 0
             
@@ -130,7 +135,8 @@ class DepthEvaluator:
 
             # 保存该维度的评测结果
             avg_score = category_total_score / len(data) if data else 0
-            output_filename = f"result_{self.target_model}_{filename}"
+            safe_model_name = self.target_model.replace('/', '_').replace('\\', '_')
+            output_filename = f"result_{safe_model_name}_{filename}"
             output_path = os.path.join(output_dir, output_filename)
             
             with open(output_path, 'w', encoding='utf-8') as f:
@@ -169,5 +175,6 @@ def run(config):
             return
 
     output_dir = config.get('output_dir', 'eval_results/depth')
+    max_qa = config.get('max_qa')
     
-    evaluator.run_evaluation(input_dir, output_dir)
+    evaluator.run_evaluation(input_dir, output_dir, max_qa=max_qa)
