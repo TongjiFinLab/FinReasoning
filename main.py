@@ -4,7 +4,7 @@ import sys
 import logging
 from datetime import datetime
 
-# Ensure src is in python path
+
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src'))
 
 try:
@@ -81,7 +81,7 @@ def main():
     if args.test_run:
         logger.info("启动测试运行模式 (--test-run)")
         logger.info("将仅处理每个任务的第1条数据...")
-        config['max_qa'] = 1  # 限制处理数量为1
+        config['max_qa'] = 3  # 限制处理数量为1
     
     tasks_to_run = []
     if args.task == 'all':

@@ -1357,6 +1357,7 @@ class QALLMTester:
         data_ids_match = False
         data_ids_precision = 0.0
         data_ids_recall = 0.0
+        data_ids_f1 = 0.0
         if llm_data_used_ids and expected_data_ids:
             intersection = llm_data_used_ids & expected_data_ids
             data_ids_match = (llm_data_used_ids == expected_data_ids)
@@ -1364,11 +1365,15 @@ class QALLMTester:
                 data_ids_precision = len(intersection) / len(llm_data_used_ids)
             if len(expected_data_ids) > 0:
                 data_ids_recall = len(intersection) / len(expected_data_ids)
+            
+            if data_ids_precision + data_ids_recall > 0:
+                data_ids_f1 = 2 * (data_ids_precision * data_ids_recall) / (data_ids_precision + data_ids_recall)
         
         # 比对fields（indicators）
         fields_match = False
         fields_precision = 0.0
         fields_recall = 0.0
+        fields_f1 = 0.0
         if llm_data_used_fields and expected_indicators:
             expected_fields = set(expected_indicators)
             intersection = llm_data_used_fields & expected_fields
@@ -1377,6 +1382,9 @@ class QALLMTester:
                 fields_precision = len(intersection) / len(llm_data_used_fields)
             if len(expected_fields) > 0:
                 fields_recall = len(intersection) / len(expected_fields)
+            
+            if fields_precision + fields_recall > 0:
+                fields_f1 = 2 * (fields_precision * fields_recall) / (fields_precision + fields_recall)
         
         total_duration = time.time() - start_time
         
@@ -1391,11 +1399,13 @@ class QALLMTester:
             'data_ids_match': data_ids_match,
             'data_ids_precision': data_ids_precision,
             'data_ids_recall': data_ids_recall,
+            'data_ids_f1': data_ids_f1,
             'expected_fields': sorted(list(expected_indicators)),
             'llm_data_used_fields': sorted(list(llm_data_used_fields)),
             'fields_match': fields_match,
             'fields_precision': fields_precision,
             'fields_recall': fields_recall,
+            'fields_f1': fields_f1,
             'llm_answer_raw': llm_answer_raw,
             'llm_answer_parsed': llm_answer_parsed,
             'llm_answer_json': llm_answer_json,
@@ -1601,8 +1611,10 @@ def run(config):
             'fields_match': sum(1 for r in success_results if r.get('fields_match', False)),
             'avg_data_ids_precision': sum(r.get('data_ids_precision', 0) for r in success_results) / max(len(success_results), 1),
             'avg_data_ids_recall': sum(r.get('data_ids_recall', 0) for r in success_results) / max(len(success_results), 1),
+            'avg_data_ids_f1': sum(r.get('data_ids_f1', 0) for r in success_results) / max(len(success_results), 1),
             'avg_fields_precision': sum(r.get('fields_precision', 0) for r in success_results) / max(len(success_results), 1),
-            'avg_fields_recall': sum(r.get('fields_recall', 0) for r in success_results) / max(len(success_results), 1)
+            'avg_fields_recall': sum(r.get('fields_recall', 0) for r in success_results) / max(len(success_results), 1),
+            'avg_fields_f1': sum(r.get('fields_f1', 0) for r in success_results) / max(len(success_results), 1)
         }
         
         # 计算率
@@ -1639,8 +1651,10 @@ def run(config):
         logger.info(f"\n精确率和召回率:")
         logger.info(f"  数据ID精确率: {summary['avg_data_ids_precision']*100:.2f}%")
         logger.info(f"  数据ID召回率: {summary['avg_data_ids_recall']*100:.2f}%")
+        logger.info(f"  数据ID F1: {summary['avg_data_ids_f1']*100:.2f}%")
         logger.info(f"  字段精确率: {summary['avg_fields_precision']*100:.2f}%")
         logger.info(f"  字段召回率: {summary['avg_fields_recall']*100:.2f}%")
+        logger.info(f"  字段 F1: {summary['avg_fields_f1']*100:.2f}%")
     
     # 关闭连接
     tester.close()

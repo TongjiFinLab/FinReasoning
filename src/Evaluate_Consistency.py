@@ -483,6 +483,33 @@ class ErrorDetectionEvaluator:
         corrected_bertscore_f1s = [r['corrected_text']['metrics']['bertscore_f1'] for r in results_with_errors]
         simcse_corrected = [r['corrected_text']['metrics']['simcse'] for r in results_with_errors]
 
+        # LLM评判分数
+        llm_explanation_scores = []
+        llm_correction_scores = []
+        
+        for r in results_with_errors:
+            judge = r.get('llm_judge_eval')
+            if judge and isinstance(judge, dict):
+                reasoning = judge.get('error_reasoning', {})
+                if reasoning:
+                    scores = [
+                        float(reasoning.get('correctness', {}).get('score', 0)),
+                        float(reasoning.get('reasoning_rigor', {}).get('score', 0)),
+                        float(reasoning.get('relevance', {}).get('score', 0)),
+                        float(reasoning.get('completeness', {}).get('score', 0))
+                    ]
+                    llm_explanation_scores.append(sum(scores) / 4.0)
+                
+                correction = judge.get('corrected_text', {})
+                if correction:
+                    scores = [
+                        float(correction.get('correctness', {}).get('score', 0)),
+                        float(correction.get('reasoning_rigor', {}).get('score', 0)),
+                        float(correction.get('relevance', {}).get('score', 0)),
+                        float(correction.get('completeness', {}).get('score', 0))
+                    ]
+                    llm_correction_scores.append(sum(scores) / 4.0)
+
         print(f"\n{'='*80}")
         print("总体评估结果")
         print(f"{'='*80}")
@@ -499,10 +526,14 @@ class ErrorDetectionEvaluator:
             print(f"\n【2. 错误解释】（仅统计有错误的样本，共{n_with_errors}个）")
             print(f"  BERTScore-F1: {sum(bertscore_f1s)/n_with_errors:.4f}")
             print(f"  SimCSE: {sum(simcse_explains)/n_with_errors:.4f}")
+            if llm_explanation_scores:
+                print(f"  LLM as a Judge: {sum(llm_explanation_scores)/len(llm_explanation_scores):.4f}")
 
             print(f"\n【3. 修正文本】（仅统计有错误的样本，共{n_with_errors}个）")
             print(f"  BERTScore-F1: {sum(corrected_bertscore_f1s)/n_with_errors:.4f}")
             print(f"  SimCSE: {sum(simcse_corrected)/n_with_errors:.4f}")
+            if llm_correction_scores:
+                print(f"  LLM as a Judge: {sum(llm_correction_scores)/len(llm_correction_scores):.4f}")
         else:
             print(f"\n【1-3. 错误检测相关指标】")
             print(f"  所有样本均无错误，跳过错误列举、错误解释、修正文本的评估")
@@ -704,18 +735,45 @@ def run(config):
     output_dir = config.get('output_dir', 'eval_results/consistency')
     
     files_to_process = []
+    # 定义期望的文件顺序
+    expected_files = [
+        "Terminology_Evaluation.json", 
+        "Fact_Evaluation.json", 
+        "Logic_Evaluation.json"
+    ]
+    
     if os.path.isdir(input_path):
-        for f in os.listdir(input_path):
-            if f.endswith('.json') or f.endswith('.jsonl'):
+        # 优先查找标准命名的文件
+        found_expected = False
+        for expected_name in expected_files:
+            full_path = os.path.join(input_path, expected_name)
+            if os.path.exists(full_path):
+                files_to_process.append(full_path)
+                found_expected = True
+        
+        # 如果没有找到标准文件，则回退到扫描所有json/jsonl文件
+        if not found_expected:
+            files = sorted([f for f in os.listdir(input_path) if f.endswith('.json') or f.endswith('.jsonl')])
+            for f in files:
                 files_to_process.append(os.path.join(input_path, f))
+                
     elif os.path.isfile(input_path):
         files_to_process.append(input_path)
     else:
-        # 尝试默认路径
+        # 尝试相对路径的Consistency文件夹
         if os.path.exists("Consistency"):
-             for f in os.listdir("Consistency"):
-                if f.endswith('.json') or f.endswith('.jsonl'):
-                    files_to_process.append(os.path.join("Consistency", f))
+             # 同样优先查找标准文件
+            found_expected = False
+            for expected_name in expected_files:
+                full_path = os.path.join("Consistency", expected_name)
+                if os.path.exists(full_path):
+                    files_to_process.append(full_path)
+                    found_expected = True
+            
+            if not found_expected:
+                for f in os.listdir("Consistency"):
+                    if f.endswith('.json') or f.endswith('.jsonl'):
+                        files_to_process.append(os.path.join("Consistency", f))
         else:
             logger.error(f"未找到输入路径: {input_path}")
             return
