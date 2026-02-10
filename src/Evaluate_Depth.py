@@ -3,15 +3,67 @@ import json
 import time
 from tqdm import tqdm
 from .utils import get_openai_client, setup_logger
+from .Evaluation_prompt import prompt_jcd, prompt_fc, prompt_ca, prompt_ars
 
 logger = setup_logger("Depth_Evaluator")
 
+# 常见的英文键名映射回中文，解决模型输出英文键的问题
+KEY_ALIAS_MAPPING = {
+    # 论证合理性与因果深度
+    "logical_chain": "逻辑链条", "logic_chain": "逻辑链条", 
+    "causal_depth": "因果深度",
+    "professionalism": "专业性", "expertise": "专业性",
+    
+    # 事实准确性与情境化
+    "fact_density": "事实密度", "factual_density": "事实密度",
+    "calculation_rigor": "计算严谨性", "computational_rigor": "计算严谨性",
+    "contextual_analysis": "情境分析", "situational_analysis": "情境分析",
+    
+    # 完整性与比较分析
+    "critical_thinking": "批判性思维",
+    "comparative_perspective": "比较视角", "comparison_perspective": "比较视角",
+    "argument_balance": "论点平衡性", "balance": "论点平衡性",
+    
+    # 结构丰富度与严谨性
+    "framework_completeness": "框架完整性", "framework_integrity": "框架完整性", "framework完整性": "框架完整性",
+    "logical_hierarchy": "逻辑层次", "logic_structure": "逻辑层次", "logical_structure": "逻辑层次",
+    "expression_granularity": "表达颗粒度", "granularity": "表达颗粒度"
+}
+
 # 各维度的评分标准
 SCORING_RUBRICS = {
-    "论证合理性与因果深度": "逻辑链条(40分):A→B→C闭环; 因果深度(30分):解释必然性; 专业性(30分):CFA规范。",
-    "事实准确性与情境化": "事实密度(40分):引用数值; 计算严谨性(30分):勾稽关系; 情境分析(30分):行业背景含义。",
-    "完整性与比较分析": "批判性思维(40分):识别边界/风险; 比较视角(30分):对冲分析; 论点平衡性(30分):客观中立。",
-    "结构丰富度与严谨性": "框架完整性(40分):分析维度覆盖; 逻辑层次(30分):总分总/嵌套; 表达颗粒度(30分):概念严谨。"
+    "JCD_Justification_Causal_Depth": {
+        "prompt": prompt_jcd,
+        "subdimensions": {
+            "逻辑链条": 0.4,      # 40分
+            "因果深度": 0.3,      # 30分
+            "专业性": 0.3          # 30分
+        }
+    },
+    "FC_Fact_Context": {
+        "prompt": prompt_fc,
+        "subdimensions": {
+            "事实密度": 0.4,      # 40分
+            "计算严谨性": 0.3,    # 30分
+            "情境分析": 0.3       # 30分
+        }
+    },
+    "CA_Completeness_Analysis": {
+        "prompt": prompt_ca,
+        "subdimensions": {
+            "批判性思维": 0.4,    # 40分
+            "比较视角": 0.3,      # 30分
+            "论点平衡性": 0.3     # 30分
+        }
+    },
+    "ARS_Argument_Richness_Structure": {
+        "prompt": prompt_ars,
+        "subdimensions": {
+            "框架完整性": 0.4,    # 40分
+            "逻辑层次": 0.3,      # 30分
+            "表达颗粒度": 0.3     # 30分
+        }
+    }
 }
 
 class DepthEvaluator:
@@ -35,31 +87,43 @@ class DepthEvaluator:
             )
             return response.choices[0].message.content
         except Exception as e:
-            logger.error(f"Error calling target model: {e}")
+            logger.error(f"调用被测模型出错: {e}")
             return f"Error: {e}"
 
-    def judge_answer(self, category, question, gold_answer, model_answer):
+    def judge_answer(self, category, question, ground_truth, model_answer):
         """裁判模型评分逻辑"""
-        rubric = SCORING_RUBRICS.get(category, "综合逻辑、准确性和专业性评分。")
+        # 尝试完全匹配
+        rubric_config = SCORING_RUBRICS.get(category)
+        
+        # 如果没有完全匹配，尝试模糊匹配（例如文件名可能包含部分关键词）
+        if not rubric_config:
+            for key, val in SCORING_RUBRICS.items():
+                if key in category or category in key:
+                    rubric_config = val
+                    break
+        
+        # 如果仍然没有找到，使用默认（这里简化处理，尽量确保category正确）
+        if not rubric_config:
+            logger.warning(f"警告: 未找到类别 '{category}' 的特定评分标准")
+            return {"score": 0, "reason": "未找到评分标准", "details": {}}
+
+        rubric_prompt_template = rubric_config["prompt"]
+        subdims = rubric_config["subdimensions"]
         
         judge_prompt = f"""
-你是一名严苛的金融评测专家。请根据提供的评分标准，对比【标准答案】对【待测回答】进行评分。
+你是一名严苛的金融评测专家。对比【标准答案】对【待测回答】进行评分。
 
 【评分标准】
-{rubric}
+{rubric_prompt_template}
 
 【题目信息】
 问题：{question}
-标准答案：{gold_answer}
+标准答案：{ground_truth}
 
 【待测回答】
 {model_answer}
 
-请直接输出JSON格式：
-{{
-  "score": 0-100的数字,
-  "reason": "简短的扣分理由"
-}}
+请务必按上述JSON格式输出。
 """
         try:
             response = self.client.chat.completions.create(
@@ -68,10 +132,71 @@ class DepthEvaluator:
                 response_format={"type": "json_object"},
                 temperature=0
             )
-            return json.loads(response.choices[0].message.content)
+            
+            result_json = json.loads(response.choices[0].message.content)
+
+            # 预处理 result_json 的键，将英文或不规范的键映射回中文
+            normalized_result_json = {}
+            for k, v in result_json.items():
+                mapped_key = k
+                # 1. 尝试在映射表中直接查找 (转小写比较以增强鲁棒性)
+                k_lower = k.lower()
+                if k_lower in KEY_ALIAS_MAPPING:
+                    mapped_key = KEY_ALIAS_MAPPING[k_lower]
+                else:
+                    # 2. 尝试模糊匹配映射表中的英文键 (例如 "framework完整性" -> 匹配 "framework")
+                    for eng_alias, cn_name in KEY_ALIAS_MAPPING.items():
+                        if eng_alias in k_lower:
+                            mapped_key = cn_name
+                            break
+                            
+                normalized_result_json[mapped_key] = v
+            
+            # 使用规范化后的结果
+            result_json = normalized_result_json
+            
+            # 计算加权总分
+            # 原始分是0-5分，转换成0-100分制
+            # 权重之和为1.0。例如 4 * 0.4 + 3 * 0.3 + 5 * 0.3 = 1.6 + 0.9 + 1.5 = 4.0
+            # 最终得分 = 4.0 / 5.0 * 100 = 80
+            
+            total_weighted_points = 0.0
+            combined_reason = []
+            
+            # 遍历预定义的子维度来计算分数，防止LLM输出多余或错误的键
+            for subdim_name, weight in subdims.items():
+                # 为了兼容，尝试从result_json中获取对应键的数据
+                if subdim_name in result_json:
+                    sub_score = float(result_json[subdim_name].get("score", 0))
+                    explanation = result_json[subdim_name].get("explanation", "")
+                else:
+                    # 尝试模糊匹配键
+                    found = False
+                    for key in result_json:
+                        if subdim_name in key:
+                            sub_score = float(result_json[key].get("score", 0))
+                            explanation = result_json[key].get("explanation", "")
+                            found = True
+                            break
+                    if not found:
+                        sub_score = 0
+                        explanation = "裁判模型缺失评价"
+                
+                total_weighted_points += sub_score * weight
+                combined_reason.append(f"{subdim_name}({sub_score}): {explanation}")
+                
+            # 假设满分为5分，将其标准化为100分
+            final_score = (total_weighted_points / 5.0) * 100
+            
+            return {
+                "score": round(final_score, 2),
+                "reason": " | ".join(combined_reason),
+                "details": result_json # 保存原始的子维度评分详情
+            }
+
         except Exception as e:
-            logger.error(f"Error calling judge model: {e}")
-            return {"score": 0, "reason": "评分调用失败"}
+            logger.error(f"调用裁判模型出错: {e}")
+            return {"score": 0, "reason": f"评分调用失败: {e}", "details": {}}
 
     def run_evaluation(self, input_dir, output_dir, max_qa=None):
         if not os.path.exists(output_dir):
@@ -83,13 +208,13 @@ class DepthEvaluator:
             input_base = input_dir
         else:
             if not os.path.exists(input_dir):
-                logger.error(f"Input path not found: {input_dir}")
+                logger.error(f"输入路径未找到: {input_dir}")
                 return
             input_base = os.path.dirname(input_dir)
             all_categories_files = [os.path.basename(input_dir)]
 
         if not all_categories_files:
-            logger.warning(f"No JSON files found in {input_dir}")
+            logger.warning(f"在 {input_dir} 中未找到 JSON 文件")
             return
 
         for filename in all_categories_files:
@@ -111,13 +236,15 @@ class DepthEvaluator:
             results = []
             category_total_score = 0
             
-            for item in tqdm(data, desc=f"Evaluating {filename}"):
+            for item in tqdm(data, desc=f"正在评测 {filename}"):
                 # 1. 模型推理
                 model_out = self.get_model_response(self.target_model, item.get('evidence', ''), item['question'])
                 
                 # 2. 裁判评分
                 # 某些数据可能没有category字段，使用文件名作为fallback
-                category = item.get('category', filename.replace('.json', ''))
+                current_category_guess = filename.replace('.json', '')
+                category = item.get('category', current_category_guess)
+                
                 eval_res = self.judge_answer(category, item['question'], item['answer'], model_out)
                 
                 # 3. 记录结果
@@ -125,10 +252,11 @@ class DepthEvaluator:
                     "qa_id": item.get('qa_id', 'unknown'),
                     "source": item.get('source', 'unknown'),
                     "question": item['question'],
-                    "gold_answer": item['answer'],
+                    "ground_truth": item['answer'],
                     "model_answer": model_out,
                     "score": eval_res.get("score", 0),
-                    "reason": eval_res.get("reason", "")
+                    "reason": eval_res.get("reason", ""),
+                    "judge_details": eval_res.get("details", {})
                 }
                 results.append(res_item)
                 category_total_score += float(eval_res.get("score", 0))
@@ -173,6 +301,7 @@ def run(config):
         if not input_dir:
             logger.warning("未找到默认输入目录 (dataset_step4, Depth, 或 data/Depth)，请指定 --input-dir")
             return
+
 
     output_dir = config.get('output_dir', 'eval_results/depth')
     max_qa = config.get('max_qa')

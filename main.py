@@ -81,7 +81,7 @@ def main():
     if args.test_run:
         logger.info("启动测试运行模式 (--test-run)")
         logger.info("将仅处理每个任务的第1条数据...")
-        config['max_qa'] = 3  # 限制处理数量为1
+        config['max_qa'] = 1  # 限制处理数量为1
     
     tasks_to_run = []
     if args.task == 'all':
