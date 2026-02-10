@@ -75,11 +75,8 @@ We present a comprehensive  evaluation mechanism to score diverse dimensions of 
 |                              |                         | LLM-as-a Judge    | Subjective |
 | **Data Alignment**           | Answer Accuracy         | Accuracy          | Objective  |
 |                              | Retrieval Accuracy      | F1-Score(Data ID) | Objective  |
-|                              |                         | F1-Score(Field）  | Objective  |
-| **Deep Insight**             | JCD                     | LLM-as-a Judge    | Subjective |
-|                              | F&C                     | LLM-as-a Judge    | Subjective |
-|                              | C&A                     | LLM-as-a Judge    | Subjective |
-|                              | ARS                     | LLM-as-a Judge    | Subjective |
+|                              |                         | F1-Score(Field)  | Objective  |
+| **Deep Insight**             | Category-specific Scoring Criteria| LLM-as-a Judge    | Subjective |
 
 # Data Examples
 
