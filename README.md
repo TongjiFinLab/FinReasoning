@@ -10,7 +10,7 @@
 
 </div>
 
-# Introduction
+# 📖 Introduction
 
 FinReasoning is a benchmark focused on evaluating the reasoning capabilities of Large Language Models (LLMs) in the Chinese financial domain. It aims to comprehensively assess the logical consistency, factual alignment, and depth of analysis of LLMs in financial scenarios:
 * **Semantic Consistency**: Evaluates potential hallucination risks, focusing on detecting logical errors, context contradictions, and reversed causality in financial texts.
@@ -24,14 +24,20 @@ In the future, FinReasoning will continue to deepen the financial reasoning eval
   <br />
 </div>
 
-# Table of Contents
+# 📚 Table of Contents
 
-- [FinReasoning Benchmark Details](#finreasoning-benchmark-details)
-- [Data Examples](#data-examples)
-- [Quick Start](#quick-start)
-- [Test Results](#test-results)
+- [🧠 FinReasoning Benchmark Details](#finreasoning-benchmark-details)
+- [📂 Data Examples](#data-examples)
+- [🚀 Quick Start](#quick-start)
+- [📊 Test Results](#test-results)
 
-# FinReasoning Benchmark Details
+# 🧠 FinReasoning Benchmark Details
+
+An overview of the FinReasoning benchmark, presenting its data sources, the construction procedures for each task,and the data statistics including the number of sub-tasks within each track.
+<div align="center">
+  <img src="imgs/framework.png" width="100%"/>
+  <br />
+</div>
 
 ## Benchmark Construction
 
@@ -78,7 +84,7 @@ We present a comprehensive  evaluation mechanism to score diverse dimensions of 
 |                              |                         | F1-Score(Field)  | Objective  |
 | **Deep Insight**             | Category-specific Scoring Criteria| LLM-as-a Judge    | Subjective |
 
-# Data Examples
+# 📂 Data Examples
 
 The data for each task is in JSON format, containing questions, answers, and relevant metadata. To save space, long text fields have been truncated, but the complete data structure is preserved.
 
@@ -167,7 +173,7 @@ Evaluates the model's ability to deduce and argue complex financial logic.
 }
 ```
 
-# Quick Start
+# 🚀 Quick Start
 
 ## Installation
 
@@ -272,3 +278,30 @@ Use the `--test-run` parameter to process only 1 data item per task, used to che
 python main.py --task all --test-run
 ```
 
+# 🧪 Performance of LLMs
+
+Performance comparison of LLMs across different tracks (The full leaderboard is ranked by the Overall Normalized Score). Ver.=Verification; Cal.=Calculation; Reason.=Reasoning; ARS=Architectural Richness and Strictness; FC=Factuality and Contextualization; CA=Completeness and Comparative Analysis; JCD=Justification and Causal Depth; Avg.=Average Score; Norm=Normlized Score.
+
+| Model             | Semantic Consistency |      |       |       |        | Data Alignment |      |      |         |        | Deep Insight |      |      |      |         |        | Overall_Norm |
+| ----------------- | -------------------- | ---- | ----- | ----- | ------ | -------------- | ---- | ---- | ------- | ------ | ------------ | ---- | ---- | ---- | ------- | ------ | ------------ |
+|                   | Terminology          | Fact | Logic | Avg.S | Norm_S | L1             | L2   | L3   | Average | Norm_S | ARS          | F&C  | C&A  | JCD  | Average | Norm_S |              |
+| Doubao-Seed-1.8   | 63.9                 | 74.4 | 63.3  | 67.2  | 100.0  | 93.5           | 66.6 | 55.6 | 71.9    | 92.1   | 93.5         | 87.2 | 86.2 | 95.7 | 90.6    | 98.3   | 96.8         |
+| GPT-5             | 64.3                 | 71.4 | 57.6  | 64.4  | 94.9   | 88.3           | 72.8 | 68.5 | 76.5    | 100    | 92.4         | 84.6 | 86.7 | 81.8 | 86.4    | 91.1   | 95.4         |
+| Kimi-K2           | 49.5                 | 66.0 | 59.1  | 58.2  | 83.7   | 90.2           | 69.3 | 63.2 | 74.2    | 96.1   | 93.4         | 87.4 | 89.5 | 96.3 | 91.6    | 100    | 93.3         |
+| Claude-sonnet-4.5 | 54.9                 | 69.0 | 51.8  | 58.6  | 84.4   | 85.3           | 64.6 | 62.7 | 70.9    | 90.4   | 92.2         | 87.1 | 84.5 | 96.2 | 90.0    | 97.3   | 90.7         |
+| GLM-4.6           | 59.0                 | 73.4 | 62.5  | 65.0  | 96.0   | 89.4           | 67.5 | 58.4 | 59.4    | 70.7   | 92.6         | 88.1 | 87.3 | 96.1 | 91.0    | 99     | 88.6         |
+| Gemini-3-pro      | 63.1                 | 71.1 | 50.2  | 61.5  | 89.7   | 94.3           | 69.9 | 56.8 | 73.7    | 95.2   | 82.1         | 79.0 | 76.7 | 80.7 | 79.6    | 79.5   | 88.1         |
+| Qwen3-Max         | 51.2                 | 70.0 | 57.1  | 59.4  | 85.9   | 92.3           | 67.1 | 66.3 | 75.2    | 97.8   | 85.8         | 76.0 | 75.8 | 82.9 | 80.1    | 80.4   | 88           |
+| DeepSeek-V3       | 41.7                 | 63.1 | 54.0  | 52.9  | 74.1   | 91.8           | 63.7 | 60.4 | 72.0    | 92.3   | 82.0         | 81.0 | 77.9 | 86.4 | 81.8    | 83.3   | 83.2         |
+| Intern-S1         | 39.5                 | 57.1 | 35.4  | 44.0  | 58.0   | 88.8           | 62.9 | 53.9 | 68.5    | 86.3   | 84.4         | 82.1 | 81.6 | 88.0 | 84.0    | 87     | 77.1         |
+| GPT-4o            | 35.7                 | 53.8 | 37.6  | 42.4  | 55.2   | 90.4           | 61.0 | 63.1 | 71.5    | 91.4   | 80.0         | 77.6 | 74.8 | 76.9 | 77.3    | 75.6   | 74.1         |
+| Qwen3-235B        | 40.3                 | 57.7 | 33.0  | 43.7  | 57.5   | 90.1           | 63.1 | 54.2 | 69.1    | 87.3   | 75.4         | 63.8 | 63.7 | 67.5 | 67.6    | 59     | 68           |
+| DeepSeek-R1       | 51.6                 | 66.9 | 46.7  | 55.0  | 77.9   | 25.7           | 68.9 | 22.5 | 39.1    | 36     | 88.0         | 84.6 | 80.0 | 89.8 | 85.6    | 89.8   | 67.9         |
+| Qwen3-32B         | 38.1                 | 54.9 | 34.2  | 42.4  | 55.2   | 91.6           | 55.7 | 65.0 | 70.8    | 90.2   | 73.6         | 61.7 | 60.3 | 65.7 | 65.3    | 55.1   | 66.8         |
+| Qwen3-8B          | 32.4                 | 46.1 | 37.6  | 38.7  | 48.5   | 83.5           | 51.8 | 54.2 | 63.2    | 77.2   | 69.3         | 51.1 | 53.9 | 57.4 | 57.9    | 42.5   | 56.1         |
+| Fin-R1            | 21.4                 | 22.6 | 24.2  | 22.8  | 19.7   | 65.4           | 40.6 | 38.6 | 48.2    | 51.5   | 77.9         | 71.8 | 73.5 | 71.5 | 73.7    | 69.5   | 46.9         |
+| Llama-3.1-70B     | 19.7                 | 28.8 | 20.4  | 23.0  | 20.1   | 88.2           | 61.3 | 61.3 | 70.3    | 89.4   | 42.6         | 36.5 | 34.7 | 36.8 | 37.7    | 8      | 39.2         |
+| DianJin-R1-7B     | 19.1                 | 22.7 | 20.3  | 20.7  | 15.9   | 65.9           | 20.1 | 6.9  | 30.9    | 21.9   | 77.1         | 63.6 | 73.3 | 69.1 | 70.8    | 64.5   | 34.1         |
+| Llama-3.1-8B      | 19.4                 | 21.1 | 16.9  | 19.2  | 13.2   | 78.4           | 49.1 | 42.6 | 56.7    | 66.1   | 39.1         | 30.8 | 31.3 | 32.1 | 33.3    | 0.5    | 26.6         |
+| TouchstoneGPT     | 12.0                 | 12.0 | 11.6  | 11.9  | 0.0    | 23.8           | 17.9 | 12.6 | 18.1    | 0      | 38.3         | 28.7 | 30.8 | 34.2 | 33.0    | 0      | 0            |
+| Average           | 40.9                 | 52.7 | 40.7  | 44.8  | 59.5   | 79.8           | 57.6 | 50.9 | 62.1    | 75.4   | 76.8         | 69.6 | 69.6 | 73.9 | 72.5    | 67.4   | 67.4         |
