@@ -12,11 +12,9 @@ from .utils import get_openai_client, setup_logger
 
 logger = setup_logger("Alignment_Evaluator")
 
-# 定义数据文件路径
 STOCK_DATA_PATH = os.path.join("data", "Alignment", "datebase", "stock_data.csv")
 DATABASE_SAMPLE_PATH = os.path.join("data", "Alignment", "datebase", "database_sample.csv")
 
-# 字段名到中文含义的映射字典
 FIELD_MEANINGS = {
     'id': '数据行ID',
     'stcode': '股票代码',
@@ -149,10 +147,8 @@ class QALLMTester:
         logger.info("Loading CSV data into in-memory SQLite database...")
         try:
             # 1. 加载 stock_data (只包含 stcode 和 basic info)
-            # 假设 stock_data.csv 对应的表名是 stock_data
             if os.path.exists(STOCK_DATA_PATH):
                 df_stock = pd.read_csv(STOCK_DATA_PATH)
-                # 确保stcode是字符串格式，补零
                 if 'stcode' in df_stock.columns:
                      df_stock['stcode'] = df_stock['stcode'].astype(str).str.zfill(6)
                 if 'stock_code' in df_stock.columns:
@@ -164,18 +160,15 @@ class QALLMTester:
                 logger.warning(f"File not found: {STOCK_DATA_PATH}")
 
             # 2. 加载 database_sample (包含所有因子)
-            # 假设 database_sample.csv 对应的表名是 stock_jbm_factors
             if os.path.exists(DATABASE_SAMPLE_PATH):
                 df_factors = pd.read_csv(DATABASE_SAMPLE_PATH)
                 if 'stcode' in df_factors.columns:
                     df_factors['stcode'] = df_factors['stcode'].astype(str).str.zfill(6)
                 
-                # 确保dt列是日期格式字符串
                 if 'dt' in df_factors.columns:
                     df_factors['dt'] = pd.to_datetime(df_factors['dt']).dt.strftime('%Y-%m-%d')
                     
                 df_factors.to_sql('stock_jbm_factors', self.conn, index=False, if_exists='replace')
-                # 创建索引以加速查询
                 self.conn.execute("CREATE INDEX idx_stcode ON stock_jbm_factors(stcode)")
                 self.conn.execute("CREATE INDEX idx_dt ON stock_jbm_factors(dt)")
                 logger.info(f"Loaded stock_jbm_factors: {len(df_factors)} rows")
@@ -207,7 +200,7 @@ class QALLMTester:
         
         # 优先从company_group获取（多公司对比）
         if 'company_group' in metadata and isinstance(metadata['company_group'], list) and len(metadata['company_group']) > 0:
-            company = metadata['company_group'][0]  # 先只处理第一个公司
+            company = metadata['company_group'][0]  
             if isinstance(company, dict):
                 if 'stock_code' in company:
                     stock_code = company['stock_code']
@@ -226,7 +219,7 @@ class QALLMTester:
             data_ids = metadata.get('data_ids', [])
             if data_ids:
                 try:
-                    df = self.query_data_by_ids(data_ids[:1])  # 只查询第一个
+                    df = self.query_data_by_ids(data_ids[:1])
                     if not df.empty and 'stcode' in df.columns:
                         company_info['stcode'] = str(df['stcode'].iloc[0])
                     if not df.empty and 'company_name' in df.columns and pd.notna(df['company_name'].iloc[0]):
@@ -281,13 +274,10 @@ class QALLMTester:
                 if 'data_used' in calc_result:
                     data_used = calc_result['data_used']
                     if isinstance(data_used, dict):
-                        # 检查是否有indicator字段
                         if 'indicator' in data_used:
                             indicators.add(data_used['indicator'])
-                        # 检查是否有其他指标字段（如s_fa_ocfps等）
                         for key, value in data_used.items():
                             if isinstance(value, dict) and 'name' in value:
-                                # 这可能是指标字段
                                 indicators.add(key)
         
         return indicators
@@ -482,7 +472,6 @@ class QALLMTester:
             
             # 如果有具体日期列表，使用IN子句
             if specific_dates and isinstance(specific_dates, list) and len(specific_dates) > 0:
-                # 过滤掉None值
                 specific_dates = [d for d in specific_dates if d is not None]
                 if specific_dates:
                     placeholders = ','.join(['?'] * len(specific_dates))
@@ -529,11 +518,8 @@ class QALLMTester:
             return pd.DataFrame()
             
         try:
-            # 使用 pandas read_sql_query 直接从 SQLite 读取
-            # params needs to be list/tuple
             df = pd.read_sql_query(sql_query, self.conn, params=params)
-            
-            # 转换日期列
+        
             if 'dt' in df.columns:
                  df['dt'] = pd.to_datetime(df['dt']).dt.strftime('%Y-%m-%d')
             
@@ -686,7 +672,6 @@ class QALLMTester:
             all_dfs = []
             
             for stcode in stcodes:
-                # 首先查询该公司的数据库日期范围，确保不超出数据库的日期下限和上限
                 date_range_query = """
                     SELECT MIN(f.dt) as min_dt, MAX(f.dt) as max_dt
                     FROM stock_jbm_factors f
@@ -696,7 +681,6 @@ class QALLMTester:
                     range_df = pd.read_sql_query(date_range_query, self.conn, params=(stcode,))
                     if range_df.empty or pd.isna(range_df.iloc[0]['min_dt']):
                         continue
-                     # 获取数据库中的日期范围
                     db_min_date = range_df.iloc[0]['min_dt']
                     db_max_date = range_df.iloc[0]['max_dt']
 
@@ -714,11 +698,9 @@ class QALLMTester:
                 elif hasattr(db_max_date, 'date'):
                     db_max_date = db_max_date.date() if hasattr(db_max_date, 'date') else db_max_date
                 
-                # 确保不超出数据库的日期范围
                 query_min_date = max(expanded_min_date, db_min_date)
                 query_max_date = min(expanded_max_date, db_max_date)
                 
-                # 如果查询范围无效，跳过该公司
                 if query_min_date > query_max_date:
                     continue
                 
@@ -738,7 +720,6 @@ class QALLMTester:
             
             # 合并所有公司的数据（过滤掉空的DataFrame以避免警告）
             if all_dfs:
-                # 过滤掉空的DataFrame
                 non_empty_dfs = [df for df in all_dfs if not df.empty]
                 if non_empty_dfs:
                     df_combined = pd.concat(non_empty_dfs, ignore_index=True)
@@ -951,10 +932,8 @@ class QALLMTester:
         # 首先确定必需字段
         if indicators is None:
             indicators = self.extract_indicators_from_qa(qa)
-        
-        # 必需的元数据字段（只包含id、stcode、dt，不包含gics、industry、company_name）
+    
         required_meta_fields = {'id', 'stcode', 'dt'}
-        # 获取所有需要的字段
         required_fields = required_meta_fields.union(indicators)
         
         # 确定可用的字段（从df_required和df_noise的交集中选择）
@@ -972,22 +951,16 @@ class QALLMTester:
         
         # 如果需要添加额外字段
         if extra_fields_ratio > 0.0:
-            # 获取所有可用的额外字段（排除已包含的字段和不需要的字段）
             extra_available = available_columns - set(columns_to_include)
-            # 排除元数据字段（这些已经包含在必需字段中）
             extra_available = extra_available - required_meta_fields
             
             if extra_available:
                 # 计算指标字段数量（不包括元数据字段）
                 num_indicator_fields = len([col for col in columns_to_include if col not in required_meta_fields])
                 
-                # 对于单字段问题（L1问题），使用不同的计算方式
+                # 对于单字段问题（L1_Ver.），使用不同的计算方式
                 # 让extra_fields_ratio表示绝对数量或使用一个倍数
                 if num_indicator_fields == 1:
-                    # L1单字段问题：extra_fields_ratio表示要添加的字段数量
-                    # 例如：extra_fields_ratio=5.0 表示添加5个额外字段
-                    # 或者：extra_fields_ratio=0.5 表示添加 int(0.5 * 10) = 5 个额外字段
-                    # 使用一个倍数（如10）来转换比例到绝对数量
                     if extra_fields_ratio <= 1.0:
                         # 如果ratio <= 1.0，认为是比例，乘以10转换为绝对数量
                         num_extra = max(1, int(extra_fields_ratio * 10))
@@ -1588,7 +1561,6 @@ def run(config):
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         output_path = os.path.join(output_dir, f"test_results_{qa_file_name}_{model_name_clean}_{timestamp}.json")
         
-        # 构建LLM输入描述
         llm_input_description = """两阶段测试流程：
 阶段1：让LLM决定需要查询的数据
   - 输入：公司信息（stcode、公司名称）、问题、数据库所有字段含义
@@ -1598,7 +1570,6 @@ def run(config):
   - 输入：查询到的数据表格、问题、字段含义说明
   - 输出：LLM的答案（是/否）及使用的数据和计算过程"""
         
-        # 计算统计摘要
         success_results = [r for r in results if r.get('success', False)]
         failed_results = [r for r in results if not r.get('success', False)]
         
@@ -1617,7 +1588,6 @@ def run(config):
             'avg_fields_f1': sum(r.get('fields_f1', 0) for r in success_results) / max(len(success_results), 1)
         }
         
-        # 计算率
         summary['answer_match_rate'] = summary['answer_match'] / max(summary['success'], 1)
         summary['data_ids_match_rate'] = summary['data_ids_match'] / max(summary['success'], 1)
         summary['fields_match_rate'] = summary['fields_match'] / max(summary['success'], 1)
@@ -1656,7 +1626,6 @@ def run(config):
         logger.info(f"  字段召回率: {summary['avg_fields_recall']*100:.2f}%")
         logger.info(f"  字段 F1: {summary['avg_fields_f1']*100:.2f}%")
     
-    # 关闭连接
     tester.close()
     logger.info("✓ 评测完成")
 

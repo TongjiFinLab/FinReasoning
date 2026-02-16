@@ -2,7 +2,7 @@
   {
     "qa_id": "qa_1_000001",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "安徽中鼎密封件股份有限公司的2025年10月31日的daily_tafactor是否低于6.930547？",
     "answer": "否",
@@ -23,7 +23,7 @@
   {
     "qa_id": "qa_1_000002",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据安徽辉隆农资集团股份有限公司的财务数据，2025年10月30日的单季BP是否高于0.6512536633018561？",
     "answer": "否",
@@ -44,7 +44,7 @@
   {
     "qa_id": "qa_1_000003",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300631.SZ的2025年10月30日的单季度毛利率显示46.8166，这个数值是否准确？",
     "answer": "是",
@@ -65,7 +65,7 @@
   {
     "qa_id": "qa_1_000004",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301258.SZ的财务数据，2025年10月31日的当日流通市值显示313865.06，这个数据是否属实？",
     "answer": "是",
@@ -86,7 +86,7 @@
   {
     "qa_id": "qa_1_000005",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳雷曼光电科技股份有限公司的2025年10月31日的净资产(同比增长率)是否大于-4.827？",
     "answer": "否",
@@ -107,7 +107,7 @@
   {
     "qa_id": "qa_1_000006",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据001386.SZ的财务数据，2025年10月30日的净利润同比增长是否高于-6.5746？",
     "answer": "否",
@@ -128,7 +128,7 @@
   {
     "qa_id": "qa_1_000007",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301378.SZ的2025年10月31日的有形资产/总市值显示0.3717063880471047，这个数值是否准确？",
     "answer": "是",
@@ -149,7 +149,7 @@
   {
     "qa_id": "qa_1_000008",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300946.SZ的2025年10月30日的单季SPTTM数据是否为0.0789839504612662？",
     "answer": "是",
@@ -170,7 +170,7 @@
   {
     "qa_id": "qa_1_000009",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据001221.SZ的财务数据，2025年10月30日的单季EPTTM是否低于0.0275106190989722？",
     "answer": "否",
@@ -191,7 +191,7 @@
   {
     "qa_id": "qa_1_000010",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "恒逸石化股份有限公司的2025年10月30日的股价/每股派息为1.4912，这个数值是否正确？",
     "answer": "是",
@@ -212,7 +212,7 @@
   {
     "qa_id": "qa_1_000011",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京万邦达环保技术股份有限公司的财务数据，2025年10月30日的单季ROA是否为0.0343？",
     "answer": "是",
@@ -233,7 +233,7 @@
   {
     "qa_id": "qa_1_000012",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688567.SH的2025年10月31日的风格因子盈利数值为-0.516682193556057，这个数值是否属实？",
     "answer": "是",
@@ -254,7 +254,7 @@
   {
     "qa_id": "qa_1_000013",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据四川东材科技集团股份有限公司的财务数据，2025年10月31日的自由流通股本显示778773959.0，这个数据是否属实？",
     "answer": "是",
@@ -275,7 +275,7 @@
   {
     "qa_id": "qa_1_000014",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688311.SH的2025年10月31日的流通A股数据是否为167919082.0？",
     "answer": "是",
@@ -296,7 +296,7 @@
   {
     "qa_id": "qa_1_000015",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "神马实业股份有限公司的2025年10月30日的流动负债合计数值是否为7433707047.44？",
     "answer": "是",
@@ -317,7 +317,7 @@
   {
     "qa_id": "qa_1_000016",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京大豪科技股份有限公司的财务数据，2025年10月30日的净资产收益率_TTM显示26.5735，这个数据是否属实？",
     "answer": "是",
@@ -338,7 +338,7 @@
   {
     "qa_id": "qa_1_000017",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688399.SH的2025年10月31日的单季ROA数据为-0.2278，这个数值是否正确？",
     "answer": "是",
@@ -359,7 +359,7 @@
   {
     "qa_id": "qa_1_000018",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "605589.SH的2025年10月30日的单季超预期幅度显示0.938618925831202，这个数值是否准确？",
     "answer": "是",
@@ -380,7 +380,7 @@
   {
     "qa_id": "qa_1_000019",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京空港科技园区股份有限公司的2025年10月30日的季度资产周转率数据为0.0396，这个数值是否正确？",
     "answer": "是",
@@ -401,7 +401,7 @@
   {
     "qa_id": "qa_1_000020",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据吉林华微电子股份有限公司的财务数据，2025年10月30日的公司基本面评分：调整前基本面分为3.63，这个数据是否属实？",
     "answer": "是",
@@ -422,7 +422,7 @@
   {
     "qa_id": "qa_1_000021",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603137.SH的2025年10月30日的每股经营活动产生的现金流量净额显示-1.2052，这个数值是否准确？",
     "answer": "是",
@@ -443,7 +443,7 @@
   {
     "qa_id": "qa_1_000022",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301237.SZ的2025年10月30日的前三高管薪酬数值是否为0.1538461538461538？",
     "answer": "是",
@@ -464,7 +464,7 @@
   {
     "qa_id": "qa_1_000023",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "605368.SH的2025年10月31日的标准化预期外营业收入是否大于0.2076923076923077？",
     "answer": "否",
@@ -485,7 +485,7 @@
   {
     "qa_id": "qa_1_000024",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688072.SH的2025年10月31日的单季度营业收入同比增长率数据是否为0.918141592920354？",
     "answer": "是",
@@ -506,7 +506,7 @@
   {
     "qa_id": "qa_1_000025",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据仁东控股股份有限公司的财务数据，2025年10月31日的自由流通股本换手率是否高于0.0240095882262889？",
     "answer": "否",
@@ -527,7 +527,7 @@
   {
     "qa_id": "qa_1_000026",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301332.SZ的财务数据，2025年10月30日的自由流通市值因子是否为1901844603.0？",
     "answer": "是",
@@ -548,7 +548,7 @@
   {
     "qa_id": "qa_1_000027",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300694.SZ的2025年10月31日的单季度.营业收入同比增长率(%)数值为-4.06，这个数值是否属实？",
     "answer": "是",
@@ -569,7 +569,7 @@
   {
     "qa_id": "qa_1_000028",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据云南铜业股份有限公司的财务数据，2025年10月30日的高管平均薪酬是否低于0.0078125？",
     "answer": "否",
@@ -590,7 +590,7 @@
   {
     "qa_id": "qa_1_000029",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300903.SZ的2025年10月30日的流动资产合计数值为3159489079.85，这个数值是否属实？",
     "answer": "是",
@@ -611,7 +611,7 @@
   {
     "qa_id": "qa_1_000030",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300772.SZ的2025年10月30日的标准化预期外ROE数据为0.5417867435158501，这个数值是否正确？",
     "answer": "是",
@@ -632,7 +632,7 @@
   {
     "qa_id": "qa_1_000031",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300812.SZ的财务数据，2025年10月31日的单季度.营业收入同比增长率(%)为-56.23，这个数值是否准确无误？",
     "answer": "是",
@@ -653,7 +653,7 @@
   {
     "qa_id": "qa_1_000032",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688361.SH的2025年10月31日的单季度毛利率是否小于51.5886？",
     "answer": "否",
@@ -674,7 +674,7 @@
   {
     "qa_id": "qa_1_000033",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "江苏苏豪时尚集团股份有限公司的2025年10月31日的股息率数据是否为0.0？",
     "answer": "是",
@@ -695,7 +695,7 @@
   {
     "qa_id": "qa_1_000034",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "001317.SZ的2025年10月30日的单季超预期幅度是否高于0.776？",
     "answer": "否",
@@ -716,7 +716,7 @@
   {
     "qa_id": "qa_1_000035",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688141.SH的财务数据，2025年10月31日的净利润同比增长为8.725，这个数据是否属实？",
     "answer": "是",
@@ -737,7 +737,7 @@
   {
     "qa_id": "qa_1_000036",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603721.SH的2025年10月31日的有形资产/总市值数据为0.1614340915857116，这个数值是否正确？",
     "answer": "是",
@@ -758,7 +758,7 @@
   {
     "qa_id": "qa_1_000037",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "百隆东方股份有限公司的2025年10月30日的对数流通市值数值为2546.128434056214，这个数值是否属实？",
     "answer": "是",
@@ -779,7 +779,7 @@
   {
     "qa_id": "qa_1_000038",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603829.SH的2025年10月30日的净利润(元)为57146479.96，这个数值是否正确？",
     "answer": "是",
@@ -800,7 +800,7 @@
   {
     "qa_id": "qa_1_000039",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "美康生物科技股份有限公司的2025年10月31日的同比增长率-经营活动产生的现金流量净额(%)是否高于32.9588？",
     "answer": "否",
@@ -821,7 +821,7 @@
   {
     "qa_id": "qa_1_000040",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "成都康弘药业集团股份有限公司的2025年10月31日的市现率(PCF,现金净流量TTM)为60.2085，这个数值是否正确？",
     "answer": "是",
@@ -842,7 +842,7 @@
   {
     "qa_id": "qa_1_000041",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688385.SH的2025年10月31日的自由流通市值因子数据是否为20773013040.36？",
     "answer": "是",
@@ -863,7 +863,7 @@
   {
     "qa_id": "qa_1_000042",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301366.SZ的2025年10月30日的销售毛利率显示27.9976，这个数值是否准确？",
     "answer": "是",
@@ -884,7 +884,7 @@
   {
     "qa_id": "qa_1_000043",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688778.SH的财务数据，2025年10月31日的单季超预期幅度为0.9077809798270894，这个数据是否属实？",
     "answer": "是",
@@ -905,7 +905,7 @@
   {
     "qa_id": "qa_1_000044",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东顺威精密塑料股份有限公司的2025年10月30日的季度资产周转率是否高于0.2061？",
     "answer": "否",
@@ -926,7 +926,7 @@
   {
     "qa_id": "qa_1_000045",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江华策影视股份有限公司的2025年10月30日的营业收入同比增长是否低于16.6169？",
     "answer": "否",
@@ -947,7 +947,7 @@
   {
     "qa_id": "qa_1_000046",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "南京康尼机电股份有限公司的2025年10月31日的全部资产现金回收率数据是否为4.2526？",
     "answer": "是",
@@ -968,7 +968,7 @@
   {
     "qa_id": "qa_1_000047",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据腾达建设集团股份有限公司的财务数据，2025年10月30日的单季度营业利润同比增长率显示0.0129032258064516，这个数据是否属实？",
     "answer": "是",
@@ -989,7 +989,7 @@
   {
     "qa_id": "qa_1_000048",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据佛山市国星光电股份有限公司的财务数据，2025年10月31日的股息率是否为0.5727048851726705？",
     "answer": "是",
@@ -1010,7 +1010,7 @@
   {
     "qa_id": "qa_1_000049",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301031.SZ的财务数据，2025年10月30日的单季BP三年分位数为0.4326923076923077，这个数据是否属实？",
     "answer": "是",
@@ -1031,7 +1031,7 @@
   {
     "qa_id": "qa_1_000050",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603682.SH的2025年10月30日的市净率(PB)是否高于2.75？",
     "answer": "否",
@@ -1052,7 +1052,7 @@
   {
     "qa_id": "qa_1_000051",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东光华科技股份有限公司的2025年10月31日的销售净利率_TTM数值是否为-4.327？",
     "answer": "是",
@@ -1073,7 +1073,7 @@
   {
     "qa_id": "qa_1_000052",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "西安饮食股份有限公司的2025年10月31日的净资产(同比增长率)是否小于-34.6267？",
     "answer": "否",
@@ -1094,7 +1094,7 @@
   {
     "qa_id": "qa_1_000053",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据001314.SZ的财务数据，2025年10月31日的masked_code为0.0，这个数据是否属实？",
     "answer": "是",
@@ -1115,7 +1115,7 @@
   {
     "qa_id": "qa_1_000054",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "黄山旅游发展股份有限公司的2025年10月30日的单季ROA数值是否为1.5628？",
     "answer": "是",
@@ -1136,7 +1136,7 @@
   {
     "qa_id": "qa_1_000055",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301327.SZ的财务数据，2025年10月30日的扣除非经常性损益后的净利润/总市值显示为0.0070753066075641，这个数据是否准确？",
     "answer": "是",
@@ -1157,7 +1157,7 @@
   {
     "qa_id": "qa_1_000056",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688710.SH的2025年10月31日的单季BP三年分位数是否低于0.025089605734767？",
     "answer": "否",
@@ -1178,7 +1178,7 @@
   {
     "qa_id": "qa_1_000057",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海古鳌电子科技股份有限公司的2025年10月30日的净利润(元)数据为-113443243.61，这个数值是否正确？",
     "answer": "是",
@@ -1199,7 +1199,7 @@
   {
     "qa_id": "qa_1_000058",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "001218.SZ的2025年10月30日的负债合计是否高于802142739.36？",
     "answer": "否",
@@ -1220,7 +1220,7 @@
   {
     "qa_id": "qa_1_000059",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据广东坚朗五金制品股份有限公司的财务数据，2025年10月31日的流通A股为191276284.0，这个数据是否属实？",
     "answer": "是",
@@ -1241,7 +1241,7 @@
   {
     "qa_id": "qa_1_000060",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据武汉金运激光股份有限公司的财务数据，2025年10月31日的营业收入同比增长显示为-10.6462，这个数据是否准确？",
     "answer": "是",
@@ -1262,7 +1262,7 @@
   {
     "qa_id": "qa_1_000061",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002987.SZ的2025年10月31日的DELTAROA数值是否为-0.1707？",
     "answer": "是",
@@ -1283,7 +1283,7 @@
   {
     "qa_id": "qa_1_000062",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京金自天正智能控制股份有限公司的2025年10月30日的单季ROA显示0.7037，这个数值是否准确？",
     "answer": "是",
@@ -1304,7 +1304,7 @@
   {
     "qa_id": "qa_1_000063",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳翰宇药业股份有限公司的2025年10月31日的扣除非经常性损益后的净利润数据为50829428.52，这个数值是否正确？",
     "answer": "是",
@@ -1325,7 +1325,7 @@
   {
     "qa_id": "qa_1_000064",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东遥望科技集团股份有限公司的2025年10月30日的自由流通市值因子是否低于4663836817.27？",
     "answer": "否",
@@ -1346,7 +1346,7 @@
   {
     "qa_id": "qa_1_000065",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据浙江聚力文化发展股份有限公司的财务数据，2025年10月30日的公司基本面评分：最终基本面分是否高于2.25？",
     "answer": "否",
@@ -1367,7 +1367,7 @@
   {
     "qa_id": "qa_1_000066",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据维科技术股份有限公司的财务数据，2025年10月31日的同比增长率-基本每股收益(%)为-11320.0，这个数据是否属实？",
     "answer": "是",
@@ -1388,7 +1388,7 @@
   {
     "qa_id": "qa_1_000067",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "605298.SH的2025年10月31日的单季SPTTM数据是否为0.0702562949640287？",
     "answer": "是",
@@ -1409,7 +1409,7 @@
   {
     "qa_id": "qa_1_000068",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300660.SZ的2025年10月30日的总资产净利润是否为4.2394？",
     "answer": "是",
@@ -1430,7 +1430,7 @@
   {
     "qa_id": "qa_1_000069",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据湖南方盛制药股份有限公司的财务数据，2025年10月31日的单季BP三年分位数显示0.3976648351648351，这个数据是否属实？",
     "answer": "是",
@@ -1451,7 +1451,7 @@
   {
     "qa_id": "qa_1_000070",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "山西焦煤能源集团股份有限公司的2025年10月31日的有形资产显示-10572255165.86，这个数值是否准确？",
     "answer": "是",
@@ -1472,7 +1472,7 @@
   {
     "qa_id": "qa_1_000071",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "江苏亿通高科技股份有限公司的2025年10月31日的营业收入同比增长是否低于171.8696？",
     "answer": "否",
@@ -1493,7 +1493,7 @@
   {
     "qa_id": "qa_1_000072",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688639.SH的2025年10月31日的总资产净利润为0.0302，这个数值是否正确？",
     "answer": "是",
@@ -1514,7 +1514,7 @@
   {
     "qa_id": "qa_1_000073",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京首旅酒店(集团)股份有限公司的财务数据，2025年10月30日的单季EP是否高于0.0630195171444596？",
     "answer": "否",
@@ -1535,7 +1535,7 @@
   {
     "qa_id": "qa_1_000074",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "国机汽车股份有限公司的2025年10月30日的流通A股显示1495788692.0，这个数值是否准确？",
     "answer": "是",
@@ -1556,7 +1556,7 @@
   {
     "qa_id": "qa_1_000075",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据上海广电电气(集团)股份有限公司的财务数据，2025年10月31日的单季EP一年分位数是否为0.0040983606557377？",
     "answer": "是",
@@ -1577,7 +1577,7 @@
   {
     "qa_id": "qa_1_000076",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "神州高铁技术股份有限公司的2025年10月30日的总资产/(流动资产合计-流动负债合计)数据是否为-13.922827812851043？",
     "answer": "是",
@@ -1598,7 +1598,7 @@
   {
     "qa_id": "qa_1_000077",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603721.SH的财务数据，2025年10月31日的自由流通市值因子显示1327868208.15，这个数据是否属实？",
     "answer": "是",
@@ -1619,7 +1619,7 @@
   {
     "qa_id": "qa_1_000078",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据中信银行股份有限公司的财务数据，2025年10月30日的DELTAROE是否高于0.0415999999999998？",
     "answer": "否",
@@ -1640,7 +1640,7 @@
   {
     "qa_id": "qa_1_000079",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300683.SZ的财务数据，2025年10月30日的流通市值是否高于0.4493980889070967？",
     "answer": "否",
@@ -1661,7 +1661,7 @@
   {
     "qa_id": "qa_1_000080",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "百洋产业投资集团股份有限公司的2025年10月31日的单季ROA是否高于0.2067？",
     "answer": "否",
@@ -1682,7 +1682,7 @@
   {
     "qa_id": "qa_1_000081",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "新疆天山畜牧生物工程股份有限公司的2025年10月31日的DELTAROA是否为5.5829？",
     "answer": "是",
@@ -1703,7 +1703,7 @@
   {
     "qa_id": "qa_1_000082",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603466.SH的2025年10月31日的高管平均薪酬是否为0.7209302325581395？",
     "answer": "是",
@@ -1724,7 +1724,7 @@
   {
     "qa_id": "qa_1_000083",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据河北建投能源投资股份有限公司的财务数据，2025年10月31日的公司基本面评分：最终基本面分为4.26，这个数值是否准确无误？",
     "answer": "是",
@@ -1745,7 +1745,7 @@
   {
     "qa_id": "qa_1_000084",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据福建元力活性炭股份有限公司的财务数据，2025年10月31日的daily_high为16.67，这个数据是否属实？",
     "answer": "是",
@@ -1766,7 +1766,7 @@
   {
     "qa_id": "qa_1_000085",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市英维克科技股份有限公司的2025年10月30日的流动负债合计数据是否为3280531803.51？",
     "answer": "是",
@@ -1787,7 +1787,7 @@
   {
     "qa_id": "qa_1_000086",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688484.SH的2025年10月31日的A股总股本数据是否为425702911.0？",
     "answer": "是",
@@ -1808,7 +1808,7 @@
   {
     "qa_id": "qa_1_000087",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "宁波波导股份有限公司的2025年10月31日的A股总股本是否大于750000000.0？",
     "answer": "否",
@@ -1829,7 +1829,7 @@
   {
     "qa_id": "qa_1_000088",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山西华阳集团新能股份有限公司的财务数据，2025年10月30日的净资产(同比增长率)为9.9733，这个数值是否准确无误？",
     "answer": "是",
@@ -1850,7 +1850,7 @@
   {
     "qa_id": "qa_1_000089",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "开山集团股份有限公司的2025年10月31日的流通市值是否低于-0.0708570546041625？",
     "answer": "否",
@@ -1871,7 +1871,7 @@
   {
     "qa_id": "qa_1_000090",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "南京埃斯顿自动化股份有限公司的2025年10月30日的流动比率数值为1.013553，这个数值是否属实？",
     "answer": "是",
@@ -1892,7 +1892,7 @@
   {
     "qa_id": "qa_1_000091",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据黑龙江交通发展股份有限公司的财务数据，2025年10月31日的净利润同比增长为6.9299，这个数据是否属实？",
     "answer": "是",
@@ -1913,7 +1913,7 @@
   {
     "qa_id": "qa_1_000092",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据探路者控股集团股份有限公司的财务数据，2025年10月31日的同比增长率-归属母公为-70.4634，这个数值是否准确无误？",
     "answer": "是",
@@ -1934,7 +1934,7 @@
   {
     "qa_id": "qa_1_000093",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603115.SH的2025年10月30日的同比增长率-净资产收益率(摊薄)(%)是否低于35.2337？",
     "answer": "否",
@@ -1955,7 +1955,7 @@
   {
     "qa_id": "qa_1_000094",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002875.SZ的2025年10月31日的DELTAROA是否大于1.4322999999999997？",
     "answer": "否",
@@ -1976,7 +1976,7 @@
   {
     "qa_id": "qa_1_000095",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300743.SZ的财务数据，2025年10月31日的营业收入(元)是否高于662122359.15？",
     "answer": "否",
@@ -1997,7 +1997,7 @@
   {
     "qa_id": "qa_1_000096",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据昊华化工科技集团股份有限公司的财务数据，2025年10月31日的单季BP是否为0.4396763981709461？",
     "answer": "是",
@@ -2018,7 +2018,7 @@
   {
     "qa_id": "qa_1_000097",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据聚光科技(杭州)股份有限公司的财务数据，2025年10月30日的单季ROA显示-0.3303，这个数据是否属实？",
     "answer": "是",
@@ -2039,7 +2039,7 @@
   {
     "qa_id": "qa_1_000098",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "001318.SZ的2025年10月31日的净利润(元)数据为87397270.7，这个数值是否正确？",
     "answer": "是",
@@ -2060,7 +2060,7 @@
   {
     "qa_id": "qa_1_000099",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688562.SH的财务数据，2025年10月31日的流动比率是否高于2.02062743？",
     "answer": "否",
@@ -2081,7 +2081,7 @@
   {
     "qa_id": "qa_1_000100",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603327.SH的财务数据，2025年10月30日的公司基本面评分：最终基本面分为2.75，这个数值是否准确无误？",
     "answer": "是",
@@ -2102,7 +2102,7 @@
   {
     "qa_id": "qa_1_000101",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688419.SH的财务数据，2025年10月31日的自由流通市值因子为892416971.0，这个数值是否准确无误？",
     "answer": "是",
@@ -2123,7 +2123,7 @@
   {
     "qa_id": "qa_1_000102",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300984.SZ的财务数据，2025年10月31日的标准化预期外ROE为0.7422480620155039，这个数值是否准确无误？",
     "answer": "是",
@@ -2144,7 +2144,7 @@
   {
     "qa_id": "qa_1_000103",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688538.SH的财务数据，2025年10月31日的净利润同比增长是否为22.2826？",
     "answer": "是",
@@ -2165,7 +2165,7 @@
   {
     "qa_id": "qa_1_000104",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京北斗星通导航技术股份有限公司的2025年10月31日的营业收入(元)为1506577218.5，这个数值是否正确？",
     "answer": "是",
@@ -2186,7 +2186,7 @@
   {
     "qa_id": "qa_1_000105",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300973.SZ的财务数据，2025年10月30日的当日总市值是否为690570.6039？",
     "answer": "是",
@@ -2207,7 +2207,7 @@
   {
     "qa_id": "qa_1_000106",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300812.SZ的2025年10月30日的同比增长率-净资产收益率(摊薄)(%)数值是否为376.205？",
     "answer": "是",
@@ -2228,7 +2228,7 @@
   {
     "qa_id": "qa_1_000107",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688726.SH的2025年10月31日的前十大股东持股比例合计数据是否为0.5335195530726257？",
     "answer": "是",
@@ -2249,7 +2249,7 @@
   {
     "qa_id": "qa_1_000108",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中冶美利云产业投资股份有限公司的2025年10月30日的单季SPTTM是否为0.0523999161601341？",
     "answer": "是",
@@ -2270,7 +2270,7 @@
   {
     "qa_id": "qa_1_000109",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603860.SH的财务数据，2025年10月31日的总资产/(流动资产合计-流动负债合计)为0.3103251484837233，这个数值是否准确无误？",
     "answer": "是",
@@ -2291,7 +2291,7 @@
   {
     "qa_id": "qa_1_000110",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300813.SZ的2025年10月31日的公司基本面评分：最终基本面分数值为2.88，这个数值是否属实？",
     "answer": "是",
@@ -2312,7 +2312,7 @@
   {
     "qa_id": "qa_1_000111",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603341.SH的2025年10月31日的自由流通股本数据是否为233799838.0？",
     "answer": "是",
@@ -2333,7 +2333,7 @@
   {
     "qa_id": "qa_1_000112",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据通策医疗股份有限公司的财务数据，2025年10月30日的当日流通市值是否低于1909029.9514？",
     "answer": "否",
@@ -2354,7 +2354,7 @@
   {
     "qa_id": "qa_1_000113",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300616.SZ的财务数据，2025年10月30日的扣除非经常性损益后的净利润/总市值为-0.0330775268074974，这个数值是否准确无误？",
     "answer": "是",
@@ -2375,7 +2375,7 @@
   {
     "qa_id": "qa_1_000114",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002885.SZ的2025年10月30日的流动负债合计数据为1825981343.2，这个数值是否正确？",
     "answer": "是",
@@ -2396,7 +2396,7 @@
   {
     "qa_id": "qa_1_000115",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据广东省广告集团股份有限公司的财务数据，2025年10月31日的扣除非经常性损益后的净利润/总市值为0.0051949412890946，这个数值是否准确无误？",
     "answer": "是",
@@ -2417,7 +2417,7 @@
   {
     "qa_id": "qa_1_000116",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603341.SH的2025年10月30日的风格因子估值数据是否为1.4190863811582866？",
     "answer": "是",
@@ -2438,7 +2438,7 @@
   {
     "qa_id": "qa_1_000117",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688061.SH的2025年10月30日的同比增长率-净资产收益率(摊薄)(%)数据为-4.2761，这个数值是否正确？",
     "answer": "是",
@@ -2459,7 +2459,7 @@
   {
     "qa_id": "qa_1_000118",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "601528.SH的2025年10月30日的单季EPTTM数值为0.1869019138755981，这个数值是否属实？",
     "answer": "是",
@@ -2480,7 +2480,7 @@
   {
     "qa_id": "qa_1_000119",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据湖南郴电国际发展股份有限公司的财务数据，2025年10月31日的每股经营活动产生的现金流量净额是否低于2.3754？",
     "answer": "否",
@@ -2501,7 +2501,7 @@
   {
     "qa_id": "qa_1_000120",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "昇辉智能科技股份有限公司的2025年10月31日的单季度营业利润同比增长率是否高于0.9197707736389684？",
     "answer": "否",
@@ -2522,7 +2522,7 @@
   {
     "qa_id": "qa_1_000121",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301382.SZ的财务数据，2025年10月30日的营业收入同比增长是否高于61.98？",
     "answer": "否",
@@ -2543,7 +2543,7 @@
   {
     "qa_id": "qa_1_000122",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301359.SZ的财务数据，2025年10月31日的流通A股是否高于53424232.97万？",
     "answer": "否",
@@ -2564,7 +2564,7 @@
   {
     "qa_id": "qa_1_000123",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山高环能集团股份有限公司的财务数据，2025年10月31日的资产负债率是否高于63.73？",
     "answer": "是",
@@ -2585,7 +2585,7 @@
   {
     "qa_id": "qa_1_000124",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "昊华化工科技集团股份有限公司的2025年10月31日的自由流通市值因子是否小于8681176205.68亿？",
     "answer": "是",
@@ -2606,7 +2606,7 @@
   {
     "qa_id": "qa_1_000125",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603587.SH的2025年10月30日的季度资产周转率是否低于0.1？",
     "answer": "否",
@@ -2627,7 +2627,7 @@
   {
     "qa_id": "qa_1_000126",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603666.SH的2025年10月30日的净资产收益率(摊薄)同比增长是否低于104.43？",
     "answer": "是",
@@ -2648,7 +2648,7 @@
   {
     "qa_id": "qa_1_000127",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688309.SH的2025年10月31日的单季EPTTM是否高于0.02？",
     "answer": "否",
@@ -2669,7 +2669,7 @@
   {
     "qa_id": "qa_1_000128",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据深圳市证通电子股份有限公司的财务数据，2025年10月30日的流通A股是否为327103726.26亿？",
     "answer": "否",
@@ -2690,7 +2690,7 @@
   {
     "qa_id": "qa_1_000129",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688059.SH的财务数据，2025年10月31日的净利润(元)显示为115452843.78亿，这个数据是否准确？",
     "answer": "否",
@@ -2711,7 +2711,7 @@
   {
     "qa_id": "qa_1_000130",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "盛和资源控股股份有限公司的2025年10月31日的单季度ROA变动数据为0.39，这个数值是否正确？",
     "answer": "否",
@@ -2732,7 +2732,7 @@
   {
     "qa_id": "qa_1_000131",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市汇顶科技股份有限公司的2025年10月30日的前十大股东持股比例合计数值为0.47，这个数值是否属实？",
     "answer": "否",
@@ -2753,7 +2753,7 @@
   {
     "qa_id": "qa_1_000132",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "湘财股份有限公司的2025年10月30日的流通市值是否为-1.33？",
     "answer": "否",
@@ -2774,7 +2774,7 @@
   {
     "qa_id": "qa_1_000133",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "环旭电子股份有限公司的2025年10月30日的流动负债合计是否高于26163204998.31亿？",
     "answer": "否",
@@ -2795,7 +2795,7 @@
   {
     "qa_id": "qa_1_000134",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002938.SZ的2025年10月31日的扣除非经常性损益后的净利润数据是否为2929666130.03亿？",
     "answer": "否",
@@ -2816,7 +2816,7 @@
   {
     "qa_id": "qa_1_000135",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "思美传媒股份有限公司的2025年10月31日的总资产周转率是否为2.06？",
     "answer": "否",
@@ -2837,7 +2837,7 @@
   {
     "qa_id": "qa_1_000136",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300933.SZ的2025年10月31日的风格因子财务质量(杠杆)是否大于-0.24？",
     "answer": "是",
@@ -2858,7 +2858,7 @@
   {
     "qa_id": "qa_1_000137",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300666.SZ的财务数据，2025年10月30日的有形资产/总市值是否高于0.21？",
     "answer": "否",
@@ -2879,7 +2879,7 @@
   {
     "qa_id": "qa_1_000138",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "西藏奇正藏药股份有限公司的2025年10月30日的总资产净利率_TTM是否高于10.4？",
     "answer": "否",
@@ -2900,7 +2900,7 @@
   {
     "qa_id": "qa_1_000139",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东松发陶瓷股份有限公司的2025年10月30日的单季度毛利率是否为10.94？",
     "answer": "否",
@@ -2921,7 +2921,7 @@
   {
     "qa_id": "qa_1_000140",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "南方出版传媒股份有限公司的2025年10月30日的当日流通市值对数显示7.64，这个数值是否准确？",
     "answer": "否",
@@ -2942,7 +2942,7 @@
   {
     "qa_id": "qa_1_000141",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据中国建筑股份有限公司的财务数据，2025年10月31日的单季BP是否高于2.94？",
     "answer": "否",
@@ -2963,7 +2963,7 @@
   {
     "qa_id": "qa_1_000142",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中化国际(控股)股份有限公司的2025年10月31日的自由流通市值因子显示7476680390.88亿，这个数值是否准确？",
     "answer": "否",
@@ -2984,7 +2984,7 @@
   {
     "qa_id": "qa_1_000143",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据上海豫园旅游商城(集团)股份有限公司的财务数据，2025年10月31日的单季度毛利率为10.11，这个数值是否准确无误？",
     "answer": "否",
@@ -3005,7 +3005,7 @@
   {
     "qa_id": "qa_1_000144",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山西安泰集团股份有限公司的财务数据，2025年10月31日的风格因子估值为-0.92，这个数值是否准确无误？",
     "answer": "否",
@@ -3026,7 +3026,7 @@
   {
     "qa_id": "qa_1_000145",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300868.SZ的2025年10月31日的市现率(PCF,现金净流量TTM)是否大于35.05？",
     "answer": "是",
@@ -3047,7 +3047,7 @@
   {
     "qa_id": "qa_1_000146",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市中金岭南有色金属股份有限公司的2025年10月31日的标准化预期外盈利显示0.35，这个数值是否准确？",
     "answer": "否",
@@ -3068,7 +3068,7 @@
   {
     "qa_id": "qa_1_000147",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山西省国新能源股份有限公司的财务数据，2025年10月30日的单季度毛利率为8.28，这个数据是否属实？",
     "answer": "否",
@@ -3089,7 +3089,7 @@
   {
     "qa_id": "qa_1_000148",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300737.SZ的财务数据，2025年10月31日的标准化预期外ROA是否低于0.35？",
     "answer": "否",
@@ -3110,7 +3110,7 @@
   {
     "qa_id": "qa_1_000149",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "苏交科集团股份有限公司的2025年10月31日的单季SP是否大于0.44？",
     "answer": "否",
@@ -3131,7 +3131,7 @@
   {
     "qa_id": "qa_1_000150",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "杭州初灵信息技术股份有限公司的2025年10月31日的自由流通市值因子是否高于2553371421.55亿？",
     "answer": "否",
@@ -3152,7 +3152,7 @@
   {
     "qa_id": "qa_1_000151",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301210.SZ的2025年10月31日的单季度ROA变动显示0.43，这个数值是否准确？",
     "answer": "否",
@@ -3173,7 +3173,7 @@
   {
     "qa_id": "qa_1_000152",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300763.SZ的2025年10月30日的单季度ROE变动是否大于0.84？",
     "answer": "否",
@@ -3194,7 +3194,7 @@
   {
     "qa_id": "qa_1_000153",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301176.SZ的2025年10月31日的净资产收益率数值为-1.75，这个数值是否属实？",
     "answer": "否",
@@ -3215,7 +3215,7 @@
   {
     "qa_id": "qa_1_000154",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北海国发川山生物股份有限公司的2025年10月30日的销售毛利率_TTM数值是否为15.33？",
     "answer": "否",
@@ -3236,7 +3236,7 @@
   {
     "qa_id": "qa_1_000155",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江交通科技股份有限公司的2025年10月30日的单季度营业收入同比增长率是否为0.44？",
     "answer": "否",
@@ -3257,7 +3257,7 @@
   {
     "qa_id": "qa_1_000156",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北方光电股份有限公司的财务数据，2025年10月31日的总资产/(流动资产合计-流动负债合计)显示为1.15，这个数据是否准确？",
     "answer": "否",
@@ -3278,7 +3278,7 @@
   {
     "qa_id": "qa_1_000157",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据金浦钛业股份有限公司的财务数据，2025年10月30日的流通市值是否为0.25？",
     "answer": "否",
@@ -3299,7 +3299,7 @@
   {
     "qa_id": "qa_1_000158",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据三角轮胎股份有限公司的财务数据，2025年10月31日的单季EP是否高于0.09？",
     "answer": "否",
@@ -3320,7 +3320,7 @@
   {
     "qa_id": "qa_1_000159",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据605368.SH的财务数据，2025年10月30日的同比增长率-经营活动产生的现金流量净额(%)为-60.19，这个数据是否属实？",
     "answer": "否",
@@ -3341,7 +3341,7 @@
   {
     "qa_id": "qa_1_000160",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海天玑科技股份有限公司的2025年10月30日的标准化预期外盈利是否为0.25？",
     "answer": "否",
@@ -3362,7 +3362,7 @@
   {
     "qa_id": "qa_1_000161",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300755.SZ的2025年10月30日的总资产净利率_TTM是否高于-9.05？",
     "answer": "是",
@@ -3383,7 +3383,7 @@
   {
     "qa_id": "qa_1_000162",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "国轩高科股份有限公司的2025年10月31日的daily_open是否为35.35？",
     "answer": "否",
@@ -3404,7 +3404,7 @@
   {
     "qa_id": "qa_1_000163",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据广州珠江钢琴集团股份有限公司的财务数据，2025年10月30日的销售毛利率显示为1.12，这个数据是否准确？",
     "answer": "否",
@@ -3425,7 +3425,7 @@
   {
     "qa_id": "qa_1_000164",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301276.SZ的2025年10月31日的总资产净利率_TTM为6.61，这个数值是否正确？",
     "answer": "否",
@@ -3446,7 +3446,7 @@
   {
     "qa_id": "qa_1_000165",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据浙江正裕工业股份有限公司的财务数据，2025年10月31日的daily_amplitude显示为3.82，这个数据是否准确？",
     "answer": "否",
@@ -3467,7 +3467,7 @@
   {
     "qa_id": "qa_1_000166",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据广东宝莱特医用科技股份有限公司的财务数据，2025年10月31日的净资产收益率(摊薄)同比增长为27.49，这个数据是否属实？",
     "answer": "否",
@@ -3488,7 +3488,7 @@
   {
     "qa_id": "qa_1_000167",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "钛能化学股份有限公司的2025年10月31日的单季ROA数据为0.9，这个数值是否正确？",
     "answer": "否",
@@ -3509,7 +3509,7 @@
   {
     "qa_id": "qa_1_000168",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "欣旺达电子股份有限公司的2025年10月31日的负债合计是否低于81537698973.16亿？",
     "answer": "是",
@@ -3530,7 +3530,7 @@
   {
     "qa_id": "qa_1_000169",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据安徽鸿路钢结构(集团)股份有限公司的财务数据，2025年10月30日的对数自由流通市值是否低于33.64？",
     "answer": "是",
@@ -3551,7 +3551,7 @@
   {
     "qa_id": "qa_1_000170",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603949.SH的财务数据，2025年10月30日的流动比率是否为12.87？",
     "answer": "否",
@@ -3572,7 +3572,7 @@
   {
     "qa_id": "qa_1_000171",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301479.SZ的2025年10月30日的前十大股东持股比例合计是否小于0.97？",
     "answer": "是",
@@ -3593,7 +3593,7 @@
   {
     "qa_id": "qa_1_000172",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据天津红日药业股份有限公司的财务数据，2025年10月30日的单季EPTTM是否为-0.01？",
     "answer": "否",
@@ -3614,7 +3614,7 @@
   {
     "qa_id": "qa_1_000173",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603272.SH的2025年10月30日的单季度ROE变动是否小于0.76？",
     "answer": "否",
@@ -3635,7 +3635,7 @@
   {
     "qa_id": "qa_1_000174",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "湖南美湖智造股份有限公司的2025年10月30日的销售净利率_TTM数值为8.77，这个数值是否属实？",
     "answer": "否",
@@ -3656,7 +3656,7 @@
   {
     "qa_id": "qa_1_000175",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301331.SZ的财务数据，2025年10月30日的A股总股本是否低于59216080.6万？",
     "answer": "是",
@@ -3677,7 +3677,7 @@
   {
     "qa_id": "qa_1_000176",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300988.SZ的2025年10月31日的流动负债合计是否小于988114204.1亿？",
     "answer": "是",
@@ -3698,7 +3698,7 @@
   {
     "qa_id": "qa_1_000177",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603277.SH的2025年10月31日的对数自由流通市值显示29.44，这个数值是否准确？",
     "answer": "否",
@@ -3719,7 +3719,7 @@
   {
     "qa_id": "qa_1_000178",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据中国银行股份有限公司的财务数据，2025年10月30日的负债合计为26566941262764.34亿，这个数值是否准确无误？",
     "answer": "否",
@@ -3740,7 +3740,7 @@
   {
     "qa_id": "qa_1_000179",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301137.SZ的财务数据，2025年10月31日的单季度营业收入同比增长率显示0.68，这个数据是否属实？",
     "answer": "否",
@@ -3761,7 +3761,7 @@
   {
     "qa_id": "qa_1_000180",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300785.SZ的财务数据，2025年10月31日的单季度ROA变动为0.27，这个数据是否属实？",
     "answer": "否",
@@ -3782,7 +3782,7 @@
   {
     "qa_id": "qa_1_000181",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "兰州佛慈制药股份有限公司的2025年10月30日的同比增长率-基本每股收益(%)是否小于-1.77？",
     "answer": "是",
@@ -3803,7 +3803,7 @@
   {
     "qa_id": "qa_1_000182",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301322.SZ的财务数据，2025年10月30日的流通市值是否高于0.74？",
     "answer": "否",
@@ -3824,7 +3824,7 @@
   {
     "qa_id": "qa_1_000183",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海实业发展股份有限公司的2025年10月31日的自由流通股本换手率是否为0.09？",
     "answer": "否",
@@ -3845,7 +3845,7 @@
   {
     "qa_id": "qa_1_000184",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据桂林三金药业股份有限公司的财务数据，2025年10月31日的非线性流通市值为-1.31，这个数据是否属实？",
     "answer": "否",
@@ -3866,7 +3866,7 @@
   {
     "qa_id": "qa_1_000185",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603350.SH的2025年10月30日的自由流通市值因子是否大于948072905.72亿？",
     "answer": "否",
@@ -3887,7 +3887,7 @@
   {
     "qa_id": "qa_1_000186",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "康达新材料(集团)股份有限公司的2025年10月31日的营业收入(元)是否小于2711353329.77亿？",
     "answer": "是",
@@ -3908,7 +3908,7 @@
   {
     "qa_id": "qa_1_000187",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据中青旅控股股份有限公司的财务数据，2025年10月30日的单季度.归属母公司股东的净利润同比增长率(%)为-1.25，这个数值是否准确无误？",
     "answer": "否",
@@ -3929,7 +3929,7 @@
   {
     "qa_id": "qa_1_000188",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据派斯双林生物制药股份有限公司的财务数据，2025年10月30日的单季度净利润同比增长率为0.52，这个数值是否准确无误？",
     "answer": "否",
@@ -3950,7 +3950,7 @@
   {
     "qa_id": "qa_1_000189",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据002942.SZ的财务数据，2025年10月31日的净利润(元)是否低于153394763.47亿？",
     "answer": "是",
@@ -3971,7 +3971,7 @@
   {
     "qa_id": "qa_1_000190",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中原证券股份有限公司的2025年10月30日的风格因子财务质量(杠杆)数值为-0.14，这个数值是否属实？",
     "answer": "否",
@@ -3992,7 +3992,7 @@
   {
     "qa_id": "qa_1_000191",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海普利特复合材料股份有限公司的2025年10月30日的有形资产/总市值数值是否为0.18？",
     "answer": "否",
@@ -4013,7 +4013,7 @@
   {
     "qa_id": "qa_1_000192",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据新疆青松建材化工(集团)股份有限公司的财务数据，2025年10月31日的标准化预期外盈利是否为0.11？",
     "answer": "否",
@@ -4034,7 +4034,7 @@
   {
     "qa_id": "qa_1_000193",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688411.SH的2025年10月31日的单季EP一年分位数是否小于0.22？",
     "answer": "是",
@@ -4055,7 +4055,7 @@
   {
     "qa_id": "qa_1_000194",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中国民生银行股份有限公司的2025年10月31日的流通A股是否小于53162627512.7亿？",
     "answer": "是",
@@ -4076,7 +4076,7 @@
   {
     "qa_id": "qa_1_000195",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603863.SH的2025年10月30日的单季度ROE变动数值是否为0.17？",
     "answer": "否",
@@ -4097,7 +4097,7 @@
   {
     "qa_id": "qa_1_000196",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "新兴铸管股份有限公司的2025年10月31日的标准化预期外营业收入是否小于0.64？",
     "answer": "否",
@@ -4118,7 +4118,7 @@
   {
     "qa_id": "qa_1_000197",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603380.SH的财务数据，2025年10月31日的同比增长率-归属母公为36.33，这个数据是否属实？",
     "answer": "否",
@@ -4139,7 +4139,7 @@
   {
     "qa_id": "qa_1_000198",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江新安化工集团股份有限公司的2025年10月30日的单季超预期幅度是否小于0.24？",
     "answer": "否",
@@ -4160,7 +4160,7 @@
   {
     "qa_id": "qa_1_000199",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688718.SH的2025年10月31日的市净率(PB)数据为4.2，这个数值是否正确？",
     "answer": "否",
@@ -4181,7 +4181,7 @@
   {
     "qa_id": "qa_1_000200",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300842.SZ的财务数据，2025年10月31日的风格因子财务质量(杠杆)显示1.08，这个数据是否属实？",
     "answer": "否",
@@ -4202,7 +4202,7 @@
   {
     "qa_id": "qa_1_000201",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688981.SH的2025年10月31日的单季BP三年分位数数值是否为0.02？",
     "answer": "否",
@@ -4223,7 +4223,7 @@
   {
     "qa_id": "qa_1_000202",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市捷顺科技实业股份有限公司的2025年10月31日的扣除非经常性损益后的净利润/总市值是否低于0.01？",
     "answer": "否",
@@ -4244,7 +4244,7 @@
   {
     "qa_id": "qa_1_000203",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据天津津投城市开发股份有限公司的财务数据，2025年10月31日的自由流通股本为611164950.92亿，这个数值是否准确无误？",
     "answer": "否",
@@ -4265,7 +4265,7 @@
   {
     "qa_id": "qa_1_000204",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301370.SZ的财务数据，2025年10月31日的股价/每股派息显示0.72，这个数据是否属实？",
     "answer": "否",
@@ -4286,7 +4286,7 @@
   {
     "qa_id": "qa_1_000205",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据深圳市英唐智能控制股份有限公司的财务数据，2025年10月31日的流动负债合计是否高于858038012.75亿？",
     "answer": "否",
@@ -4307,7 +4307,7 @@
   {
     "qa_id": "qa_1_000206",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据柳州化工股份有限公司的财务数据，2025年10月30日的单季EP一年分位数为0.01，这个数值是否准确无误？",
     "answer": "否",
@@ -4328,7 +4328,7 @@
   {
     "qa_id": "qa_1_000207",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "江苏银行股份有限公司的2025年10月30日的单季超预期幅度是否高于0.29？",
     "answer": "否",
@@ -4349,7 +4349,7 @@
   {
     "qa_id": "qa_1_000208",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "武汉祥龙电业股份有限公司的2025年10月31日的标准化预期外盈利是否为0.8？",
     "answer": "否",
@@ -4370,7 +4370,7 @@
   {
     "qa_id": "qa_1_000209",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "海南矿业股份有限公司的2025年10月30日的单季BP是否低于0.45？",
     "answer": "是",
@@ -4391,7 +4391,7 @@
   {
     "qa_id": "qa_1_000210",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据四川路桥建设集团股份有限公司的财务数据，2025年10月30日的净资产(同比增长率)显示14.2，这个数据是否属实？",
     "answer": "否",
@@ -4412,7 +4412,7 @@
   {
     "qa_id": "qa_1_000211",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据宜宾天原集团股份有限公司的财务数据，2025年10月31日的自由流通股本显示为986432532.61亿，这个数据是否准确？",
     "answer": "否",
@@ -4433,7 +4433,7 @@
   {
     "qa_id": "qa_1_000212",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "601133.SH的2025年10月31日的市现率(PCF,现金净流量TTM)数值是否为29.49？",
     "answer": "否",
@@ -4454,7 +4454,7 @@
   {
     "qa_id": "qa_1_000213",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "东方证券股份有限公司的2025年10月31日的DELTAROA数据为0.2，这个数值是否正确？",
     "answer": "否",
@@ -4475,7 +4475,7 @@
   {
     "qa_id": "qa_1_000214",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "德力西新能源科技股份有限公司的2025年10月30日的daily_volume是否高于19115269.73万？",
     "answer": "否",
@@ -4496,7 +4496,7 @@
   {
     "qa_id": "qa_1_000215",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "601156.SH的2025年10月30日的公司基本面评分：最终基本面分是否小于5.16？",
     "answer": "是",
@@ -4517,7 +4517,7 @@
   {
     "qa_id": "qa_1_000216",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301536.SZ的财务数据，2025年10月31日的净利润(元)显示为109274797.25亿，这个数据是否准确？",
     "answer": "否",
@@ -4538,7 +4538,7 @@
   {
     "qa_id": "qa_1_000217",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300781.SZ的财务数据，2025年10月31日的当日流通市值对数为11.28，这个数值是否准确无误？",
     "answer": "否",
@@ -4559,7 +4559,7 @@
   {
     "qa_id": "qa_1_000218",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据湖南湘邮科技股份有限公司的财务数据，2025年10月30日的销售毛利率显示10.95，这个数据是否属实？",
     "answer": "否",
@@ -4580,7 +4580,7 @@
   {
     "qa_id": "qa_1_000219",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688209.SH的财务数据，2025年10月30日的单季BP三年分位数是否低于0.14？",
     "answer": "否",
@@ -4601,7 +4601,7 @@
   {
     "qa_id": "qa_1_000220",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603855.SH的2025年10月31日的股息率数值是否为5.91？",
     "answer": "否",
@@ -4622,7 +4622,7 @@
   {
     "qa_id": "qa_1_000221",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据002956.SZ的财务数据，2025年10月30日的流动资产合计为1594189486.75亿，这个数值是否准确无误？",
     "answer": "否",
@@ -4643,7 +4643,7 @@
   {
     "qa_id": "qa_1_000222",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据铜陵精达特种电磁线股份有限公司的财务数据，2025年10月30日的DELTAROA显示为-0.22，这个数据是否准确？",
     "answer": "否",
@@ -4664,7 +4664,7 @@
   {
     "qa_id": "qa_1_000223",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603757.SH的2025年10月30日的单季度毛利率是否小于33.75？",
     "answer": "是",
@@ -4685,7 +4685,7 @@
   {
     "qa_id": "qa_1_000224",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "601019.SH的2025年10月30日的负债合计为6267766845.75亿，这个数值是否正确？",
     "answer": "否",
@@ -4706,7 +4706,7 @@
   {
     "qa_id": "qa_1_000225",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603080.SH的2025年10月31日的自由流通股本为46318593.33万，这个数值是否正确？",
     "answer": "否",
@@ -4727,7 +4727,7 @@
   {
     "qa_id": "qa_1_000226",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据003023.SZ的财务数据，2025年10月30日的净资产(同比增长率)是否为3.85？",
     "answer": "否",
@@ -4748,7 +4748,7 @@
   {
     "qa_id": "qa_1_000227",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据杭州炬华科技股份有限公司的财务数据，2025年10月30日的当日流通市值对数是否低于12.15？",
     "answer": "否",
@@ -4769,7 +4769,7 @@
   {
     "qa_id": "qa_1_000228",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "001283.SZ的2025年10月31日的风格因子财务质量(杠杆)为0.01，这个数值是否正确？",
     "answer": "否",
@@ -4790,7 +4790,7 @@
   {
     "qa_id": "qa_1_000229",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "国机汽车股份有限公司的2025年10月30日的公司基本面评分：最终基本面分为4.42，这个数值是否正确？",
     "answer": "否",
@@ -4811,7 +4811,7 @@
   {
     "qa_id": "qa_1_000230",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301228.SZ的财务数据，2025年10月30日的同比增长率-归属母公显示-2.3，这个数据是否属实？",
     "answer": "否",
@@ -4832,7 +4832,7 @@
   {
     "qa_id": "qa_1_000231",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301539.SZ的财务数据，2025年10月31日的自由流通股本显示为40976636.56万，这个数据是否准确？",
     "answer": "否",
@@ -4853,7 +4853,7 @@
   {
     "qa_id": "qa_1_000232",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海新动力汽车科技股份有限公司的2025年10月30日的负债合计是否大于6535287277.95亿？",
     "answer": "否",
@@ -4874,7 +4874,7 @@
   {
     "qa_id": "qa_1_000233",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688004.SH的2025年10月31日的流通A股数据是否为45354623.16万？",
     "answer": "否",
@@ -4895,7 +4895,7 @@
   {
     "qa_id": "qa_1_000234",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京君正集成电路股份有限公司的2025年10月31日的市净率(PB)显示2.17，这个数值是否准确？",
     "answer": "否",
@@ -4916,7 +4916,7 @@
   {
     "qa_id": "qa_1_000235",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301148.SZ的财务数据，2025年10月30日的单季BP显示为0.62，这个数据是否准确？",
     "answer": "否",
@@ -4937,7 +4937,7 @@
   {
     "qa_id": "qa_1_000236",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据天奇自动化工程股份有限公司的财务数据，2025年10月31日的非线性流通市值是否高于-0.62？",
     "answer": "否",
@@ -4958,7 +4958,7 @@
   {
     "qa_id": "qa_1_000237",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "陕西建工集团股份有限公司的2025年10月31日的单季SP一年分位数是否低于0.32？",
     "answer": "是",
@@ -4979,7 +4979,7 @@
   {
     "qa_id": "qa_1_000238",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江金固股份有限公司的2025年10月31日的有形资产数据是否为1719396446.59亿？",
     "answer": "否",
@@ -5000,7 +5000,7 @@
   {
     "qa_id": "qa_1_000239",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "安徽江南化工股份有限公司的2025年10月30日的标准化预期外ROE是否低于0.2？",
     "answer": "否",
@@ -5021,7 +5021,7 @@
   {
     "qa_id": "qa_1_000240",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688337.SH的2025年10月31日的DELTAROE为0.44，这个数值是否正确？",
     "answer": "否",
@@ -5042,7 +5042,7 @@
   {
     "qa_id": "qa_1_000241",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603312.SH的财务数据，2025年10月31日的有形资产是否低于163938.6万（四舍五入）？",
     "answer": "否",
@@ -5063,7 +5063,7 @@
   {
     "qa_id": "qa_1_000242",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据上海飞凯材料科技股份有限公司的财务数据，2025年10月30日的有形资产为364030.4万（四舍五入），这个数值是否准确无误？",
     "answer": "是",
@@ -5084,7 +5084,7 @@
   {
     "qa_id": "qa_1_000243",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据协鑫能源科技股份有限公司的财务数据，2025年10月30日的有形资产为95.35亿（四舍五入），这个数值是否准确无误？",
     "answer": "是",
@@ -5105,7 +5105,7 @@
   {
     "qa_id": "qa_1_000244",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "康美药业股份有限公司的2025年10月30日的营业收入(元)为25.77亿（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -5126,7 +5126,7 @@
   {
     "qa_id": "qa_1_000245",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603217.SH的财务数据，2025年10月31日的负债合计显示171830.44万（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -5147,7 +5147,7 @@
   {
     "qa_id": "qa_1_000246",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据南方电网储能股份有限公司的财务数据，2025年10月30日的营业收入(元)显示53.2亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -5168,7 +5168,7 @@
   {
     "qa_id": "qa_1_000247",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据新洋丰农业科技股份有限公司的财务数据，2025年10月30日的当日流通市值为169.82万（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -5189,7 +5189,7 @@
   {
     "qa_id": "qa_1_000248",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "四川中光防雷科技股份有限公司的2025年10月31日的流动资产合计是否小于99377.13万（四舍五入）？",
     "answer": "否",
@@ -5210,7 +5210,7 @@
   {
     "qa_id": "qa_1_000249",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "晋能控股山西煤业股份有限公司的2025年10月31日的净利润(元)数据为12.77亿（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -5231,7 +5231,7 @@
   {
     "qa_id": "qa_1_000250",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301063.SZ的2025年10月30日的A股总股本是否为1.04亿（四舍五入）？",
     "answer": "是",
@@ -5252,7 +5252,7 @@
   {
     "qa_id": "qa_1_000251",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300721.SZ的2025年10月30日的自由流通市值因子是否低于12.85亿（四舍五入）？",
     "answer": "否",
@@ -5273,7 +5273,7 @@
   {
     "qa_id": "qa_1_000252",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中国天楹股份有限公司的2025年10月30日的净利润(元)显示2.12亿（四舍五入），这个数值是否准确？",
     "answer": "是",
@@ -5294,7 +5294,7 @@
   {
     "qa_id": "qa_1_000253",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300946.SZ的2025年10月31日的流动资产合计数据是否为8.43亿（四舍五入）？",
     "answer": "是",
@@ -5315,7 +5315,7 @@
   {
     "qa_id": "qa_1_000254",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "山东矿机集团股份有限公司的2025年10月30日的扣除非经常性损益后的净利润数据是否为0.35亿（四舍五入）？",
     "answer": "是",
@@ -5336,7 +5336,7 @@
   {
     "qa_id": "qa_1_000255",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301036.SZ的2025年10月30日的营业收入(元)数值为110997.13万（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -5357,7 +5357,7 @@
   {
     "qa_id": "qa_1_000256",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603879.SH的财务数据，2025年10月31日的自由流通市值因子是否高于160106.37万（四舍五入）？",
     "answer": "否",
@@ -5378,7 +5378,7 @@
   {
     "qa_id": "qa_1_000257",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳万润科技股份有限公司的2025年10月30日的自由流通市值因子数值是否为115.08亿（四舍五入）？",
     "answer": "是",
@@ -5399,7 +5399,7 @@
   {
     "qa_id": "qa_1_000258",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据001287.SZ的财务数据，2025年10月31日的流动负债合计为2349207.35万（四舍五入），这个数值是否准确无误？",
     "answer": "是",
@@ -5420,7 +5420,7 @@
   {
     "qa_id": "qa_1_000259",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山子高科技股份有限公司的财务数据，2025年10月31日的当日流通市值显示388.14万（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -5441,7 +5441,7 @@
   {
     "qa_id": "qa_1_000260",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据广州广日股份有限公司的财务数据，2025年10月31日的自由流通股本显示3.57亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -5462,7 +5462,7 @@
   {
     "qa_id": "qa_1_000261",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688297.SH的财务数据，2025年10月31日的扣除非经常性损益后的净利润是否高于2194.58万（四舍五入）？",
     "answer": "否",
@@ -5483,7 +5483,7 @@
   {
     "qa_id": "qa_1_000262",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "东易日盛家居装饰集团股份有限公司的2025年10月31日的流动资产合计数据是否为6.66亿（四舍五入）？",
     "answer": "是",
@@ -5504,7 +5504,7 @@
   {
     "qa_id": "qa_1_000263",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688653.SH的财务数据，2025年10月31日的扣除非经常性损益后的净利润为-0.48亿（四舍五入），这个数值是否准确无误？",
     "answer": "是",
@@ -5525,7 +5525,7 @@
   {
     "qa_id": "qa_1_000264",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市中装建设集团股份有限公司的2025年10月31日的daily_amount是否小于7271.55万（四舍五入）？",
     "answer": "否",
@@ -5546,7 +5546,7 @@
   {
     "qa_id": "qa_1_000265",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据上海交大昂立股份有限公司的财务数据，2025年10月30日的营业收入(元)是否高于2.24亿（四舍五入）？",
     "answer": "否",
@@ -5567,7 +5567,7 @@
   {
     "qa_id": "qa_1_000266",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688032.SH的财务数据，2025年10月30日的自由流通市值因子是否低于50.71亿（四舍五入）？",
     "answer": "否",
@@ -5588,7 +5588,7 @@
   {
     "qa_id": "qa_1_000267",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300857.SZ的财务数据，2025年10月31日的自由流通市值因子为347.68亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -5609,7 +5609,7 @@
   {
     "qa_id": "qa_1_000268",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京电子城高科技集团股份有限公司的2025年10月31日的流动负债合计为669806.75万（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -5630,7 +5630,7 @@
   {
     "qa_id": "qa_1_000269",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据长春高新技术产业(集团)股份有限公司的财务数据，2025年10月31日的扣除非经常性损益后的净利润为12.69亿（四舍五入），这个数值是否准确无误？",
     "answer": "是",
@@ -5651,7 +5651,7 @@
   {
     "qa_id": "qa_1_000270",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688057.SH的2025年10月30日的自由流通股本是否低于1.4亿（四舍五入）？",
     "answer": "否",
@@ -5672,7 +5672,7 @@
   {
     "qa_id": "qa_1_000271",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江亚厦装饰股份有限公司的2025年10月31日的流通A股数据是否为13.27亿（四舍五入）？",
     "answer": "是",
@@ -5693,7 +5693,7 @@
   {
     "qa_id": "qa_1_000272",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688287.SH的2025年10月31日的A股总股本是否为37051.56万（四舍五入）？",
     "answer": "是",
@@ -5714,7 +5714,7 @@
   {
     "qa_id": "qa_1_000273",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603041.SH的2025年10月30日的有形资产是否高于14.14亿（四舍五入）？",
     "answer": "否",
@@ -5735,7 +5735,7 @@
   {
     "qa_id": "qa_1_000274",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300686.SZ的2025年10月30日的自由流通市值因子显示27.14亿（四舍五入），这个数值是否准确？",
     "answer": "是",
@@ -5756,7 +5756,7 @@
   {
     "qa_id": "qa_1_000275",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688506.SH的2025年10月31日的自由流通市值因子是否小于277.17亿（四舍五入）？",
     "answer": "否",
@@ -5777,7 +5777,7 @@
   {
     "qa_id": "qa_1_000276",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301278.SZ的2025年10月30日的营业收入(元)是否高于7.99亿（四舍五入）？",
     "answer": "否",
@@ -5798,7 +5798,7 @@
   {
     "qa_id": "qa_1_000277",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "攀钢集团钒钛资源股份有限公司的2025年10月30日的A股总股本是否大于929094.78万（四舍五入）？",
     "answer": "否",
@@ -5819,7 +5819,7 @@
   {
     "qa_id": "qa_1_000278",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300858.SZ的财务数据，2025年10月31日的流动负债合计是否为8424.69万（四舍五入）？",
     "answer": "是",
@@ -5840,7 +5840,7 @@
   {
     "qa_id": "qa_1_000279",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东鸿特科技股份有限公司的2025年10月31日的daily_amount是否大于0.92亿（四舍五入）？",
     "answer": "否",
@@ -5861,7 +5861,7 @@
   {
     "qa_id": "qa_1_000280",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603281.SH的2025年10月31日的流通A股是否低于2.52亿（四舍五入）？",
     "answer": "否",
@@ -5882,7 +5882,7 @@
   {
     "qa_id": "qa_1_000281",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688653.SH的2025年10月31日的流动资产合计数值为14.73亿（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -5903,7 +5903,7 @@
   {
     "qa_id": "qa_1_000282",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳四方精创资讯股份有限公司的2025年10月30日的自由流通股本为39245.3万（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -5924,7 +5924,7 @@
   {
     "qa_id": "qa_1_000283",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "宜宾五粮液股份有限公司的2025年10月31日的自由流通股本数值为174339.32万（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -5945,7 +5945,7 @@
   {
     "qa_id": "qa_1_000284",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "山东华鹏玻璃股份有限公司的2025年10月31日的自由流通市值因子为90954.02万（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -5966,7 +5966,7 @@
   {
     "qa_id": "qa_1_000285",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据通源石油科技集团股份有限公司的财务数据，2025年10月30日的负债合计是否高于56781.38万（四舍五入）？",
     "answer": "否",
@@ -5987,7 +5987,7 @@
   {
     "qa_id": "qa_1_000286",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688012.SH的2025年10月30日的当日总市值是否为0.19亿（四舍五入）？",
     "answer": "是",
@@ -6008,7 +6008,7 @@
   {
     "qa_id": "qa_1_000287",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京银行股份有限公司的财务数据，2025年10月31日的有形资产是否为34445100.0万（四舍五入）？",
     "answer": "是",
@@ -6029,7 +6029,7 @@
   {
     "qa_id": "qa_1_000288",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据江苏法尔胜股份有限公司的财务数据，2025年10月31日的营业收入(元)是否高于20453.36万（四舍五入）？",
     "answer": "否",
@@ -6050,7 +6050,7 @@
   {
     "qa_id": "qa_1_000289",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688313.SH的2025年10月31日的自由流通股本数值为2.73亿（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -6071,7 +6071,7 @@
   {
     "qa_id": "qa_1_000290",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据605003.SH的财务数据，2025年10月31日的负债合计为11766.89万（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -6092,7 +6092,7 @@
   {
     "qa_id": "qa_1_000291",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据圆通速递股份有限公司的财务数据，2025年10月31日的当日流通市值是否为0.06亿（四舍五入）？",
     "answer": "是",
@@ -6113,7 +6113,7 @@
   {
     "qa_id": "qa_1_000292",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300749.SZ的2025年10月30日的净利润(元)数值为0.12亿（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -6134,7 +6134,7 @@
   {
     "qa_id": "qa_1_000293",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "河南明泰铝业股份有限公司的2025年10月31日的负债合计是否为830256.74万（四舍五入）？",
     "answer": "是",
@@ -6155,7 +6155,7 @@
   {
     "qa_id": "qa_1_000294",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据绿地控股集团股份有限公司的财务数据，2025年10月30日的扣除非经常性损益后的净利润显示-30.96亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -6176,7 +6176,7 @@
   {
     "qa_id": "qa_1_000295",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301456.SZ的财务数据，2025年10月30日的扣除非经常性损益后的净利润是否高于4583.16万（四舍五入）？",
     "answer": "否",
@@ -6197,7 +6197,7 @@
   {
     "qa_id": "qa_1_000296",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市聚飞光电股份有限公司的2025年10月30日的A股总股本是否大于14.16亿（四舍五入）？",
     "answer": "否",
@@ -6218,7 +6218,7 @@
   {
     "qa_id": "qa_1_000297",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "山东新华医疗器械股份有限公司的2025年10月31日的流通A股是否低于6.04亿（四舍五入）？",
     "answer": "否",
@@ -6239,7 +6239,7 @@
   {
     "qa_id": "qa_1_000298",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "龙佰集团股份有限公司的2025年10月31日的自由流通股本数值为14.4亿（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -6260,7 +6260,7 @@
   {
     "qa_id": "qa_1_000299",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "长沙景嘉微电子股份有限公司的2025年10月31日的流通A股显示40647.41万（四舍五入），这个数值是否准确？",
     "answer": "是",
@@ -6281,7 +6281,7 @@
   {
     "qa_id": "qa_1_000300",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301096.SZ的2025年10月30日的有形资产是否低于24.59亿（四舍五入）？",
     "answer": "否",
@@ -6302,7 +6302,7 @@
   {
     "qa_id": "qa_1_000301",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "苏州工业园区和顺电气股份有限公司的2025年10月30日的负债合计是否大于4.22亿（四舍五入）？",
     "answer": "否",
@@ -6323,7 +6323,7 @@
   {
     "qa_id": "qa_1_000302",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688171.SH的财务数据，2025年10月31日的自由流通市值因子为219576.15万（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -6344,7 +6344,7 @@
   {
     "qa_id": "qa_1_000303",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688234.SH的2025年10月30日的有形资产是否小于70.4亿（四舍五入）？",
     "answer": "否",
@@ -6365,7 +6365,7 @@
   {
     "qa_id": "qa_1_000304",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东光华科技股份有限公司的2025年10月31日的净利润(元)为0.9亿（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -6386,7 +6386,7 @@
   {
     "qa_id": "qa_1_000305",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中信海洋直升机股份有限公司的2025年10月31日的A股总股本数据为77577.01万（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -6407,7 +6407,7 @@
   {
     "qa_id": "qa_1_000306",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东恒申美达新材料股份公司的2025年10月30日的净利润(元)数据为-5704.91万（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -6428,7 +6428,7 @@
   {
     "qa_id": "qa_1_000307",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据中国宝安集团股份有限公司的财务数据，2025年10月30日的A股总股本为25.79亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -6449,7 +6449,7 @@
   {
     "qa_id": "qa_1_000308",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据永泰能源集团股份有限公司的财务数据，2025年10月31日的负债合计是否为562.32亿（四舍五入）？",
     "answer": "是",
@@ -6470,7 +6470,7 @@
   {
     "qa_id": "qa_1_000309",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据国睿科技股份有限公司的财务数据，2025年10月31日的有形资产为63.1亿（四舍五入），这个数值是否准确无误？",
     "answer": "是",
@@ -6491,7 +6491,7 @@
   {
     "qa_id": "qa_1_000310",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603926.SH的2025年10月30日的A股总股本数据为2.35亿（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -6512,7 +6512,7 @@
   {
     "qa_id": "qa_1_000311",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海元祖梦果子股份有限公司的2025年10月31日的流动资产合计为206989.65万（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -6533,7 +6533,7 @@
   {
     "qa_id": "qa_1_000312",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据宁波韵升股份有限公司的财务数据，2025年10月31日的扣除非经常性损益后的净利润显示为25100.05万（四舍五入），这个数据是否准确？",
     "answer": "是",
@@ -6554,7 +6554,7 @@
   {
     "qa_id": "qa_1_000313",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江新安化工集团股份有限公司的2025年10月30日的营业收入(元)数据是否为116.99亿（四舍五入）？",
     "answer": "是",
@@ -6575,7 +6575,7 @@
   {
     "qa_id": "qa_1_000314",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市卓翼科技股份有限公司的2025年10月30日的扣除非经常性损益后的净利润是否低于-1.56亿（四舍五入）？",
     "answer": "否",
@@ -6596,7 +6596,7 @@
   {
     "qa_id": "qa_1_000315",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "江西赣锋锂业集团股份有限公司的2025年10月30日的自由流通股本是否低于104970.17万（四舍五入）？",
     "answer": "否",
@@ -6617,7 +6617,7 @@
   {
     "qa_id": "qa_1_000316",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603982.SH的2025年10月31日的有形资产数值是否为18.45亿（四舍五入）？",
     "answer": "是",
@@ -6638,7 +6638,7 @@
   {
     "qa_id": "qa_1_000317",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300723.SZ的财务数据，2025年10月31日的A股总股本是否高于45169.28万（四舍五入）？",
     "answer": "否",
@@ -6659,7 +6659,7 @@
   {
     "qa_id": "qa_1_000318",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据中国船舶重工集团应急预警与救援装备股份有限公司的财务数据，2025年10月30日的daily_volume为0.18亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -6680,7 +6680,7 @@
   {
     "qa_id": "qa_1_000319",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "陕西宝光真空电器股份有限公司的2025年10月31日的有形资产是否高于73331.21万（四舍五入）？",
     "answer": "否",
@@ -6701,7 +6701,7 @@
   {
     "qa_id": "qa_1_000320",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688025.SH的2025年10月31日的负债合计是否高于91018.04万（四舍五入）？",
     "answer": "否",
@@ -6722,7 +6722,7 @@
   {
     "qa_id": "qa_1_000321",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海徕木电子股份有限公司的2025年10月30日的公司基本面评分：调整前基本面分是否大于2.5？",
     "answer": "否",
@@ -6743,7 +6743,7 @@
   {
     "qa_id": "qa_1_000322",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "金通灵科技集团股份有限公司的2025年10月30日的净资产收益率_TTM是否大于-347.9116？",
     "answer": "否",
@@ -6764,7 +6764,7 @@
   {
     "qa_id": "qa_1_000323",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301577.SZ的财务数据，2025年10月31日的单季度净利润同比增长率高于0.4，这个数据是否属实？",
     "answer": "是",
@@ -6785,7 +6785,7 @@
   {
     "qa_id": "qa_1_000324",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据长虹美菱股份有限公司的财务数据，2025年10月31日的非线性流通市值是否高于-0.7176446337784994？",
     "answer": "否",
@@ -6806,7 +6806,7 @@
   {
     "qa_id": "qa_1_000325",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "山西同德化工股份有限公司的2025年10月30日的标准化预期外ROA是否低于0.5140664961636828？",
     "answer": "否",
@@ -6827,7 +6827,7 @@
   {
     "qa_id": "qa_1_000326",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东顺钠电气股份有限公司的2025年10月31日的单季ROE是否低于2.3086？",
     "answer": "否",
@@ -6848,7 +6848,7 @@
   {
     "qa_id": "qa_1_000327",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300688.SZ的财务数据，2025年10月31日的对数流通市值是否高于2203.653139877328？",
     "answer": "否",
@@ -6869,7 +6869,7 @@
   {
     "qa_id": "qa_1_000328",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300833.SZ的2025年10月30日的全部资产现金回收率大于1.9012，这个数值是否正确？",
     "answer": "是",
@@ -6890,7 +6890,7 @@
   {
     "qa_id": "qa_1_000329",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603607.SH的2025年10月31日的市销率(PS_TTM)是否高于4.5103？",
     "answer": "否",
@@ -6911,7 +6911,7 @@
   {
     "qa_id": "qa_1_000330",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "宁波建工股份有限公司的2025年10月30日的同比增长率-归属母公是否大于-15.9163？",
     "answer": "否",
@@ -6932,7 +6932,7 @@
   {
     "qa_id": "qa_1_000331",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京九强生物技术股份有限公司的财务数据，2025年10月30日的全部资产现金回收率低于4.485，这个数据是否属实？",
     "answer": "是",
@@ -6953,7 +6953,7 @@
   {
     "qa_id": "qa_1_000332",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "成都富森美家居股份有限公司的2025年10月31日的净资产(同比增长率)是否大于-2.7693？",
     "answer": "否",
@@ -6974,7 +6974,7 @@
   {
     "qa_id": "qa_1_000333",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301040.SZ的财务数据，2025年10月31日的股息率显示小于0.0，这个数据是否准确？",
     "answer": "是",
@@ -6995,7 +6995,7 @@
   {
     "qa_id": "qa_1_000334",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京航天神舟智能装备科技股份有限公司的财务数据，2025年10月31日的总资产周转率是否高于0.2317？",
     "answer": "否",
@@ -7016,7 +7016,7 @@
   {
     "qa_id": "qa_1_000335",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据湖南梦洁家纺股份有限公司的财务数据，2025年10月31日的风格因子盈利大于0.231817467390938，这个数据是否属实？",
     "answer": "是",
@@ -7037,7 +7037,7 @@
   {
     "qa_id": "qa_1_000336",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "湖北台基半导体股份有限公司的2025年10月30日的标准化预期外ROA是否低于0.4799107142857143？",
     "answer": "否",
@@ -7058,7 +7058,7 @@
   {
     "qa_id": "qa_1_000337",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301606.SZ的2025年10月30日的风格因子财务质量(杠杆)数据是否高于1.8951716560923653？",
     "answer": "否",
@@ -7079,7 +7079,7 @@
   {
     "qa_id": "qa_1_000338",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海城地香江数据科技股份有限公司的2025年10月30日的单季EPTTM是否高于-0.0276018161995059？",
     "answer": "否",
@@ -7100,7 +7100,7 @@
   {
     "qa_id": "qa_1_000339",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据龙星科技集团股份有限公司的财务数据，2025年10月30日的标准化预期外ROA低于0.0818414322250639，这个数据是否属实？",
     "answer": "是",
@@ -7121,7 +7121,7 @@
   {
     "qa_id": "qa_1_000340",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "宁波中百股份有限公司的2025年10月31日的扣除非经常性损益后的净利润/总市值是否高于0.0043563860381523？",
     "answer": "否",
@@ -7142,7 +7142,7 @@
   {
     "qa_id": "qa_1_000341",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301293.SZ的2025年10月31日的同比增长率-净资产收益率(摊薄)(%)是否低于-21.3617？",
     "answer": "否",
@@ -7163,7 +7163,7 @@
   {
     "qa_id": "qa_1_000342",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海爱建集团股份有限公司的2025年10月30日的标准化预期外ROE是否大于0.6097560975609756？",
     "answer": "否",
@@ -7184,7 +7184,7 @@
   {
     "qa_id": "qa_1_000343",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据合力泰科技股份有限公司的财务数据，2025年10月30日的单季度营业利润同比增长率是否低于0.1371681415929203？",
     "answer": "否",
@@ -7205,7 +7205,7 @@
   {
     "qa_id": "qa_1_000344",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海大智慧股份有限公司的2025年10月30日的自由流通市值因子是否小于14367888107.68亿？",
     "answer": "否",
@@ -7226,7 +7226,7 @@
   {
     "qa_id": "qa_1_000345",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据上海延华智能科技(集团)股份有限公司的财务数据，2025年10月31日的净利润同比增长低于208.1783，这个数据是否属实？",
     "answer": "是",
@@ -7247,7 +7247,7 @@
   {
     "qa_id": "qa_1_000346",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301195.SZ的2025年10月30日的自由流通市值因子是否大于1427250745.9599998亿？",
     "answer": "否",
@@ -7268,7 +7268,7 @@
   {
     "qa_id": "qa_1_000347",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688251.SH的2025年10月31日的标准化预期外营业收入是否高于0.1519756838905775？",
     "answer": "否",
@@ -7289,7 +7289,7 @@
   {
     "qa_id": "qa_1_000348",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301172.SZ的2025年10月31日的同比增长率-归属母公大于-47.065，这个数值是否正确？",
     "answer": "是",
@@ -7310,7 +7310,7 @@
   {
     "qa_id": "qa_1_000349",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301525.SZ的财务数据，2025年10月31日的有形资产/总市值是否高于0.3639380587113504？",
     "answer": "否",
@@ -7331,7 +7331,7 @@
   {
     "qa_id": "qa_1_000350",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688767.SH的2025年10月31日的市净率(PB)低于2.9764，这个数值是否正确？",
     "answer": "是",
@@ -7352,7 +7352,7 @@
   {
     "qa_id": "qa_1_000351",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301072.SZ的2025年10月31日的公司基本面评分：调整前基本面分数值小于1.88，这个数值是否属实？",
     "answer": "是",
@@ -7373,7 +7373,7 @@
   {
     "qa_id": "qa_1_000352",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京同有飞骥科技股份有限公司的2025年10月31日的净资产(同比增长率)是否小于-21.1008？",
     "answer": "否",
@@ -7394,7 +7394,7 @@
   {
     "qa_id": "qa_1_000353",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据万华化学集团股份有限公司的财务数据，2025年10月30日的扣除非经常性损益后的净利润/总市值显示小于0.0471098534598889，这个数据是否准确？",
     "answer": "是",
@@ -7415,7 +7415,7 @@
   {
     "qa_id": "qa_1_000354",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳信隆健康产业发展股份有限公司的2025年10月30日的单季BP是否高于0.333000333000333？",
     "answer": "否",
@@ -7436,7 +7436,7 @@
   {
     "qa_id": "qa_1_000355",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据吉林华微电子股份有限公司的财务数据，2025年10月30日的标准化预期外ROE是否高于0.1316964285714285？",
     "answer": "否",
@@ -7457,7 +7457,7 @@
   {
     "qa_id": "qa_1_000356",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "丽江玉龙旅游股份有限公司的2025年10月31日的总资产/(流动资产合计-流动负债合计)是否小于0.5419646566902991？",
     "answer": "否",
@@ -7478,7 +7478,7 @@
   {
     "qa_id": "qa_1_000357",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "众业达电气股份有限公司的2025年10月30日的DELTAROE是否大于0.8092？",
     "answer": "否",
@@ -7499,7 +7499,7 @@
   {
     "qa_id": "qa_1_000358",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688196.SH的财务数据，2025年10月31日的单季度ROA变动是否大于0.1969309462915601？",
     "answer": "否",
@@ -7520,7 +7520,7 @@
   {
     "qa_id": "qa_1_000359",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603275.SH的财务数据，2025年10月30日的标准化预期外扣非盈利低于0.1220930232558139，这个数值是否准确无误？",
     "answer": "是",
@@ -7541,7 +7541,7 @@
   {
     "qa_id": "qa_1_000360",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688098.SH的2025年10月30日的净资产收益率_TTM数据低于-2.1517，这个数值是否正确？",
     "answer": "是",
@@ -7562,7 +7562,7 @@
   {
     "qa_id": "qa_1_000361",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "利尔化学股份有限公司的2025年10月30日的单季ROE数据是否大于1.4974？",
     "answer": "否",
@@ -7583,7 +7583,7 @@
   {
     "qa_id": "qa_1_000362",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "新疆众和股份有限公司的2025年10月30日的有形资产/总市值是否大于0.9091059728073622？",
     "answer": "否",
@@ -7604,7 +7604,7 @@
   {
     "qa_id": "qa_1_000363",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据上海贝岭股份有限公司的财务数据，2025年10月30日的DELTAROA是否低于-0.0935999999999999？",
     "answer": "否",
@@ -7625,7 +7625,7 @@
   {
     "qa_id": "qa_1_000364",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海申达股份有限公司的2025年10月31日的单季度ROA变动是否大于0.1406844106463878？",
     "answer": "否",
@@ -7646,7 +7646,7 @@
   {
     "qa_id": "qa_1_000365",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据中国建筑股份有限公司的财务数据，2025年10月31日的高管平均薪酬是否高于0.0838709677419354？",
     "answer": "否",
@@ -7667,7 +7667,7 @@
   {
     "qa_id": "qa_1_000366",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "南京科远智慧科技集团股份有限公司的2025年10月31日的单季度毛利率数据高于39.1207，这个数值是否正确？",
     "answer": "是",
@@ -7688,7 +7688,7 @@
   {
     "qa_id": "qa_1_000367",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "陕西宝光真空电器股份有限公司的2025年10月31日的单季度.营业收入同比增长率(%)是否高于0.33？",
     "answer": "否",
@@ -7709,7 +7709,7 @@
   {
     "qa_id": "qa_1_000368",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据宁波波导股份有限公司的财务数据，2025年10月30日的资产负债率低于12.4448，这个数据是否属实？",
     "answer": "是",
@@ -7730,7 +7730,7 @@
   {
     "qa_id": "qa_1_000369",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京金隅集团股份有限公司的2025年10月30日的单季SP一年分位数是否大于0.2725409836065574？",
     "answer": "否",
@@ -7751,7 +7751,7 @@
   {
     "qa_id": "qa_1_000370",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "贝肯能源控股集团股份有限公司的2025年10月31日的同比增长率-基本每股收益(%)是否小于16.6667？",
     "answer": "否",
@@ -7772,7 +7772,7 @@
   {
     "qa_id": "qa_1_000371",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据国民技术股份有限公司的财务数据，2025年10月31日的营业收入同比增长大于16.7262，这个数据是否属实？",
     "answer": "是",
@@ -7793,7 +7793,7 @@
   {
     "qa_id": "qa_1_000372",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京华远新航控股股份有限公司的2025年10月31日的高管平均薪酬是否高于0.63？",
     "answer": "否",
@@ -7814,7 +7814,7 @@
   {
     "qa_id": "qa_1_000373",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据浙江莎普爱思药业股份有限公司的财务数据，2025年10月30日的自由流通市值因子是否低于1768260702.42亿？",
     "answer": "否",
@@ -7835,7 +7835,7 @@
   {
     "qa_id": "qa_1_000374",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "江西天利科技股份有限公司的2025年10月30日的营业收入(元)是否大于345543466.48亿？",
     "answer": "否",
@@ -7856,7 +7856,7 @@
   {
     "qa_id": "qa_1_000375",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "鞍山森远路桥股份有限公司的2025年10月31日的全部资产现金回收率数值小于3.6779，这个数值是否属实？",
     "answer": "是",
@@ -7877,7 +7877,7 @@
   {
     "qa_id": "qa_1_000376",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京博晖创新生物技术集团股份有限公司的财务数据，2025年10月31日的单季ROE是否低于-1.0757？",
     "answer": "否",
@@ -7898,7 +7898,7 @@
   {
     "qa_id": "qa_1_000377",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688248.SH的2025年10月31日的标准化预期外ROE是否高于0.0864553314121037？",
     "answer": "否",
@@ -7919,7 +7919,7 @@
   {
     "qa_id": "qa_1_000378",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据605305.SH的财务数据，2025年10月31日的自由流通市值因子是否低于6787919425.04亿？",
     "answer": "否",
@@ -7940,7 +7940,7 @@
   {
     "qa_id": "qa_1_000379",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688007.SH的2025年10月31日的同比增长率-归属母公是否高于-442.6134？",
     "answer": "否",
@@ -7961,7 +7961,7 @@
   {
     "qa_id": "qa_1_000380",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300787.SZ的2025年10月30日的单季超预期幅度是否大于0.9419642857142856？",
     "answer": "否",
@@ -7982,7 +7982,7 @@
   {
     "qa_id": "qa_1_000381",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中节能铁汉生态环境股份有限公司的2025年10月31日的扣除非经常性损益后的净利润/总市值大于-0.1406347317234885，这个数值是否准确？",
     "answer": "是",
@@ -8003,7 +8003,7 @@
   {
     "qa_id": "qa_1_000382",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "山东宝莫生物化工股份有限公司的2025年10月30日的销售毛利率_TTM低于18.4752，这个数值是否准确？",
     "answer": "是",
@@ -8024,7 +8024,7 @@
   {
     "qa_id": "qa_1_000383",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300718.SZ的财务数据，2025年10月30日的流动比率是否高于3.838348？",
     "answer": "否",
@@ -8045,7 +8045,7 @@
   {
     "qa_id": "qa_1_000384",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中原大地传媒股份有限公司的2025年10月30日的有形资产/总市值是否小于0.8378788385664696？",
     "answer": "否",
@@ -8066,7 +8066,7 @@
   {
     "qa_id": "qa_1_000385",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301097.SZ的2025年10月30日的营业收入(元)高于387051372.64亿，这个数值是否正确？",
     "answer": "是",
@@ -8087,7 +8087,7 @@
   {
     "qa_id": "qa_1_000386",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东长青(集团)股份有限公司的2025年10月31日的单季度ROA变动是否低于0.7？",
     "answer": "否",
@@ -8108,7 +8108,7 @@
   {
     "qa_id": "qa_1_000387",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301116.SZ的财务数据，2025年10月31日的标准化预期外ROA是否低于0.1238095238095238？",
     "answer": "否",
@@ -8129,7 +8129,7 @@
   {
     "qa_id": "qa_1_000388",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据康美药业股份有限公司的财务数据，2025年10月30日的单季度营业利润同比增长率是否低于0.8715203426124197？",
     "answer": "否",
@@ -8150,7 +8150,7 @@
   {
     "qa_id": "qa_1_000389",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "山西科新发展股份有限公司的2025年10月31日的季度资产周转率是否高于0.094？",
     "answer": "否",
@@ -8171,7 +8171,7 @@
   {
     "qa_id": "qa_1_000390",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301307.SZ的财务数据，2025年10月31日的标准化预期外扣非盈利是否高于0.92？",
     "answer": "否",
@@ -8192,7 +8192,7 @@
   {
     "qa_id": "qa_1_000391",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603310.SH的财务数据，2025年10月31日的营业收入同比增长率(%)是否低于-15.1845？",
     "answer": "否",
@@ -8213,7 +8213,7 @@
   {
     "qa_id": "qa_1_000392",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301525.SZ的2025年10月31日的前十大股东持股比例合计是否大于0.560377358490566？",
     "answer": "否",
@@ -8234,7 +8234,7 @@
   {
     "qa_id": "qa_1_000393",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301219.SZ的2025年10月30日的标准化预期外营业收入是否小于0.5725190839694656？",
     "answer": "否",
@@ -8255,7 +8255,7 @@
   {
     "qa_id": "qa_1_000394",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301196.SZ的2025年10月31日的公司基本面评分：最终基本面分是否高于4.18？",
     "answer": "否",
@@ -8276,7 +8276,7 @@
   {
     "qa_id": "qa_1_000395",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中工国际工程股份有限公司的2025年10月30日的市销率(PS_TTM)是否低于0.9809？",
     "answer": "否",
@@ -8297,7 +8297,7 @@
   {
     "qa_id": "qa_1_000396",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据中矿资源集团股份有限公司的财务数据，2025年10月31日的公司基本面评分：最终基本面分是否低于3.09？",
     "answer": "否",
@@ -8318,7 +8318,7 @@
   {
     "qa_id": "qa_1_000397",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "武汉力源信息技术股份有限公司的2025年10月30日的DELTAROE是否高于0.8430000000000001？",
     "answer": "否",
@@ -8339,7 +8339,7 @@
   {
     "qa_id": "qa_1_000398",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据贵州赤天化股份有限公司的财务数据，2025年10月30日的有形资产是否低于1521122567.15亿？",
     "answer": "否",
@@ -8360,7 +8360,7 @@
   {
     "qa_id": "qa_1_000399",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中信重工机械股份有限公司的2025年10月31日的单季EPTTM是否高于0.0109126226305968？",
     "answer": "否",
@@ -8381,7 +8381,7 @@
   {
     "qa_id": "qa_1_000400",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301180.SZ的2025年10月30日的单季度.归属母公司股东的净利润同比增长率(%)数值是否低于2.32？",
     "answer": "否",
@@ -8402,7 +8402,7 @@
   {
     "qa_id": "qa_1_000401",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "酒鬼酒股份有限公司的2025年10月31日的负债合计是否大于884149637.51亿？",
     "answer": "否",
@@ -8423,7 +8423,7 @@
   {
     "qa_id": "qa_1_000402",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "安徽辉隆农资集团股份有限公司的2025年10月31日的单季SP高于2.99311583358276，这个数值是否正确？",
     "answer": "是",
@@ -8444,7 +8444,7 @@
   {
     "qa_id": "qa_1_000403",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603896.SH的2025年10月31日的市现率(PCF,现金净流量TTM)是否小于-7.1452？",
     "answer": "否",
@@ -8465,7 +8465,7 @@
   {
     "qa_id": "qa_1_000404",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广州白云电器设备股份有限公司的2025年10月30日的daily_turn是否高于4.4395？",
     "answer": "否",
@@ -8486,7 +8486,7 @@
   {
     "qa_id": "qa_1_000405",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据江苏五洋自控技术股份有限公司的财务数据，2025年10月31日的净利润(元)是否高于38777396.91万？",
     "answer": "否",
@@ -8507,7 +8507,7 @@
   {
     "qa_id": "qa_1_000406",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "新奥天然气股份有限公司的2025年10月31日的单季BP三年分位数是否小于0.6758241758241759？",
     "answer": "否",
@@ -8528,7 +8528,7 @@
   {
     "qa_id": "qa_1_000407",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603529.SH的财务数据，2025年10月30日的单季EP低于0.0921930892060331，这个数据是否属实？",
     "answer": "是",
@@ -8549,7 +8549,7 @@
   {
     "qa_id": "qa_1_000408",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "抚顺特殊钢股份有限公司的2025年10月31日的营业收入同比增长低于-10.562，这个数值是否准确？",
     "answer": "是",
@@ -8570,7 +8570,7 @@
   {
     "qa_id": "qa_1_000409",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市得润电子股份有限公司的2025年10月30日的标准化预期外扣非盈利数值小于0.7075892857142857，这个数值是否属实？",
     "answer": "是",
@@ -8591,7 +8591,7 @@
   {
     "qa_id": "qa_1_000410",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "铜陵有色金属集团股份有限公司的2025年10月30日的标准化预期外营业收入是否小于0.3587786259541984？",
     "answer": "否",
@@ -8612,7 +8612,7 @@
   {
     "qa_id": "qa_1_000411",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "国金证券股份有限公司的2025年10月30日的单季超预期幅度是否小于0.9506172839506172？",
     "answer": "否",
@@ -8633,7 +8633,7 @@
   {
     "qa_id": "qa_1_000412",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301150.SZ的2025年10月30日的销售毛利率_TTM是否大于4.8043？",
     "answer": "否",
@@ -8654,7 +8654,7 @@
   {
     "qa_id": "qa_1_000413",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京同仁堂股份有限公司的财务数据，2025年10月31日的净资产(同比增长率)是否高于5.2759？",
     "answer": "否",
@@ -8675,7 +8675,7 @@
   {
     "qa_id": "qa_1_000414",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据林州重机集团股份有限公司的财务数据，2025年10月30日的公司基本面评分：最终基本面分是否高于2.88？",
     "answer": "否",
@@ -8696,7 +8696,7 @@
   {
     "qa_id": "qa_1_000415",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据001219.SZ的财务数据，2025年10月31日的市现率(PCF,现金净流量TTM)是否大于79.2358？",
     "answer": "否",
@@ -8717,7 +8717,7 @@
   {
     "qa_id": "qa_1_000416",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300849.SZ的2025年10月30日的当日流通市值对数数值大于12.074823362340476，这个数值是否属实？",
     "answer": "是",
@@ -8738,7 +8738,7 @@
   {
     "qa_id": "qa_1_000417",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据东方财富信息股份有限公司的财务数据，2025年10月30日的对数流通市值显示高于5222.902856161133，这个数据是否准确？",
     "answer": "是",
@@ -8759,7 +8759,7 @@
   {
     "qa_id": "qa_1_000418",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688230.SH的2025年10月30日的单季超预期幅度数据是否低于0.6785714285714286？",
     "answer": "否",
@@ -8780,7 +8780,7 @@
   {
     "qa_id": "qa_1_000419",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301353.SZ的财务数据，2025年10月30日的单季BP三年分位数是否高于0.1873935264054514？",
     "answer": "否",
@@ -8801,7 +8801,7 @@
   {
     "qa_id": "qa_1_000420",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海岩山科技股份有限公司的2025年10月30日的市净率(PB)是否高于4.4815？",
     "answer": "否",
@@ -8822,7 +8822,7 @@
   {
     "qa_id": "qa_1_000421",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002936.SZ的2025年10月30日的每日原始换手率是否高于1.1911？",
     "answer": "否",
@@ -8843,7 +8843,7 @@
   {
     "qa_id": "qa_1_000422",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603501.SH的财务数据，2025年10月31日的单季SP一年分位数小于0.7295081967213115，这个数值是否准确无误？",
     "answer": "是",
@@ -8864,7 +8864,7 @@
   {
     "qa_id": "qa_1_000423",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "哈尔滨九洲集团股份有限公司的2025年10月31日的股价/每股派息数值是否低于1.1313？",
     "answer": "否",
@@ -8885,7 +8885,7 @@
   {
     "qa_id": "qa_1_000424",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "天洋新材(上海)科技股份有限公司的2025年10月30日的流动比率是否小于1.321794？",
     "answer": "否",
@@ -8906,7 +8906,7 @@
   {
     "qa_id": "qa_1_000425",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳市证通电子股份有限公司的2025年10月30日的单季度毛利率是否大于26.4885？",
     "answer": "否",
@@ -8927,7 +8927,7 @@
   {
     "qa_id": "qa_1_000426",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海新时达电气股份有限公司的2025年10月31日的全部资产现金回收率是否小于1.403？",
     "answer": "否",
@@ -8948,7 +8948,7 @@
   {
     "qa_id": "qa_1_000427",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "合肥城建发展股份有限公司的2025年10月30日的净资产收益率_TTM是否小于-2.8611？",
     "answer": "否",
@@ -8969,7 +8969,7 @@
   {
     "qa_id": "qa_1_000428",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300777.SZ的财务数据，2025年10月30日的标准化预期外ROA低于0.6766917293233082，这个数据是否属实？",
     "answer": "是",
@@ -8990,7 +8990,7 @@
   {
     "qa_id": "qa_1_000429",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东东方精工科技股份有限公司的2025年10月30日的单季度营业利润同比增长率是否低于0.4903474903474903？",
     "answer": "否",
@@ -9011,7 +9011,7 @@
   {
     "qa_id": "qa_1_000430",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据605376.SH的财务数据，2025年10月31日的流通A股是否大于261600000.0亿？",
     "answer": "否",
@@ -9032,7 +9032,7 @@
   {
     "qa_id": "qa_1_000431",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京辰安科技股份有限公司的2025年10月31日的风格因子成长是否大于-0.3204807123952587？",
     "answer": "否",
@@ -9053,7 +9053,7 @@
   {
     "qa_id": "qa_1_000432",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "内蒙古电投能源股份有限公司的2025年10月30日的净资产收益率(摊薄)同比增长是否低于-14.6537？",
     "answer": "否",
@@ -9074,7 +9074,7 @@
   {
     "qa_id": "qa_1_000433",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江我武生物科技股份有限公司的2025年10月30日的单季EP一年分位数是否低于0.1147540983606557？",
     "answer": "否",
@@ -9095,7 +9095,7 @@
   {
     "qa_id": "qa_1_000434",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688209.SH的2025年10月31日的单季度.营业收入同比增长率(%)是否高于15.28？",
     "answer": "否",
@@ -9116,7 +9116,7 @@
   {
     "qa_id": "qa_1_000435",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "福耀玻璃工业集团股份有限公司的2025年10月31日的DELTAROE大于1.1100000000000003，这个数值是否准确？",
     "answer": "是",
@@ -9137,7 +9137,7 @@
   {
     "qa_id": "qa_1_000436",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据江苏中超控股股份有限公司的财务数据，2025年10月30日的风格因子盈利显示低于-0.2449253333134026，这个数据是否准确？",
     "answer": "是",
@@ -9158,7 +9158,7 @@
   {
     "qa_id": "qa_1_000437",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "河南思维自动化设备股份有限公司的2025年10月30日的单季度ROA变动数值低于0.9270516717325228，这个数值是否属实？",
     "answer": "是",
@@ -9179,7 +9179,7 @@
   {
     "qa_id": "qa_1_000438",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据青岛国恩科技股份有限公司的财务数据，2025年10月31日的自由流通股本换手率是否低于0.0196183123901653？",
     "answer": "否",
@@ -9200,7 +9200,7 @@
   {
     "qa_id": "qa_1_000439",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "东方电子股份有限公司的2025年10月30日的市盈率(PE_TTM)数值大于21.4803，这个数值是否属实？",
     "answer": "是",
@@ -9221,7 +9221,7 @@
   {
     "qa_id": "qa_1_000440",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301588.SZ的2025年10月30日的流动资产合计是否大于875564099.54亿？",
     "answer": "否",
@@ -9242,7 +9242,7 @@
   {
     "qa_id": "qa_1_000441",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300807.SZ的2025年10月30日的单季度归母净利增长率是否高于43.09？",
     "answer": "否",
@@ -9263,7 +9263,7 @@
   {
     "qa_id": "qa_1_000442",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据南极电商股份有限公司的财务数据，2025年10月30日的TTM市销率为2.6455，这个数值是否准确无误？",
     "answer": "是",
@@ -9284,7 +9284,7 @@
   {
     "qa_id": "qa_1_000443",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "沈阳萃华金银珠宝股份有限公司的2025年10月31日的权益收益率为9.707，这个数值是否正确？",
     "answer": "是",
@@ -9305,7 +9305,7 @@
   {
     "qa_id": "qa_1_000444",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "开山集团股份有限公司的2025年10月31日的估值因子为0.171859438479849，这个数值是否正确？",
     "answer": "是",
@@ -9326,7 +9326,7 @@
   {
     "qa_id": "qa_1_000445",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据河南安彩高科股份有限公司的财务数据，2025年10月30日的日流通市值显示为595853.967，这个数据是否准确？",
     "answer": "是",
@@ -9347,7 +9347,7 @@
   {
     "qa_id": "qa_1_000446",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "安徽省司尔特肥业股份有限公司的2025年10月30日的单季净利增长率是否大于0.3494897959183674？",
     "answer": "否",
@@ -9368,7 +9368,7 @@
   {
     "qa_id": "qa_1_000447",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688300.SH的财务数据，2025年10月30日的日流通市值为1585728.17073，这个数据是否属实？",
     "answer": "是",
@@ -9389,7 +9389,7 @@
   {
     "qa_id": "qa_1_000448",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002855.SZ的2025年10月30日的单季度归母净利增长率是否低于-71.71？",
     "answer": "否",
@@ -9410,7 +9410,7 @@
   {
     "qa_id": "qa_1_000449",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海亚通股份有限公司的2025年10月30日的TTM市盈率是否高于-206.8546？",
     "answer": "否",
@@ -9431,7 +9431,7 @@
   {
     "qa_id": "qa_1_000450",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "长园科技集团股份有限公司的2025年10月30日的单季营收增长率为0.5587392550143266，这个数值是否正确？",
     "answer": "是",
@@ -9452,7 +9452,7 @@
   {
     "qa_id": "qa_1_000451",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002959.SZ的2025年10月31日的盈利风格因子数值为0.6041822033429994，这个数值是否属实？",
     "answer": "是",
@@ -9473,7 +9473,7 @@
   {
     "qa_id": "qa_1_000452",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "成都市兴蓉环境股份有限公司的2025年10月30日的滚动市销率数值为2.2673，这个数值是否属实？",
     "answer": "是",
@@ -9494,7 +9494,7 @@
   {
     "qa_id": "qa_1_000453",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据新疆西部牧业股份有限公司的财务数据，2025年10月31日的ROE为-9.0703，这个数值是否准确无误？",
     "answer": "是",
@@ -9515,7 +9515,7 @@
   {
     "qa_id": "qa_1_000454",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301230.SZ的2025年10月30日的日流通市值数据为256943.9996，这个数值是否正确？",
     "answer": "是",
@@ -9536,7 +9536,7 @@
   {
     "qa_id": "qa_1_000455",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江航民股份有限公司的2025年10月30日的价值因子数值为2.8807564652179707，这个数值是否属实？",
     "answer": "是",
@@ -9557,7 +9557,7 @@
   {
     "qa_id": "qa_1_000456",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "大悦城控股集团股份有限公司的2025年10月30日的日总市值显示1307325.5684，这个数值是否准确？",
     "answer": "是",
@@ -9578,7 +9578,7 @@
   {
     "qa_id": "qa_1_000457",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "湖南美湖智造股份有限公司的2025年10月31日的成长因子数据是否为0.0523392374085244？",
     "answer": "是",
@@ -9599,7 +9599,7 @@
   {
     "qa_id": "qa_1_000458",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据002919.SZ的财务数据，2025年10月30日的滚动市盈率是否高于-614.4327？",
     "answer": "否",
@@ -9620,7 +9620,7 @@
   {
     "qa_id": "qa_1_000459",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603233.SH的2025年10月31日的滚动市盈率数据为18.2996，这个数值是否正确？",
     "answer": "是",
@@ -9641,7 +9641,7 @@
   {
     "qa_id": "qa_1_000460",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据深圳市大为创新科技股份有限公司的财务数据，2025年10月31日的ROE显示-1.3385，这个数据是否属实？",
     "answer": "是",
@@ -9662,7 +9662,7 @@
   {
     "qa_id": "qa_1_000461",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301266.SZ的2025年10月31日的盈利因子是否小于-0.2313405238960992？",
     "answer": "否",
@@ -9683,7 +9683,7 @@
   {
     "qa_id": "qa_1_000462",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "四川川大智胜软件股份有限公司的2025年10月30日的单季营收增长率是否为0.0303030303030303？",
     "answer": "是",
@@ -9704,7 +9704,7 @@
   {
     "qa_id": "qa_1_000463",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301157.SZ的2025年10月31日的单季营收增长率为0.2091690544412607，这个数值是否正确？",
     "answer": "是",
@@ -9725,7 +9725,7 @@
   {
     "qa_id": "qa_1_000464",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603882.SH的财务数据，2025年10月31日的单季营收增长率显示为0.1092077087794432，这个数据是否准确？",
     "answer": "是",
@@ -9746,7 +9746,7 @@
   {
     "qa_id": "qa_1_000465",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "平顶山天安煤业股份有限公司的2025年10月30日的单季净利增长率是否为0.1891891891891892？",
     "answer": "是",
@@ -9767,7 +9767,7 @@
   {
     "qa_id": "qa_1_000466",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "605133.SH的2025年10月31日的净利润率是否小于7.9888？",
     "answer": "否",
@@ -9788,7 +9788,7 @@
   {
     "qa_id": "qa_1_000467",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "宋城演艺发展股份有限公司的2025年10月30日的TTM市盈率数值是否为26.3931？",
     "answer": "是",
@@ -9809,7 +9809,7 @@
   {
     "qa_id": "qa_1_000468",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688520.SH的2025年10月31日的滚动市销率数值是否为12.6692？",
     "answer": "是",
@@ -9830,7 +9830,7 @@
   {
     "qa_id": "qa_1_000469",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603367.SH的2025年10月31日的盈利风格因子数据为0.6955570085048671，这个数值是否正确？",
     "answer": "是",
@@ -9851,7 +9851,7 @@
   {
     "qa_id": "qa_1_000470",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中节能国祯环保科技股份有限公司的2025年10月30日的股价净值比是否低于1.318？",
     "answer": "否",
@@ -9872,7 +9872,7 @@
   {
     "qa_id": "qa_1_000471",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江金盾风机股份有限公司的2025年10月31日的股东权益报酬率是否大于1.5129？",
     "answer": "否",
@@ -9893,7 +9893,7 @@
   {
     "qa_id": "qa_1_000472",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301446.SZ的2025年10月31日的盈利因子数据为0.7178902782673102，这个数值是否正确？",
     "answer": "是",
@@ -9914,7 +9914,7 @@
   {
     "qa_id": "qa_1_000473",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳中青宝互动网络股份有限公司的2025年10月30日的总资产报酬率是否大于-3.3215？",
     "answer": "否",
@@ -9935,7 +9935,7 @@
   {
     "qa_id": "qa_1_000474",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京诚益通控制技术集团股份有限公司的财务数据，2025年10月30日的滚动市销率是否高于7.3594？",
     "answer": "否",
@@ -9956,7 +9956,7 @@
   {
     "qa_id": "qa_1_000475",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海交运集团股份有限公司的2025年10月31日的净利润率数据为-0.9042，这个数值是否正确？",
     "answer": "是",
@@ -9977,7 +9977,7 @@
   {
     "qa_id": "qa_1_000476",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据上海国际港务(集团)股份有限公司的财务数据，2025年10月30日的净利率是否低于44.685？",
     "answer": "否",
@@ -9998,7 +9998,7 @@
   {
     "qa_id": "qa_1_000477",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据上海汉得信息技术股份有限公司的财务数据，2025年10月30日的滚动市盈率显示为88.6957，这个数据是否准确？",
     "answer": "是",
@@ -10019,7 +10019,7 @@
   {
     "qa_id": "qa_1_000478",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京盛通印刷股份有限公司的2025年10月31日的日流通市值是否小于333927.6515？",
     "answer": "否",
@@ -10040,7 +10040,7 @@
   {
     "qa_id": "qa_1_000479",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "鲁银投资集团股份有限公司的2025年10月31日的TTM市销率是否大于1.3658？",
     "answer": "否",
@@ -10061,7 +10061,7 @@
   {
     "qa_id": "qa_1_000480",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300637.SZ的2025年10月30日的日流通市值数据为297821.2789，这个数值是否正确？",
     "answer": "是",
@@ -10082,7 +10082,7 @@
   {
     "qa_id": "qa_1_000481",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301563.SZ的财务数据，2025年10月31日的日总市值是否低于1329475.3933？",
     "answer": "否",
@@ -10103,7 +10103,7 @@
   {
     "qa_id": "qa_1_000482",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山东赛托生物科技股份有限公司的财务数据，2025年10月31日的净利润率是否为-10.5619？",
     "answer": "是",
@@ -10124,7 +10124,7 @@
   {
     "qa_id": "qa_1_000483",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301235.SZ的2025年10月30日的单季度归母净利增长率数值是否为39.69？",
     "answer": "是",
@@ -10145,7 +10145,7 @@
   {
     "qa_id": "qa_1_000484",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002979.SZ的2025年10月30日的盈利因子是否大于0.8890971159413686？",
     "answer": "否",
@@ -10166,7 +10166,7 @@
   {
     "qa_id": "qa_1_000485",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江伟星实业发展股份有限公司的2025年10月31日的滚动市盈率是否大于19.2669？",
     "answer": "否",
@@ -10187,7 +10187,7 @@
   {
     "qa_id": "qa_1_000486",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301356.SZ的财务数据，2025年10月31日的滚动市盈率为56.7554，这个数据是否属实？",
     "answer": "是",
@@ -10208,7 +10208,7 @@
   {
     "qa_id": "qa_1_000487",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据京东方华灿光电股份有限公司的财务数据，2025年10月31日的负债资产比显示为50.425，这个数据是否准确？",
     "answer": "是",
@@ -10229,7 +10229,7 @@
   {
     "qa_id": "qa_1_000488",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002940.SZ的2025年10月31日的营收同比增长率是否高于-5.92？",
     "answer": "否",
@@ -10250,7 +10250,7 @@
   {
     "qa_id": "qa_1_000489",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "天津红日药业股份有限公司的2025年10月30日的资产收益率数值是否为0.8386？",
     "answer": "是",
@@ -10271,7 +10271,7 @@
   {
     "qa_id": "qa_1_000490",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据601399.SH的财务数据，2025年10月30日的负债资产比为55.0816，这个数值是否准确无误？",
     "answer": "是",
@@ -10292,7 +10292,7 @@
   {
     "qa_id": "qa_1_000491",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北方华锦化学工业股份有限公司的财务数据，2025年10月31日的单季营收增长率是否高于0.5106382978723404？",
     "answer": "否",
@@ -10313,7 +10313,7 @@
   {
     "qa_id": "qa_1_000492",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据国药集团一致药业股份有限公司的财务数据，2025年10月30日的增长因子是否低于-0.188448266051924？",
     "answer": "否",
@@ -10334,7 +10334,7 @@
   {
     "qa_id": "qa_1_000493",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据002909.SZ的财务数据，2025年10月31日的股东权益报酬率是否低于-0.4669？",
     "answer": "否",
@@ -10355,7 +10355,7 @@
   {
     "qa_id": "qa_1_000494",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中源协和细胞基因工程股份有限公司的2025年10月30日的账面市值比因子数值是否为-0.6602841603816839？",
     "answer": "是",
@@ -10376,7 +10376,7 @@
   {
     "qa_id": "qa_1_000495",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301202.SZ的2025年10月30日的单季度归母净利增长率数据为-32.97，这个数值是否正确？",
     "answer": "是",
@@ -10397,7 +10397,7 @@
   {
     "qa_id": "qa_1_000496",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688693.SH的财务数据，2025年10月31日的盈利因子显示为-1.3628457878295608，这个数据是否准确？",
     "answer": "是",
@@ -10418,7 +10418,7 @@
   {
     "qa_id": "qa_1_000497",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "联化科技股份有限公司的2025年10月31日的日总市值是否小于1078107.0774？",
     "answer": "否",
@@ -10439,7 +10439,7 @@
   {
     "qa_id": "qa_1_000498",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据安徽建工集团股份有限公司的财务数据，2025年10月31日的滚动市销率显示0.0929，这个数据是否属实？",
     "answer": "是",
@@ -10460,7 +10460,7 @@
   {
     "qa_id": "qa_1_000499",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002938.SZ的2025年10月31日的净利率是否大于8.9104？",
     "answer": "否",
@@ -10481,7 +10481,7 @@
   {
     "qa_id": "qa_1_000500",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "奥瑞金科技股份有限公司的2025年10月30日的成长因子数值是否为0.4305991835624923？",
     "answer": "是",
@@ -10502,7 +10502,7 @@
   {
     "qa_id": "qa_1_000501",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301231.SZ的2025年10月30日的滚动市销率是否为8.6842？",
     "answer": "是",
@@ -10523,7 +10523,7 @@
   {
     "qa_id": "qa_1_000502",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688001.SH的2025年10月30日的权益收益率是否低于2.2666？",
     "answer": "否",
@@ -10544,7 +10544,7 @@
   {
     "qa_id": "qa_1_000503",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "金字火腿股份有限公司的2025年10月31日的市账率是否小于3.0559？",
     "answer": "否",
@@ -10565,7 +10565,7 @@
   {
     "qa_id": "qa_1_000504",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据福建纳川管材科技股份有限公司的财务数据，2025年10月31日的总资产报酬率是否低于-5.3095？",
     "answer": "否",
@@ -10586,7 +10586,7 @@
   {
     "qa_id": "qa_1_000505",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300953.SZ的2025年10月30日的单季度归母净利增长率是否低于392.95？",
     "answer": "否",
@@ -10607,7 +10607,7 @@
   {
     "qa_id": "qa_1_000506",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "安徽广信农化股份有限公司的2025年10月30日的单季净利增长率数据为0.5408163265306123，这个数值是否正确？",
     "answer": "是",
@@ -10628,7 +10628,7 @@
   {
     "qa_id": "qa_1_000507",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301395.SZ的财务数据，2025年10月31日的净利润率显示为1.9537，这个数据是否准确？",
     "answer": "是",
@@ -10649,7 +10649,7 @@
   {
     "qa_id": "qa_1_000508",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688015.SH的财务数据，2025年10月31日的TTM市销率为1.9724，这个数据是否属实？",
     "answer": "是",
@@ -10670,7 +10670,7 @@
   {
     "qa_id": "qa_1_000509",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳光韵达光电科技股份有限公司的2025年10月30日的价值因子数值是否为-0.6379543216527971？",
     "answer": "是",
@@ -10691,7 +10691,7 @@
   {
     "qa_id": "qa_1_000510",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "荣丰控股集团股份有限公司的2025年10月30日的营收同比增长率是否高于377.547？",
     "answer": "否",
@@ -10712,7 +10712,7 @@
   {
     "qa_id": "qa_1_000511",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688257.SH的2025年10月31日的市账率是否低于2.6236？",
     "answer": "否",
@@ -10733,7 +10733,7 @@
   {
     "qa_id": "qa_1_000512",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300771.SZ的2025年10月30日的成长因子数值是否为0.5680563029191712？",
     "answer": "是",
@@ -10754,7 +10754,7 @@
   {
     "qa_id": "qa_1_000513",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东海大集团股份有限公司的2025年10月30日的营收同比增长率是否低于13.2376？",
     "answer": "否",
@@ -10775,7 +10775,7 @@
   {
     "qa_id": "qa_1_000514",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "诺德新材料股份有限公司的2025年10月31日的日流通市值数值为1228508.0999，这个数值是否属实？",
     "answer": "是",
@@ -10796,7 +10796,7 @@
   {
     "qa_id": "qa_1_000515",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300836.SZ的2025年10月31日的ROE数据是否为9.2049？",
     "answer": "是",
@@ -10817,7 +10817,7 @@
   {
     "qa_id": "qa_1_000516",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301193.SZ的2025年10月31日的日总市值数值是否为374937.5719？",
     "answer": "是",
@@ -10838,7 +10838,7 @@
   {
     "qa_id": "qa_1_000517",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603586.SH的2025年10月30日的日流通市值数值是否为372304.2292？",
     "answer": "是",
@@ -10859,7 +10859,7 @@
   {
     "qa_id": "qa_1_000518",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据001215.SZ的财务数据，2025年10月31日的滚动市销率为2.0805，这个数值是否准确无误？",
     "answer": "是",
@@ -10880,7 +10880,7 @@
   {
     "qa_id": "qa_1_000519",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300915.SZ的财务数据，2025年10月31日的负债资产比是否为13.5599？",
     "answer": "是",
@@ -10901,7 +10901,7 @@
   {
     "qa_id": "qa_1_000520",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688280.SH的财务数据，2025年10月31日的盈利风格因子显示-0.3182727196507185，这个数据是否属实？",
     "answer": "是",
@@ -10922,7 +10922,7 @@
   {
     "qa_id": "qa_1_000521",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688157.SH的财务数据，2025年10月30日的单季净利增长率是否高于0.2423469387755102？",
     "answer": "否",
@@ -10943,7 +10943,7 @@
   {
     "qa_id": "qa_1_000522",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳康泰生物制品股份有限公司的2025年10月30日的股东权益报酬率是否大于0.5102？",
     "answer": "否",
@@ -10964,7 +10964,7 @@
   {
     "qa_id": "qa_1_000523",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据华斯控股股份有限公司的财务数据，2025年10月30日的TTM市盈率为132.2033，这个数值是否准确无误？",
     "answer": "是",
@@ -10985,7 +10985,7 @@
   {
     "qa_id": "qa_1_000524",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "北京市大龙伟业房地产开发股份有限公司的2025年10月30日的总资产报酬率数值是否为-0.2941？",
     "answer": "是",
@@ -11006,7 +11006,7 @@
   {
     "qa_id": "qa_1_000525",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "002957.SZ的2025年10月31日的账面市值比因子显示0.0755099314082281，这个数值是否准确？",
     "answer": "是",
@@ -11027,7 +11027,7 @@
   {
     "qa_id": "qa_1_000526",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据宁波富邦精业集团股份有限公司的财务数据，2025年10月30日的毛利率显示为10.6275，这个数据是否准确？",
     "answer": "是",
@@ -11048,7 +11048,7 @@
   {
     "qa_id": "qa_1_000527",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山东得利斯食品股份有限公司的财务数据，2025年10月30日的滚动市盈率是否高于-87.7463？",
     "answer": "否",
@@ -11069,7 +11069,7 @@
   {
     "qa_id": "qa_1_000528",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "福安药业(集团)股份有限公司的2025年10月30日的ROA是否低于2.777？",
     "answer": "否",
@@ -11090,7 +11090,7 @@
   {
     "qa_id": "qa_1_000529",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海先导基电科技股份有限公司的2025年10月31日的日总市值为1731902.2811，这个数值是否正确？",
     "answer": "是",
@@ -11111,7 +11111,7 @@
   {
     "qa_id": "qa_1_000530",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据深圳市沃尔核材股份有限公司的财务数据，2025年10月30日的盈利因子为0.8941546198895717，这个数值是否准确无误？",
     "answer": "是",
@@ -11132,7 +11132,7 @@
   {
     "qa_id": "qa_1_000531",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "德华兔宝宝装饰新材股份有限公司的2025年10月31日的单季净利增长率数值是否为0.6619718309859155？",
     "answer": "是",
@@ -11153,7 +11153,7 @@
   {
     "qa_id": "qa_1_000532",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688722.SH的2025年10月31日的净利率数据为12.95，这个数值是否正确？",
     "answer": "是",
@@ -11174,7 +11174,7 @@
   {
     "qa_id": "qa_1_000533",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "美克国际家居用品股份有限公司的2025年10月30日的负债率是否高于63.1011？",
     "answer": "否",
@@ -11195,7 +11195,7 @@
   {
     "qa_id": "qa_1_000534",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603960.SH的财务数据，2025年10月30日的盈利风格因子是否高于-0.0687945372092567？",
     "answer": "否",
@@ -11216,7 +11216,7 @@
   {
     "qa_id": "qa_1_000535",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "600901.SH的2025年10月31日的净利润(元)是否高于244573.64万（四舍五入）？",
     "answer": "否",
@@ -11237,7 +11237,7 @@
   {
     "qa_id": "qa_1_000536",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "星辉互动娱乐股份有限公司的2025年10月31日的扣除非经常性损益后的净利润是否低于2.19亿（四舍五入）？",
     "answer": "否",
@@ -11258,7 +11258,7 @@
   {
     "qa_id": "qa_1_000537",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广汇物流股份有限公司的2025年10月28日的有形资产数据是否为628750.63万（四舍五入）？",
     "answer": "是",
@@ -11279,7 +11279,7 @@
   {
     "qa_id": "qa_1_000538",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "航天彩虹无人机股份有限公司的2025年10月29日的当日总市值是否高于219.93万（四舍五入）？",
     "answer": "否",
@@ -11300,7 +11300,7 @@
   {
     "qa_id": "qa_1_000539",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广州广日股份有限公司的2025年10月29日的有形资产数据是否为79.91亿（四舍五入）？",
     "answer": "是",
@@ -11321,7 +11321,7 @@
   {
     "qa_id": "qa_1_000540",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688310.SH的2025年10月29日的A股总股本为1.66亿（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -11342,7 +11342,7 @@
   {
     "qa_id": "qa_1_000541",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "603153.SH的2025年10月29日的A股总股本数值是否为4.1亿（四舍五入）？",
     "answer": "是",
@@ -11363,7 +11363,7 @@
   {
     "qa_id": "qa_1_000542",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603917.SH的财务数据，2025年10月29日的流动负债合计是否高于28310.22万（四舍五入）？",
     "answer": "否",
@@ -11384,7 +11384,7 @@
   {
     "qa_id": "qa_1_000543",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山鹰国际控股股份公司的财务数据，2025年10月30日的流动资产合计为1332400.92万（四舍五入），这个数值是否准确无误？",
     "answer": "是",
@@ -11405,7 +11405,7 @@
   {
     "qa_id": "qa_1_000544",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据301353.SZ的财务数据，2025年10月31日的扣除非经常性损益后的净利润是否为4753.75万（四舍五入）？",
     "answer": "是",
@@ -11426,7 +11426,7 @@
   {
     "qa_id": "qa_1_000545",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688690.SH的2025年10月29日的自由流通市值因子数值是否为785499.47万（四舍五入）？",
     "answer": "是",
@@ -11447,7 +11447,7 @@
   {
     "qa_id": "qa_1_000546",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300748.SZ的2025年10月29日的流动资产合计是否为102.88亿（四舍五入）？",
     "answer": "是",
@@ -11468,7 +11468,7 @@
   {
     "qa_id": "qa_1_000547",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300992.SZ的财务数据，2025年10月29日的有形资产是否高于82145.15万（四舍五入）？",
     "answer": "否",
@@ -11489,7 +11489,7 @@
   {
     "qa_id": "qa_1_000548",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据广东星光发展股份有限公司的财务数据，2025年10月29日的流通A股是否低于10.42亿（四舍五入）？",
     "answer": "否",
@@ -11510,7 +11510,7 @@
   {
     "qa_id": "qa_1_000549",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300817.SZ的2025年10月29日的自由流通市值因子数值为21.18亿（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -11531,7 +11531,7 @@
   {
     "qa_id": "qa_1_000550",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据002926.SZ的财务数据，2025年10月30日的流通A股显示26.25亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -11552,7 +11552,7 @@
   {
     "qa_id": "qa_1_000551",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "001277.SZ的2025年10月31日的净利润(元)是否小于0.75亿（四舍五入）？",
     "answer": "否",
@@ -11573,7 +11573,7 @@
   {
     "qa_id": "qa_1_000552",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "丹阳顺景智能科技股份有限公司的2025年10月30日的自由流通市值因子是否高于323890.34万（四舍五入）？",
     "answer": "否",
@@ -11594,7 +11594,7 @@
   {
     "qa_id": "qa_1_000553",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301013.SZ的2025年10月30日的自由流通股本是否大于16755.51万（四舍五入）？",
     "answer": "否",
@@ -11615,7 +11615,7 @@
   {
     "qa_id": "qa_1_000554",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据华夏幸福基业股份有限公司的财务数据，2025年10月30日的流动资产合计为2379.75亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -11636,7 +11636,7 @@
   {
     "qa_id": "qa_1_000555",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301148.SZ的2025年10月28日的A股总股本数值是否为1.16亿（四舍五入）？",
     "answer": "是",
@@ -11657,7 +11657,7 @@
   {
     "qa_id": "qa_1_000556",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据健帆生物科技集团股份有限公司的财务数据，2025年10月29日的自由流通市值因子显示为87.97亿（四舍五入），这个数据是否准确？",
     "answer": "是",
@@ -11678,7 +11678,7 @@
   {
     "qa_id": "qa_1_000557",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "易联众信息技术股份有限公司的2025年10月31日的A股总股本数值为43000.0万（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -11699,7 +11699,7 @@
   {
     "qa_id": "qa_1_000558",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "杭州老板电器股份有限公司的2025年10月29日的自由流通市值因子是否小于87.28亿（四舍五入）？",
     "answer": "否",
@@ -11720,7 +11720,7 @@
   {
     "qa_id": "qa_1_000559",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据山西高速集团股份有限公司的财务数据，2025年10月30日的自由流通市值因子显示为16.97亿（四舍五入），这个数据是否准确？",
     "answer": "是",
@@ -11741,7 +11741,7 @@
   {
     "qa_id": "qa_1_000560",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "浙江伟星新型建材股份有限公司的2025年10月28日的A股总股本数值为159203.8万（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -11762,7 +11762,7 @@
   {
     "qa_id": "qa_1_000561",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据禾丰食品股份有限公司的财务数据，2025年10月28日的流通A股显示9.12亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -11783,7 +11783,7 @@
   {
     "qa_id": "qa_1_000562",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据盐津铺子食品股份有限公司的财务数据，2025年10月29日的营业收入(元)显示44.27亿（四舍五入），这个数据是否属实？",
     "answer": "是",
@@ -11804,7 +11804,7 @@
   {
     "qa_id": "qa_1_000563",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301335.SZ的2025年10月30日的A股总股本是否小于1.27亿（四舍五入）？",
     "answer": "否",
@@ -11825,7 +11825,7 @@
   {
     "qa_id": "qa_1_000564",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300696.SZ的2025年10月31日的流动负债合计数据是否为22275.98万（四舍五入）？",
     "answer": "是",
@@ -11846,7 +11846,7 @@
   {
     "qa_id": "qa_1_000565",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300807.SZ的2025年10月29日的流动负债合计为1.41亿（四舍五入），这个数值是否正确？",
     "answer": "是",
@@ -11867,7 +11867,7 @@
   {
     "qa_id": "qa_1_000566",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据合纵科技股份有限公司的财务数据，2025年10月29日的有形资产显示为1.48亿（四舍五入），这个数据是否准确？",
     "answer": "是",
@@ -11888,7 +11888,7 @@
   {
     "qa_id": "qa_1_000567",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中国银河证券股份有限公司的2025年10月28日的扣除非经常性损益后的净利润是否小于64.85亿（四舍五入）？",
     "answer": "否",
@@ -11909,7 +11909,7 @@
   {
     "qa_id": "qa_1_000568",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300819.SZ的2025年10月29日的自由流通市值因子是否高于12.94亿（四舍五入）？",
     "answer": "否",
@@ -11930,7 +11930,7 @@
   {
     "qa_id": "qa_1_000569",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "003027.SZ的2025年10月28日的流动资产合计数值为183431.85万（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -11951,7 +11951,7 @@
   {
     "qa_id": "qa_1_000570",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "上海医药集团股份有限公司的2025年10月28日的daily_amount数值为22042.66万（四舍五入），这个数值是否属实？",
     "answer": "是",
@@ -11972,7 +11972,7 @@
   {
     "qa_id": "qa_1_000571",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688076.SH的2025年10月29日的流通A股数值是否为3.16亿（四舍五入）？",
     "answer": "是",
@@ -11993,7 +11993,7 @@
   {
     "qa_id": "qa_1_000572",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603681.SH的财务数据，2025年10月31日的营业收入(元)是否高于325268.55万（四舍五入）？",
     "answer": "否",
@@ -12014,7 +12014,7 @@
   {
     "qa_id": "qa_1_000573",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "001323.SZ的2025年10月30日的A股总股本数值是否为43508.08万（四舍五入）？",
     "answer": "是",
@@ -12035,7 +12035,7 @@
   {
     "qa_id": "qa_1_000574",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据新余钢铁股份有限公司的财务数据，2025年10月29日的自由流通市值因子是否高于67.23亿（四舍五入）？",
     "answer": "否",
@@ -12056,7 +12056,7 @@
   {
     "qa_id": "qa_1_000575",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688449.SH的财务数据，2025年10月29日的营收同比增长率显示为11.588，这个数据是否准确？",
     "answer": "是",
@@ -12077,7 +12077,7 @@
   {
     "qa_id": "qa_1_000576",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300784.SZ的2025年10月30日的日流通市值数值为89959.9089，这个数值是否属实？",
     "answer": "是",
@@ -12098,7 +12098,7 @@
   {
     "qa_id": "qa_1_000577",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据江西国泰集团股份有限公司的财务数据，2025年10月29日的TTM市销率是否高于3.6523？",
     "answer": "否",
@@ -12119,7 +12119,7 @@
   {
     "qa_id": "qa_1_000578",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据688658.SH的财务数据，2025年10月31日的单季净利增长率为0.0792291220556745，这个数值是否准确无误？",
     "answer": "是",
@@ -12140,7 +12140,7 @@
   {
     "qa_id": "qa_1_000579",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据我爱我家控股集团股份有限公司的财务数据，2025年10月30日的盈利风格因子为0.1606580102647139，这个数值是否准确无误？",
     "answer": "是",
@@ -12161,7 +12161,7 @@
   {
     "qa_id": "qa_1_000580",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据四川汇源光通信股份有限公司的财务数据，2025年10月28日的营收同比增长率显示为30.3735，这个数据是否准确？",
     "answer": "是",
@@ -12182,7 +12182,7 @@
   {
     "qa_id": "qa_1_000581",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "中粮资本控股股份有限公司的2025年10月29日的日总市值数值是否为2988424.9308？",
     "answer": "是",
@@ -12203,7 +12203,7 @@
   {
     "qa_id": "qa_1_000582",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据北京浩丰创源科技股份有限公司的财务数据，2025年10月30日的日流通市值显示278021.8501，这个数据是否属实？",
     "answer": "是",
@@ -12224,7 +12224,7 @@
   {
     "qa_id": "qa_1_000583",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300666.SZ的2025年10月30日的毛利润率数值为28.9324，这个数值是否属实？",
     "answer": "是",
@@ -12245,7 +12245,7 @@
   {
     "qa_id": "qa_1_000584",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据300883.SZ的财务数据，2025年10月28日的总资产报酬率为0.0161，这个数值是否准确无误？",
     "answer": "是",
@@ -12266,7 +12266,7 @@
   {
     "qa_id": "qa_1_000585",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "苏美达股份有限公司的2025年10月30日的营收同比增长率是否小于0.518？",
     "answer": "否",
@@ -12287,7 +12287,7 @@
   {
     "qa_id": "qa_1_000586",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "琏升科技股份有限公司的2025年10月28日的盈利风格因子数据是否为-2.782887517954688？",
     "answer": "是",
@@ -12308,7 +12308,7 @@
   {
     "qa_id": "qa_1_000587",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "武汉理工光科股份有限公司的2025年10月31日的营收同比增长率是否小于13.7854？",
     "answer": "否",
@@ -12329,7 +12329,7 @@
   {
     "qa_id": "qa_1_000588",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "301215.SZ的2025年10月30日的单季净利增长率数据是否为0.5871212121212122？",
     "answer": "是",
@@ -12350,7 +12350,7 @@
   {
     "qa_id": "qa_1_000589",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300616.SZ的2025年10月30日的单季净利增长率数据是否为0.9？",
     "answer": "是",
@@ -12371,7 +12371,7 @@
   {
     "qa_id": "qa_1_000590",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603533.SH的财务数据，2025年10月30日的盈利因子为0.967409348956816，这个数据是否属实？",
     "answer": "是",
@@ -12392,7 +12392,7 @@
   {
     "qa_id": "qa_1_000591",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688002.SH的2025年10月30日的股东权益报酬率是否大于11.362？",
     "answer": "否",
@@ -12413,7 +12413,7 @@
   {
     "qa_id": "qa_1_000592",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "广东风华高新科技股份有限公司的2025年10月31日的单季净利增长率是否为0.3628318584070796？",
     "answer": "是",
@@ -12434,7 +12434,7 @@
   {
     "qa_id": "qa_1_000593",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "深圳歌力思服饰股份有限公司的2025年10月30日的单季净利增长率数据为0.8461538461538461，这个数值是否正确？",
     "answer": "是",
@@ -12455,7 +12455,7 @@
   {
     "qa_id": "qa_1_000594",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据603209.SH的财务数据，2025年10月29日的毛利率显示为28.2166，这个数据是否准确？",
     "answer": "是",
@@ -12476,7 +12476,7 @@
   {
     "qa_id": "qa_1_000595",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据贵州航天电器股份有限公司的财务数据，2025年10月29日的单季营收增长率是否低于0.556390977443609？",
     "answer": "否",
@@ -12497,7 +12497,7 @@
   {
     "qa_id": "qa_1_000596",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "麦克奥迪(厦门)电气股份有限公司的2025年10月29日的账面市值比因子数值为-0.563730050159107，这个数值是否属实？",
     "answer": "是",
@@ -12518,7 +12518,7 @@
   {
     "qa_id": "qa_1_000597",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "山西兰花科技创业股份有限公司的2025年10月29日的盈利因子是否为0.0739093011241196？",
     "answer": "是",
@@ -12539,7 +12539,7 @@
   {
     "qa_id": "qa_1_000598",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "300850.SZ的2025年10月28日的负债资产比为38.3727，这个数值是否正确？",
     "answer": "是",
@@ -12560,7 +12560,7 @@
   {
     "qa_id": "qa_1_000599",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "688615.SH的2025年10月29日的毛利润率数值是否为86.29？",
     "answer": "是",
@@ -12581,7 +12581,7 @@
   {
     "qa_id": "qa_1_000600",
     "source": "",
-    "category": "L1_Simple",
+    "category": "L1_Verfication",
     "dimension": "Simple_Fact_Checking",
     "question": "根据001314.SZ的财务数据，2025年10月28日的日流通市值是否为256543.8666？",
     "answer": "是",

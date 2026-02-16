@@ -7,24 +7,23 @@ from .Evaluation_prompt import prompt_jcd, prompt_fc, prompt_ca, prompt_ars
 
 logger = setup_logger("Depth_Evaluator")
 
-# 常见的英文键名映射回中文，解决模型输出英文键的问题
 KEY_ALIAS_MAPPING = {
-    # 论证合理性与因果深度
+    # JCD
     "logical_chain": "逻辑链条", "logic_chain": "逻辑链条", 
     "causal_depth": "因果深度",
     "professionalism": "专业性", "expertise": "专业性",
     
-    # 事实准确性与情境化
+    # FC
     "fact_density": "事实密度", "factual_density": "事实密度",
     "calculation_rigor": "计算严谨性", "computational_rigor": "计算严谨性",
     "contextual_analysis": "情境分析", "situational_analysis": "情境分析",
     
-    # 完整性与比较分析
+    # CA
     "critical_thinking": "批判性思维",
     "comparative_perspective": "比较视角", "comparison_perspective": "比较视角",
     "argument_balance": "论点平衡性", "balance": "论点平衡性",
     
-    # 结构丰富度与严谨性
+    # ARS
     "framework_completeness": "框架完整性", "framework_integrity": "框架完整性", "framework完整性": "框架完整性",
     "logical_hierarchy": "逻辑层次", "logic_structure": "逻辑层次", "logical_structure": "逻辑层次",
     "expression_granularity": "表达颗粒度", "granularity": "表达颗粒度"
@@ -70,7 +69,6 @@ class DepthEvaluator:
     def __init__(self, api_key, base_url, target_model="gpt-4o", judge_model="deepseek-chat"):
         self.client = get_openai_client(api_key, base_url)
         self.target_model = target_model
-        # 深度评测通常需要更强的模型作为裁判，这里默认deepseek-chat或由外部指定
         self.judge_model = judge_model
         
     def get_model_response(self, model_name, evidence, question):
@@ -90,19 +88,16 @@ class DepthEvaluator:
             logger.error(f"调用被测模型出错: {e}")
             return f"Error: {e}"
 
-    def judge_answer(self, category, question, ground_truth, model_answer):
+    def judge_answer(self, category, question, gold_answer, model_answer):
         """裁判模型评分逻辑"""
-        # 尝试完全匹配
         rubric_config = SCORING_RUBRICS.get(category)
         
-        # 如果没有完全匹配，尝试模糊匹配（例如文件名可能包含部分关键词）
         if not rubric_config:
             for key, val in SCORING_RUBRICS.items():
                 if key in category or category in key:
                     rubric_config = val
                     break
         
-        # 如果仍然没有找到，使用默认（这里简化处理，尽量确保category正确）
         if not rubric_config:
             logger.warning(f"警告: 未找到类别 '{category}' 的特定评分标准")
             return {"score": 0, "reason": "未找到评分标准", "details": {}}
@@ -118,7 +113,7 @@ class DepthEvaluator:
 
 【题目信息】
 问题：{question}
-标准答案：{ground_truth}
+标准答案：{gold_answer}
 
 【待测回答】
 {model_answer}
@@ -135,16 +130,13 @@ class DepthEvaluator:
             
             result_json = json.loads(response.choices[0].message.content)
 
-            # 预处理 result_json 的键，将英文或不规范的键映射回中文
             normalized_result_json = {}
             for k, v in result_json.items():
                 mapped_key = k
-                # 1. 尝试在映射表中直接查找 (转小写比较以增强鲁棒性)
                 k_lower = k.lower()
                 if k_lower in KEY_ALIAS_MAPPING:
                     mapped_key = KEY_ALIAS_MAPPING[k_lower]
                 else:
-                    # 2. 尝试模糊匹配映射表中的英文键 (例如 "framework完整性" -> 匹配 "framework")
                     for eng_alias, cn_name in KEY_ALIAS_MAPPING.items():
                         if eng_alias in k_lower:
                             mapped_key = cn_name
@@ -152,7 +144,6 @@ class DepthEvaluator:
                             
                 normalized_result_json[mapped_key] = v
             
-            # 使用规范化后的结果
             result_json = normalized_result_json
             
             # 计算加权总分
@@ -163,14 +154,11 @@ class DepthEvaluator:
             total_weighted_points = 0.0
             combined_reason = []
             
-            # 遍历预定义的子维度来计算分数，防止LLM输出多余或错误的键
             for subdim_name, weight in subdims.items():
-                # 为了兼容，尝试从result_json中获取对应键的数据
                 if subdim_name in result_json:
                     sub_score = float(result_json[subdim_name].get("score", 0))
                     explanation = result_json[subdim_name].get("explanation", "")
                 else:
-                    # 尝试模糊匹配键
                     found = False
                     for key in result_json:
                         if subdim_name in key:
@@ -228,7 +216,6 @@ class DepthEvaluator:
                 logger.error(f"无法读取文件 {input_path}: {e}")
                 continue
 
-            # 应用数据量限制
             if max_qa:
                 data = data[:max_qa]
                 logger.info(f"限制评测数量: {max_qa} 条")
@@ -241,7 +228,6 @@ class DepthEvaluator:
                 model_out = self.get_model_response(self.target_model, item.get('evidence', ''), item['question'])
                 
                 # 2. 裁判评分
-                # 某些数据可能没有category字段，使用文件名作为fallback
                 current_category_guess = filename.replace('.json', '')
                 category = item.get('category', current_category_guess)
                 
@@ -252,7 +238,7 @@ class DepthEvaluator:
                     "qa_id": item.get('qa_id', 'unknown'),
                     "source": item.get('source', 'unknown'),
                     "question": item['question'],
-                    "ground_truth": item['answer'],
+                    "gold_answer": item['answer'],
                     "model_answer": model_out,
                     "score": eval_res.get("score", 0),
                     "reason": eval_res.get("reason", ""),
@@ -291,7 +277,6 @@ def run(config):
     input_dir = config.get('input_path')
     # 如果没有指定输入路径，尝试使用默认路径
     if not input_dir:
-        # 尝试 dataset_step4 或 Depth
         possible_paths = ["dataset_step4", "Depth", os.path.join("data", "Depth")]
         for path in possible_paths:
             if os.path.exists(path):

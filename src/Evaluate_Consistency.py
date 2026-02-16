@@ -62,17 +62,14 @@ class ErrorDetectionEvaluator:
         try:
             with open(qa_file, "r", encoding="utf-8") as f:
                 content = f.read().strip()
-                # 尝试作为JSON列表加载
                 if content.startswith('[') and content.endswith(']'):
                     qa_dataset = json.loads(content)
                 else:
-                    # 尝试作为JSONL加载
                     for line in content.splitlines():
                         if line.strip():
                             qa_dataset.append(json.loads(line.strip()))
         except Exception as e:
             logger.error(f"加载文件 {qa_file} 失败: {e}")
-            # 备用：如果一次性读取失败，尝试逐行读取
             qa_dataset = []
             try:
                 with open(qa_file, "r", encoding="utf-8") as f:
@@ -553,7 +550,6 @@ class ErrorDetectionEvaluator:
         
         print(f"✓ 加载 QA 数据集: {len(qa_dataset)} 条")
 
-        # 读取已处理过的样本ID（用于断点续传）
         processed_qa_ids = set()
         if output_file and os.path.exists(output_file):
             os.makedirs(os.path.dirname(output_file) if os.path.dirname(output_file) else ".", exist_ok=True)
@@ -577,7 +573,7 @@ class ErrorDetectionEvaluator:
         print(f"\n最终结果将保存到: {output_file}")
 
         evaluation_results: List[Dict[str, Any]] = []
-        full_results_to_save: List[Dict[str, Any]] = [] #用于保存最终JSON数组
+        full_results_to_save: List[Dict[str, Any]] = []
         skipped_count = 0
 
         for idx, qa_item in enumerate(qa_dataset, 1):
@@ -735,7 +731,6 @@ def run(config):
     output_dir = config.get('output_dir', 'eval_results/consistency')
     
     files_to_process = []
-    # 定义期望的文件顺序
     expected_files = [
         "Terminology_Evaluation.json", 
         "Fact_Evaluation.json", 
@@ -743,7 +738,6 @@ def run(config):
     ]
     
     if os.path.isdir(input_path):
-        # 优先查找标准命名的文件
         found_expected = False
         for expected_name in expected_files:
             full_path = os.path.join(input_path, expected_name)
@@ -751,7 +745,6 @@ def run(config):
                 files_to_process.append(full_path)
                 found_expected = True
         
-        # 如果没有找到标准文件，则回退到扫描所有json/jsonl文件
         if not found_expected:
             files = sorted([f for f in os.listdir(input_path) if f.endswith('.json') or f.endswith('.jsonl')])
             for f in files:
@@ -760,9 +753,7 @@ def run(config):
     elif os.path.isfile(input_path):
         files_to_process.append(input_path)
     else:
-        # 尝试相对路径的Consistency文件夹
         if os.path.exists("Consistency"):
-             # 同样优先查找标准文件
             found_expected = False
             for expected_name in expected_files:
                 full_path = os.path.join("Consistency", expected_name)
@@ -782,7 +773,6 @@ def run(config):
         logger.warning(f"在 {input_path} 中未找到可处理的 json/jsonl 文件")
         return
 
-    # Ensure output dir
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
