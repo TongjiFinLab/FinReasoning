@@ -1,5 +1,5 @@
 <div style="text-align:center">
-<h2>From Generation to Decision: A Hierarchical Benchmark for Reliable Financial Reasoning with LLMs</h2>
+<h2>FinReasoning: A Hierarchical Benchmark for Reliable Financial Research Reporting</h2>
 </div>
 
 <div align="center">
@@ -309,3 +309,15 @@ Performance comparison of LLMs across different tracks (The full leaderboard is 
 | Llama-3.1-8B      | 19.4                 | 21.1 | 16.9  | 19.2  | 13.2   | 78.4           | 49.1        | 42.6      | 56.7  | 66.1   | 39.1         | 30.8 | 31.3 | 32.1 | 33.3  | 0.5    | 26.6         |
 | TouchstoneGPT     | 12.0                 | 12.0 | 11.6  | 11.9  | 0.0    | 23.8           | 17.9        | 12.6      | 18.1  | 0      | 38.3         | 28.7 | 30.8 | 34.2 | 33.0  | 0      | 0            |
 | Average           | 40.9                 | 52.7 | 40.7  | 44.8  | 59.5   | 79.8           | 57.6        | 50.9      | 62.1  | 75.4   | 76.8         | 69.6 | 69.6 | 73.9 | 72.5  | 67.4   | 67.4         |
+
+# 📄 Asset Documentation
+
+- **Data Sources & Distribution**: Financial data is sourced from public platforms and partner organizations. Due to authorization constraints, we only provide strictly anonymized evaluation datasets and scripts for public download. Raw financial research reports are not distributed.
+- **Copyright Limitations**: Data from partner organizations is strictly limited to the scope of this benchmark and cannot be redistributed. Some original financial data may have third-party copyright restrictions.
+- **Usage Terms**: This project and its datasets are strictly for academic research. Commercial use, redistribution, and use for training generative models that may provide misleading financial advice are strictly prohibited.
+
+# ⚖️ Ethics Statement
+
+- **Not Investment Advice**: This benchmark is strictly designed for academic evaluation of LLM reasoning. The outputs and examples must never be relied upon for real-world investments or trading decisions to avoid severe financial risks.
+- **Misuse Prevention**: Care must be taken to prevent benchmark outputs from being misused to generate misleading financial reports.
+- **Compliance**: It is strictly prohibited to use this project (including data, code, and model outputs) for any illegal, fraudulent, or unethical financial activities.
