@@ -26,10 +26,13 @@ In the future, FinReasoning will continue to deepen the financial reasoning eval
 
 # 📚 Table of Contents
 
-- [🧠 FinReasoning Benchmark Details](#finreasoning-benchmark-details)
+- [🧠 FinReasoning Benchmark Details](#benchmark-details)
 - [📂 Data Examples](#data-examples)
 - [🚀 Quick Start](#quick-start)
 - [📊 Test Results](#test-results)
+- [📄 License, Asset Documentation, and Ethics Statement](#license-asset-documentation-and-ethics-statement)
+
+<a id="benchmark-details"></a>
 
 # 🧠 FinReasoning Benchmark Details
 
@@ -84,6 +87,8 @@ We present a comprehensive  evaluation mechanism to score diverse dimensions of 
 |                              | Retrieval Accuracy      | F1-Score(Data ID) | Objective  |
 |                              |                         | F1-Score(Field)  | Objective  |
 | **Deep Insight**             | Category-specific Scoring Criteria| LLM-as-a Judge    | Subjective |
+
+<a id="data-examples"></a>
 
 # 📂 Data Examples
 
@@ -173,6 +178,8 @@ Evaluates the model's ability to deduce and argue complex financial logic.
   }
 }
 ```
+
+<a id="quick-start"></a>
 
 # 🚀 Quick Start
 
@@ -282,6 +289,8 @@ Use the `--test-run` parameter to process only 1 data item per task, used to che
 python main.py --task all --test-run
 ```
 
+<a id="test-results"></a>
+
 # 🧪 Performance of LLMs
 
 Performance comparison of LLMs across different tracks (The full leaderboard is ranked by the Overall Normalized Score). ARS=Architectural Richness and Strictness; FC=Factuality and Contextualization; CA=Completeness and Comparative Analysis; JCD=Justification and Causal Depth; Avg.=Average Score; Norm=Normlized Score.
@@ -310,14 +319,24 @@ Performance comparison of LLMs across different tracks (The full leaderboard is 
 | TouchstoneGPT     | 12.0                 | 12.0 | 11.6  | 11.9  | 0.0    | 23.8           | 17.9        | 12.6      | 18.1  | 0      | 38.3         | 28.7 | 30.8 | 34.2 | 33.0  | 0      | 0            |
 | Average           | 40.9                 | 52.7 | 40.7  | 44.8  | 59.5   | 79.8           | 57.6        | 50.9      | 62.1  | 75.4   | 76.8         | 69.6 | 69.6 | 73.9 | 72.5  | 67.4   | 67.4         |
 
-# 📄 Asset Documentation
+<a id="license-asset-documentation-and-ethics-statement"></a>
 
-- **Data Sources & Distribution**: Financial data is sourced from public platforms and partner organizations. Due to authorization constraints, we only provide strictly anonymized evaluation datasets and scripts for public download. Raw financial research reports are not distributed.
-- **Copyright Limitations**: Data from partner organizations is strictly limited to the scope of this benchmark and cannot be redistributed. Some original financial data may have third-party copyright restrictions.
-- **Usage Terms**: This project and its datasets are strictly for academic research. Commercial use, redistribution, and use for training generative models that may provide misleading financial advice are strictly prohibited.
+# 📄 License, Asset Documentation, and Ethics Statement
 
-# ⚖️ Ethics Statement
+## License
 
-- **Not Investment Advice**: This benchmark is strictly designed for academic evaluation of LLM reasoning. The outputs and examples must never be relied upon for real-world investments or trading decisions to avoid severe financial risks.
-- **Misuse Prevention**: Care must be taken to prevent benchmark outputs from being misused to generate misleading financial reports.
-- **Compliance**: It is strictly prohibited to use this project (including data, code, and model outputs) for any illegal, fraudulent, or unethical financial activities.
+- **Code**: The source code is released under the Apache License 2.0.
+- **Data**: The FinReasoning dataset is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+- **Attribution**: Users of the dataset should cite FinReasoning and retain the dataset license notice in derived non-commercial benchmark materials.
+
+## Asset Documentation
+
+- **Data Sources and Distribution**: Financial data is sourced from public platforms and partner organizations. Due to authorization constraints, only anonymized evaluation datasets and supporting benchmark files are distributed. Raw financial research reports are not distributed.
+- **Copyright Limitations**: Some original financial source materials may be subject to third-party copyright or authorization restrictions. The released dataset should be used within the scope of the CC BY-NC-SA 4.0 license and applicable third-party restrictions.
+- **Usage Terms**: The dataset is intended for non-commercial academic research and benchmarking. Redistribution or adaptation must follow the CC BY-NC-SA 4.0 attribution, non-commercial, and share-alike requirements.
+
+## Ethics Statement
+
+- **Not Investment Advice**: This benchmark is strictly designed for academic evaluation of LLM reasoning. The outputs and examples must never be relied upon for real-world investments or trading decisions.
+- **Misuse Prevention**: Care must be taken to prevent benchmark outputs from being misused to generate misleading financial reports, deceptive financial claims, or inappropriate investment recommendations.
+- **Compliance**: It is strictly prohibited to use this project, including data, code, and model outputs, for illegal, fraudulent, manipulative, or unethical financial activities.
